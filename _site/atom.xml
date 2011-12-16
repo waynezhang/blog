@@ -4,7 +4,7 @@
  <title>setImpl</title>
  <link href="http://lhzhang.com/atom.xml" rel="self"/>
  <link href="http://lhzhang.com/"/>
- <updated>2011-12-16T16:31:47+09:00</updated>
+ <updated>2011-12-16T16:39:40+09:00</updated>
  <id>http://lhzhang.com/</id>
  <author>
    <name>Linghua Zhang</name>
@@ -14,9 +14,11 @@
  
  <entry>
    <title>Welcome to X3 world</title>
-   <link href="http://tom.preston-werner.com/2011/11/29/welcome-to-x3-world.html"/>
+   <link href="http://lhzhang.com/2011/11/29/welcome-to-x3-world.html"/>
    <updated>2011-11-29T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/11/29/welcome-to-x3-world</id>
+   
+   <id>urn:uuid:82e6670e-8ad4-4ef9-972f-8ebe821ca3b0</id>
+   
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/lhzhang/6423070739/in/photostream&quot;&gt;&lt;img src=&quot;/media/files/2011/11/29/SDIM0029.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/lhzhang/6423073915/in/photostream&quot;&gt;&lt;img src=&quot;/media/files/2011/11/29/SDIM0055.jpg&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -33,9 +35,11 @@
  
  <entry>
    <title>UIImageView as Root View of View Controller</title>
-   <link href="http://tom.preston-werner.com/2011/11/22/uiimageview-as-root-view-of-view-controller.html"/>
+   <link href="http://lhzhang.com/2011/11/22/uiimageview-as-root-view-of-view-controller.html"/>
    <updated>2011-11-22T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/11/22/uiimageview-as-root-view-of-view-controller</id>
+   
+   <id>urn:uuid:7af13863-a8e9-40e6-918c-ed7a59f571ca</id>
+   
    <content type="html">&lt;p&gt;这是一个很诡异的 bug，表现为在收到 memory warning 后，回到上一个 View Controller 后界面无响应，如下&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/media/files/2011/11/22/bug.png&quot; alt=&quot;bug&quot; /&gt;&lt;/p&gt;
@@ -82,18 +86,22 @@ index 9d0dd8b..2386e0a 100644
  
  <entry>
    <title>R.I.P. Steve Jobs</title>
-   <link href="http://tom.preston-werner.com/2011/10/06/the-hero.html"/>
+   <link href="http://lhzhang.com/2011/10/06/the-hero.html"/>
    <updated>2011-10-06T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/10/06/the-hero</id>
+   
+   <id>urn:uuid:0e19b236-b196-4f99-b274-e41b17eb9b82</id>
+   
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://www.apple.com/stevejobs/&quot;&gt;&lt;img src=&quot;/media/images/2011/10/06/RIPSteveJobs.png&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>回忆</title>
-   <link href="http://tom.preston-werner.com/2011/09/26/memory.html"/>
+   <link href="http://lhzhang.com/2011/09/26/memory.html"/>
    <updated>2011-09-26T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/09/26/memory</id>
+   
+   <id>urn:uuid:8454eed2-ae76-49b4-ab1f-861e309308bd</id>
+   
    <content type="html">&lt;p&gt;死党大婚在即，昨晚趴在 11 区的床上突然把自己人生的 timeline 回忆了一遍，很多人都以不再联系，有些昔日的好友已然觉得陌生，不知道他们现在在哪里，过着怎样的生活，而有些人甚至连名字都已经想不起来，只剩下对脸庞模糊的记忆。&lt;/p&gt;
 
 &lt;p&gt;无数次的在想，哪怕只是一个很小的车站，给某个时间段内出站的人都作上标记，他们离开后的轨迹将会绘制成一副多么美妙的图画。&lt;/p&gt;
@@ -104,9 +112,11 @@ index 9d0dd8b..2386e0a 100644
  
  <entry>
    <title>Xcode 里自动加 build 版本号</title>
-   <link href="http://tom.preston-werner.com/2011/09/23/xcode-build-auto-increment.html"/>
+   <link href="http://lhzhang.com/2011/09/23/xcode-build-auto-increment.html"/>
    <updated>2011-09-23T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/09/23/xcode-build-auto-increment</id>
+   
+   <id>urn:uuid:c0672177-cf08-4c4d-8d31-7516148ef4e7</id>
+   
    <content type="html">&lt;p&gt;把 Info.plist 里的版本号改成某个数字，然后 Targets → your target → Build Phases → Run Script 的地方加上&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;version=`/usr/libexec/PlistBuddy -c &quot;Print CFBundleVersion&quot; $PRODUCT_SETTINGS_PATH`
@@ -134,9 +144,11 @@ version=`expr $version + 1`
  
  <entry>
    <title>Mac 下那些常用的软件们</title>
-   <link href="http://tom.preston-werner.com/2011/08/24/the-great-softwares-on-mac.html"/>
+   <link href="http://lhzhang.com/2011/08/24/the-great-softwares-on-mac.html"/>
    <updated>2011-08-24T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/08/24/the-great-softwares-on-mac</id>
+   
+   <id>urn:uuid:4e684ef0-78a6-4f03-8a37-984a4ae13ee3</id>
+   
    <content type="html">&lt;p&gt;自己平时比较常用的软件，有自带的也有第三方的，有收费的也有免费的，仅供参考。&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;1Password&lt;/strong&gt;&lt;/p&gt;
@@ -187,9 +199,11 @@ version=`expr $version + 1`
  
  <entry>
    <title>五月病</title>
-   <link href="http://tom.preston-werner.com/2011/08/04/just-tired.html"/>
+   <link href="http://lhzhang.com/2011/08/04/just-tired.html"/>
    <updated>2011-08-04T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/08/04/just-tired</id>
+   
+   <id>urn:uuid:a83fc204-45b6-44d0-b8ca-46ec67080261</id>
+   
    <content type="html">&lt;p&gt;5月病就这么持续到了8月，且照着这个势头很有可能继续持续下去。&lt;/p&gt;
 
 &lt;p&gt;一起的同事基本都辞职回天朝了，虽然自己对回国完全没有兴趣不过失落感还是很多的。也许是时候要出去走走了，大自然意义上的出去和工作意义上的出去。&lt;/p&gt;
@@ -200,18 +214,22 @@ version=`expr $version + 1`
  
  <entry>
    <title>新域名</title>
-   <link href="http://tom.preston-werner.com/2011/06/15/domain-changed.html"/>
+   <link href="http://lhzhang.com/2011/06/15/domain-changed.html"/>
    <updated>2011-06-15T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/06/15/domain-changed</id>
+   
+   <id>urn:uuid:26e652df-1654-4557-9f55-5397fb14784a</id>
+   
    <content type="html">&lt;p&gt;下决心扔掉原来那个域名了，看到这篇的麻烦改下友链&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Getting old</title>
-   <link href="http://tom.preston-werner.com/2011/03/28/happybirthday.html"/>
+   <link href="http://lhzhang.com/2011/03/28/happybirthday.html"/>
    <updated>2011-03-28T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/03/28/happybirthday</id>
+   
+   <id>urn:uuid:19a1314e-b25d-46a1-83a1-c0b3e3d0f5da</id>
+   
    <content type="html">&lt;p&gt;&lt;img src=&quot;/media/images/2011/03/28/compass.jpg&quot; alt=&quot;&amp;quot;&amp;quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;又老一岁，继续迷惘&lt;/p&gt;
@@ -224,9 +242,11 @@ version=`expr $version + 1`
  
  <entry>
    <title>難民@大阪</title>
-   <link href="http://tom.preston-werner.com/2011/03/19/take-refuge-at-osaka.html"/>
+   <link href="http://lhzhang.com/2011/03/19/take-refuge-at-osaka.html"/>
    <updated>2011-03-19T00:00:00+09:00</updated>
-   <id>http://tom.preston-werner.com/2011/03/19/take-refuge-at-osaka</id>
+   
+   <id>urn:uuid:76552c5a-3e32-437a-9e49-ad545aa470b0</id>
+   
    <content type="html">&lt;p&gt;拗不过老妈又不想回国也买不到机票于是沦落到大阪避难，一直想来大阪不过从来没有想过是在这种场合下来。&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/media/images/2011/03/19/nanba.jpg&quot; alt=&quot;&amp;quot;難波&amp;quot;&quot; /&gt;
