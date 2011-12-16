@@ -9,31 +9,30 @@
 * |\.|._)._)
 * --------------------------------- */
 
-body{font-size:14px;font-family:"Lucida Grande","DejaVu Sans Mono",monospace,"Hiragino Sans GB";color:#333333;background-color:#d1dde5;}
+body{font-size:14px;font-family:"Baskerville", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;color:#000000;background-color:#ffffff;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{text-decoration:none;color:#dd0000;}
 a:hover{text-decoration:underline;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p,li{padding:.7em 0;}
 ol,ul{list-style-position:inside;}
-ul,ol{padding-left:2em;}
-pre code{margin:1em 0;font-size:12px;font-family:Monaco,monospace;line-height:1.6;display:block;overflow:auto;}
+pre code{margin:1em 0;font-size:13px;font-family:Monaco,monospace;line-height:1.6;display:block;overflow:auto;}
 blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
-blockquote p:first-letter{font-size:1.4em;}
-blockquote{margin: 1em 0em;padding:.5em .7em;}
+blockquote{margin:1em 0em;padding:.5em .2em;}
 blockquote p{margin:0;padding:0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
-.content img{max-width:600px;display:block;border-radius:7px;margin:0 auto;}
+.content{font-size:16px;line-height:24px;}
+.content img{max-width:600px;display:block;margin:0 auto;}
 .listing{padding:0;margin:0;}
-.listing li{list-style-type:none;padding:.5em 0;font-size:14px;}
+.listing li{list-style-type:none;padding:.5em 0;}
 .listing li:hover{background-color:#333;}
 .listing li:hover a{color:#f9f9f9;-webkit-transition:color .2s linear;}
 .listing li a{text-decoration:none;}
 .listing li time,.meta{padding:2px 5px;color:#999999;}
-.meta{text-align:right;font-size:.8em;}
+.meta{text-align:right;font-size:12px;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
 nav{float:left;margin-left:-12em; width:9em;}
-nav a{font-size:14px;display:block;padding:.7em 1em;color:#000000;}
+nav a{font-size:16px;display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:1em 0em;}
 h1{font-size:24px;color:#000;}
