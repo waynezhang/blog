@@ -12,4 +12,4 @@ layout: page
 {% endfor %}
 </ul>
 
-more articles [here](/archives.html)
+more articles [here](/tags.html)

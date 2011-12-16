@@ -10,7 +10,7 @@ layout: default
 <span class="tags">
   tagged by 
   {% for tag in page.tags %}
-  {{ tag }}&nbsp;
+  <a href="/tags.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
   {% endfor %}
 </span>
 {% endif %}
