@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>在Linux下实现NTFS分区的读写操作</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>在Linux下实现NTFS分区的读写操作</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>直到Edgy也没有直接加入对NTFS分区的写操作，如果你需要偶尔mount一个NTFS分区交换下数据的话，follow me</p>
+
+<p>我们使用的驱动是NTFS-3G，NTFS-3G已经经过无数此测试，算是一个比较稳定的版本了，不过还是要提一下，对NTFS分区进行写操作是有一定风险的，数据挂了可别来怨我，呵呵:)</p>
+
+<p>由于要编译驱动，所以......make之类的是少不了的啦，如果你连make都没有，那么</p>
+
+<pre><code>sudo apt-get install build-essential
+</code></pre>
+
+<p>我们需要的包是fuse，所以</p>
+
+<pre><code>sudo apt-get install libfuse-dev
+</code></pre>
+
+<p>ok，现在去下载驱动</p>
+
+<blockquote><p>http://mlf.linux.rulez.org/mlf/ezaz/ntfs-3g-download.html</p></blockquote>
+
+<p>下载链接很明显，别告诉我你没看到哦，下载下来解包</p>
+
+<pre><code>tar zxvf &lt;a href="http://mlf.linux.rulez.org/mlf/ezaz/ntfs-3g-20070910-BETA.tgz"&gt;ntfs-3g-20070910-&lt;span class="caps"&gt;&lt;span class="caps"&gt;BETA&lt;/span&gt;&lt;/span&gt;.tgz&lt;/a&gt;
+</code></pre>
+
+<p>然后进入目录做configure</p>
+
+<pre><code>cd ntfs-3g-20070910-&lt;span class="caps"&gt;&lt;span class="caps"&gt;BETA&lt;/span&gt;&lt;/span&gt;
+./configure
+</code></pre>
+
+<p>ok，现在可以编译安装了</p>
+
+<pre><code>make
+sudo make install
+</code></pre>
+
+<p>没什么问题的话已经可以用了，当然内核模块要加载先</p>
+
+<pre><code>modprobe -v fuse
+</code></pre>
+
+<p>现在可以mount了，注意不是mount命令，而是ntfs-3g，例如我的设备是/dev/hdc1，要mount到/media/hdc1下</p>
+
+<pre><code>ntfs-3g /dev/hdc1 /media/hdc1 -o silent,umask=0,locale=zh_CN.utf8
+</code></pre>
+
+<p>大功告成，什么？每次加载不方便？</p>
+
+<pre><code>sudo vi /etc/modules
+</code></pre>
+
+<p>在后面加一行</p>
+
+<pre><code>fuse
+</code></pre>
+
+<p>然后编辑fstab</p>
+
+<pre><code>vi /etc/fstab
+</code></pre>
+
+<p>加一行</p>
+
+<pre><code>/dev/hdc1 /media/hdc1 ntfs-3g silent,umask=0,locale=zh_CN.utf8 0 0
+</code></pre>
+
+<p>重启下看看？</p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  linux&nbsp;
+  
+  ntfs&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2006-09-12">2006-09-12</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

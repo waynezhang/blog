@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>借助vim高亮代码</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>借助vim高亮代码</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>起因还是这几天折腾<a href="http://gopherwood.info/2008/06/18/second-vps-empire">vps</a>, 为了最大限度节约资源, 决定停用之前的<a href="http://gopherwood.info/2008/05/21/syntaxhighlighter-for-habari">syntaxhighligher</a>插件, 而采用静态的高亮代码. 好处嘛:</p>
+
+<p>一来省掉server端每次输出content的过滤过程
+二来可以减少浏览器载入并执行js的压力
+三来以后再换其他blog平台, 之前的代码片段依然可以很好的展现, 而不像现在. 检查了一下发现以前的post里残留着wp的coolcode的tag, textpattern的txp_batCode的tag, 还有habari的syntqxhighlighter的tag. 除了后者, 其他的都已经不像code了</p>
+
+<p>找来找去发现解决方案其实一直都在我的硬盘里 -- 借助vim的syntax脚本高亮代码, 然后通过vim的2html.vim脚本生成html代码, 然后写css就ok. 至于好处嘛, 其一可以稍微减轻server和client的压力, 第二可以不依赖于任何blog平台和插件, 能输出html就成, 第三是可以借用vim的上百个语法脚本库, 这个数量绝对是geshi, syntaxhighlighter所望尘莫及的
+步骤如下:</p>
+
+<ol>
+<li><p>编辑 ~/.vimrc , 添加以下代码, 当然css这个随便想怎么改怎么改:</p>
+
+<pre><code> syntax on
+ let html_use_css = 1
+ let html_use_encoding = "utf8"
+ let use_xhtml = 1
+</code></pre></li>
+<li><p>添加css到现有的style里:</p>
+
+<pre><code> pre.code {
+     overflow: auto;
+     margin-left: 1pt;
+     padding: 5pt 10px;
+     color: #000;
+     background-color: #f8f8f8;
+     border-left: 4pt solid #6ce26c;
+ }
+ pre.code .Constant {
+     color: #000;
+ }
+ pre.code .Comment {
+     color: #008200;
+ }
+ pre.code .Identifier {
+     color: #000000;
+ }
+ pre.code .Label {
+     color: #ff0;
+ }
+ pre.code .Operator {
+     color: #ff0;
+     font-weight: bold;
+ }
+ pre.code .PreProc {
+     color: #ff1493;
+ }
+ pre.code .Special {
+     color: #008200;
+ }
+ pre.code .Statement {
+     color: #006699;
+ }
+ pre.code .Title {
+     color: #000000;
+     font-weight: bold;
+ }
+ pre.code .Type {
+     color: #069;
+     text-decoration: underline;
+ }
+ pre.code .Underlined {
+     color: #208aff;
+     text-decoration: underline;
+ }
+</code></pre></li>
+<li><p>高亮代码, 最方便的是在vim新建文件的时候就指定对应语言的扩展名, 比如.php, .c等, 可以自动高亮代码. 如果没有指定, 可以在vim手动执行高亮脚本, 例如php:</p>
+
+<pre><code> :runtime syntax/php.vim
+</code></pre>
+
+<p> 具体的.vim脚本名可参考syntax目录</p></li>
+<li><p>生成html, 执行如下命令</p>
+
+<pre><code> :runtime syntax/2html.vim
+</code></pre>
+
+<p> 或者</p>
+
+<pre><code> :TOhtml
+</code></pre></li>
+<li><p>把生成的html里pre包含的部分copy出来, 指定pre的class为code:</p>
+
+<pre><code> &lt;pre class="code"&gt;
+ &lt;!-- CODE HERE --&gt;
+ &lt;/pre&gt;
+</code></pre></li>
+</ol>
+
+
+<hr />
+
+<p>稍微整理了一下之前有code的post</p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  vim&nbsp;
+  
+  syntaxhighlight&nbsp;
+  
+  tips&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2008-06-23">2008-06-23</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

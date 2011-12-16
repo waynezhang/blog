@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>在Mac里为单独的应用程序设定语言选项</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>在Mac里为单独的应用程序设定语言选项</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<blockquote><p>我似乎总是有些个奇奇怪怪的需求...</p></blockquote>
+
+<p>起因:</p>
+
+<pre><code>* 自用的Mac设定的是英文, 之所以如此是为了方便spotlight或者quicksilver, 比如启终端只要搜*terminal*, 而中文系统则要切输入法然后输入*终端*才能找到
+* 公司的exchange server和outlook client都是日语版, 所以相应的folder也都是日语名称, 而在Mail.app里设定exchange帐户后, 英文版的Mail.app会自动在server上添加Inbox, Sent等英文folder, 和原有的日语版的folder重复
+</code></pre>
+
+<p>打开~/Library/Preferences, 找到应用的plist文件, 例如Mail.app为com.apple.mail.plist,</p>
+
+<p>双击启动Property List Editor, 在Root节点下创建新节点, 名为AppleLanguages, 类型选择Array, 在新建的AppleLanguages节点下创建新的子节点, 子节点自动命名为0, 类型设定为String, 修改Value为语言名称, 例如英文为en, 日语为ja</p>
+
+<p>保存, 重新启动应用</p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  mac&nbsp;
+  
+  tips&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2008-08-05">2008-08-05</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

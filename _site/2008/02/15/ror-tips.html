@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>RoR Tips （1）</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>RoR Tips （1）</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<ol>
+<li><p>设置数据库表前缀</p>
+
+<p> 编辑 app/environment.rb，加入</p>
+
+<pre><code> config.active_record.table_name_prefix = &amp;#x2018;prefix&amp;#x2019;
+</code></pre>
+
+<p> 同样，设置后缀</p>
+
+<pre><code> config.active_record.table_name_suffix = &amp;#x2018;suffix&amp;#x2019;
+</code></pre></li>
+<li><p>解决数据库乱码</p>
+
+<p> 无非是set names utf-8：</p>
+
+<p> 编辑app/controllers/application.rb，加入before_filter，对数据库执行set names查询，例如：</p>
+
+<pre><code> class ApplicationController &lt; ActionController::Base
+ before_filter :set_default_charset
+   def set_default_charset
+     ActiveRecord::Base.connection.execute ‘SET NAMES utf8’;
+   end
+ end
+</code></pre></li>
+<li><p>rails 2已经不支持传统的scaffold写法，不过不是不能用scaffold，而是更简单：</p>
+
+<pre><code> scripts/generate scaffold book
+</code></pre>
+
+<p> 一句？真的只有一句</p></li>
+<li><p>rails自动管理的数据库表字段</p>
+
+<pre><code> created_on, updated_on : date格式更新
+ created_at, updated_at : time格式更新
+ lock_version : 版本锁定
+ id : 主键
+ xxxx_id : 外键
+ xxxx_count : 子表xxxx的计数器
+ parent_id : act_as_tree的parent id
+ position ： act_as_list时的position
+</code></pre>
+
+<p> 还有些不常用的： type，lft，rgt，quote_value，template</p></li>
+</ol>
+
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  ruby&nbsp;
+  
+  programming&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2008-02-15">2008-02-15</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

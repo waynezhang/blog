@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>用自己的域名做openid</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>用自己的域名做openid</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<blockquote><p>不知道openid的到<a href="http://en.wikipedia.org/wiki/Openid">这里</a>扫盲</p></blockquote>
+
+<p>虽然现在openid server满大街都是, 不过还是更喜欢用自己的域名做openid.</p>
+
+<p>Step 1: 随便找个openid server申请个帐号, 比如<a href="http://www.myopenid.com">myopenid</a></p>
+
+<p>Setp 2: 把下面这段代码中的openidserver换成你的openid server, 把account换成你的openid, 然后添加到首页的html代码的head块中</p>
+
+<pre><code>&lt;link rel="openid.server" href="openidserver" /&gt;
+&lt;link rel="openid.delegate" href="account" /&gt;
+</code></pre>
+
+<p>如果你的server支持openid2, 可以继续添加下面这段代码</p>
+
+<pre><code>&lt;link rel="openid2.provider" href="openid2server" /&gt;
+&lt;link rel="openid2.local_id" href="account" /&gt;                                                                                                                                                      
+</code></pre>
+
+<p>以myopenid为例:</p>
+
+<pre><code>&lt;link rel="openid.server" href="http://www.myopenid.com/server" /&gt;
+&lt;link rel="openid.delegate" href="http://username.myopenid.com/" /&gt;
+&lt;link rel="openid2.provider" href="http://www.myopenid.com/server" /&gt;
+&lt;link rel="openid2.local_id" href="http://username.myopenid.com/" /&gt;                                                                                                                                
+</code></pre>
+
+<p>Step 3: 没了</p>
+
+<p>下周回东京, 调时差, 延长签证, 然后再过来, 嗯, 生命在于折腾</p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  openid&nbsp;
+  
+  tips&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2008-12-20">2008-12-20</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

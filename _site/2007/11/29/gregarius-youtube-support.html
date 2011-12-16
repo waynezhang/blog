@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>让Gregarius支持Youtube视频</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>让Gregarius支持Youtube视频</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>很多人习惯在post里面嵌些个Youtube,我也是其中一员</p>
+
+<p>不过在Gregarius抓取feed的时候总是看不到,每次都点到原本的站点里再看都多多少少有些麻烦,尤其像我这种网速慢的(emobile真是越来越不像话了&#8230;说起来就生气)</p>
+
+<p>开始以为这是gregarius的bug,本来就不支持的吧.后来才发现这个其实是gregarius的一个feature: 为了安全起见,gregarius只允许抓取html里的一些特定的tag,而对于object,embed这样的tag由于安全性的因素是被屏蔽掉的,手动加进去就好了,不过由此引起的安全性问题后果自负&#8230;不过话说回来,一般都不会遇到什么问题的吧&#8230;</p>
+
+<p>进入后台管理页面,选择 <em>Config</em> , 找到 <em>rss.input.allowed</em> , 编辑</p>
+
+<p>加入如下 tag 和 attritube</p>
+
+<pre><code>Tag : embed     attritubes : src , type , wmode , width , height
+Tag : object    attritubes : width , height
+Tag : param     attritubes : name , value
+</code></pre>
+
+<p>至此</p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  youtube&nbsp;
+  
+  gregarius&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2007-11-29">2007-11-29</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

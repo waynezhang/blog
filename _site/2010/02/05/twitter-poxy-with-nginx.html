@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>Twitter Proxy With Nginx</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>Twitter Proxy With Nginx</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>利用nginx的proxy，分分钟搞定。</p>
+
+<pre><code>server {
+  listen       443;
+  server_name  domain.com;
+  charset utf-8;
+  ssl          on;
+  ssl_certificate  /etc/nginx/certxxxx;
+  ssl_certificate_key  /etc/nginx/keyxxxx;
+
+  ......
+
+    location /twitterproxy {
+      proxy_set_header X-Real-IP $remote_addr;
+      rewrite /twitterproxy$ /twitterproxy/;
+      rewrite /twitterproxy/(.*) /$1 break;
+      proxy_pass https://twitter.com:443;
+    }
+
+  location /twittersearchproxy {
+    proxy_set_header X-Real-IP $remote_addr;
+    rewrite /twittersearchproxy$ /twittersearchproxy/;
+    rewrite /twittersearchproxy/(.*) /$1 break;
+    proxy_pass https://search.twitter.com:443;
+  }
+}
+</code></pre>
+
+<p>重启nginx，打开twitter客户端，把api地址改成domain.com/twitterproxy，search api改为domain.com/twittersearchproxy即可。</p>
+
+<p>注：部分客户端（如iPhone Tweetie）会禁止非认证证书，所以自做的证书不可用</p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  nginx&nbsp;
+  
+  twitter&nbsp;
+  
+  proxy&nbsp;
+  
+  tips&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2010-02-05">2010-02-05</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>限制Time Capsule备份大小</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>限制Time Capsule备份大小</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<blockquote><p>Time Machine的备份策略：第一次全局备份，然后每隔一小时增量备份，磁盘空间不足时自动删除最久的一次备份。</p></blockquote>
+
+<p>2tb的time capsule放那儿早晚会被备份塞满了，相信绝大多数人都不愿意拿花几千块钱买个time capsule只当作备份和无线ap用。time capsule的磁盘不支持分区，不过我们可以自己帮time capsule创建一个小点儿的备份文件来解决这个问题。步骤如下：</p>
+
+<ol>
+<li><p>关闭time machine</p></li>
+<li><p>如果time capsule上已有time machine的备份，推出备份卷，连接到time capsule的data文件夹，找到扩展名为sparsebundle的文件，记下文件名后删除该文件或改名。如果还没有time machine备份，可以用计算机名和硬件UUID后12位（一般为第一块网卡的MAC地址）的组合来得到文件名。如下图，从苹果菜单上打开About This Mac，选择More Info，最左上角是计算机名，加上下划线 _  和hardware uuid后12位就是time machine的备份文件名。</p></li>
+</ol>
+
+
+<p>  <img src="/media/images/2009/08/30/time-capsule-size.jpg" alt="" /></p>
+
+<ol>
+<li><p>打开Disk Utility，选择New Image来创建一个新的备份文件。位置当然是在time capsule的Data文件夹下，输入刚才的文件名，指定自己喜欢的大小，其它各选项如下：</p></li>
+<li><p>Format : Mac OS Extended (Case-sensitive, Journaled)</p></li>
+<li>Encryption : none</li>
+<li>Partitions : Single partition - Apple Partition Map</li>
+<li><p>Image Format : sparse bundle disk image</p></li>
+<li><p>文件创建完成后重新开启time machine，选择time capsule，开始备份</p></li>
+</ol>
+
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  mac&nbsp;
+  
+  timecapsule&nbsp;
+  
+  tips&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2009-08-30">2009-08-30</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>Microsoft Visual Studio 2005 fatal error C1902错误解决</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>Microsoft Visual Studio 2005 fatal error C1902错误解决</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>前两天公司笔记本的XP系统崩溃，于是在twitter上骂了下微软，结果昨天配好的WinCE开发环境今天就挂了，难道是我骂ms的缘故？反省，于是决定。。。再痛骂一次ms。。。</p>
+
+<p>骂归骂，问题也还是要解决的，但是试了重装和修复，都一样没有效果，于是去google了一下下，才发现遇到这个问题的人还真不少。</p>
+
+<p>于是找到了解决方案，其实很简单，就是找不到mspdb80.dll、mspdbsrv.exe两个文件嘛，在系统属性环境变量的path里加上ms vc的bin（比C:Program FilesMicrosoft Visual Studio 8VCbin），然后到Microsoft Visual Stuido 8Common7IDE下面把这两个文件拷贝到VCbin</p>
+
+<p>重启电脑，解决</p>
+
+<p>末了，再bs一下ms。。。</p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  msvs&nbsp;
+  
+  programming&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2007-10-18">2007-10-18</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

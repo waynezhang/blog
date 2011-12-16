@@ -1,0 +1,7 @@
+#!/bin/sh
+
+for f in `ls`; do
+	cat $f | sed '/^created.*/ d' | sed '/^title.*/ a\
+	layout: post
+	' > a && mv a $f
+done

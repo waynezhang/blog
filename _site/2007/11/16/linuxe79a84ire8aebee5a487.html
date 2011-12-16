@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>linux的ir设备</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>linux的ir设备</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>一台Sigma的板子，遥控器异常灵敏，拖了好久终于无法忍受，决定解决一下</p>
+
+<p>看驱动源码，发现一个ioctl，IR_IOCSETWAITPERIOD，驱动（2.4内核）本来的默认设定是100，于是设定为1000</p>
+
+<pre><code>ioctl (fd, IR_IOSETWAITPERIOD, 1000);
+</code></pre>
+
+<p>问题解决，不过还是不太明白，这个period的时间单位是什么呢？毫秒？微秒？纳秒？知道的兄弟告诉一声啊</p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  c&nbsp;
+  
+  pragramming&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2007-11-16">2007-11-16</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>解决wordpress导入mt时的tags和slug问题</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>解决wordpress导入mt时的tags和slug问题</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="archives" class="" href="/archives.html">gallery</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://gallery.lhzhang.com">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>MT（4.2rc）导出的TXT文件里其实是有包含tag和slug数据的， 分别标记为TAGS和BASENAME， 只可惜目前wordpress还不支持，小小patch一下</p>
+
+<pre><code>--- wordpress/wp-admin/import/mt.php    2008-04-15 01:26:07.000000000 +0900
++++ gopherwood.info/wp-admin/import/mt.php  2008-07-01 10:05:56.000000000 +0900
+@@ -359,6 +359,16 @@
+                $category = trim( substr($line, strlen("PRIMARY CATEGORY:")) );
+                if ( ' != $category )
+                    $post-&gt;categories[] = $category;
++           } else if ( 0 === strpos($line, "TAGS:") ) {
++               $tags = trim ( substr($line, strlen("TAGS:")) );
++               if ( ' != $tags ) {
++                   $post-&gt;post_keywords .= $tags;
++               }
++           } else if ( 0 === strpos($line, "BASENAME:") ) {
++               $slug = trim ( substr($line, strlen("BASENAME:")) );
++               if ( ' != $slug ) {
++                   $post-&gt;post_name = $slug;
++               }
+            } else if ( 0 === strpos($line, "DATE:") ) {
+                $date = trim( substr($line, strlen("DATE:")) );
+                $date = strtotime($date);
+</code></pre>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  wordpress&nbsp;
+  
+  movabletype&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2008-07-02">2008-07-02</time>
+</span>
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

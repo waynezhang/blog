@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="post">
+{{ content }}
+</section>
+<section class="meta">
+{% if page.tags %}
+<span class="tags">
+  tagged by 
+  {% for tag in page.tags %}
+  {{ tag }}&nbsp;
+  {% endfor %}
+</span>
+{% endif %}
+<span class="time">
+  <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+</span>
