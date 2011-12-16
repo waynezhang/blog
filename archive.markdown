@@ -1,6 +1,6 @@
 ---
 title: archive
-layout: default
+layout: page
 ---
 
 <ul class="listing">

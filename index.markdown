@@ -1,6 +1,6 @@
 ---
 title: setImpl
-layout: default
+layout: page
 ---
 
 <ul class="listing">

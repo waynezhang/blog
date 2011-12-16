@@ -1,6 +1,6 @@
 ---
 title: links
-layout: default
+layout: page
 ---
 
 [Beautifully Imperfect](http://becky.im)  

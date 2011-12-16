@@ -3,13 +3,13 @@
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2011-11-17
+* @update 2011-12-16
 * 
 * |/ | (~ (~
 * |\.|._)._)
 * --------------------------------- */
 
-body{font-size:14px;font-family:"Lucida Grande","DejaVu Sans Mono",monospace,"Hiragino Sans GB";background-color:#fdfdf8;color:#707070;}
+body{font-size:14px;font-family:"Lucida Grande","DejaVu Sans Mono",monospace,"Hiragino Sans GB";color:#333333;background-color:#e9e9e9;}
 *{padding:0;margin: 0;border:none;outline:none;}
 a{text-decoration:none;color:#dd0000;}
 a:hover{text-decoration:underline;}
@@ -22,30 +22,21 @@ blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote p:first-letter{font-size:1.4em;}
 blockquote{margin: 1em 0em;padding:.5em .7em;}
 blockquote p{margin:0;padding:0;}
+#container{width:600px;margin:2em auto;display:block;padding:0 2em;}
 .content img{max-width:600px;display:block;border-radius:7px;margin:0 auto;}
-.listing{padding:1em 0;margin:0;}
+.listing{padding:0;margin:0;}
 .listing li{list-style-type:none;padding:.5em 0;font-size:14px;}
 .listing li:hover{background-color:#333;}
 .listing li:hover a{color:#f9f9f9;-webkit-transition:color .2s linear;}
 .listing li a{text-decoration:none;}
 .listing li time,.meta{padding:2px 5px;color:#999999;}
-.meta{text-align:right;}
-.tags a{color:#999999;-webkit-transition:color .2s linear;}
-.tags a:hover{text-decoration:none;color:#333333;-webkit-transition:color .2s linear;}
-#container{width:600px;margin:0 auto;display:block;margin-bottom: 1em;}
-#container:after{display:inline-block;content:"Stay foolish, Stay hungry";position:fixed;bottom:1em;left:0;right:0;text-align:center;color:#eeeeee;}
-header{padding:1em 0;border-bottom: 1px solid #cccccc;}
-nav{position:fixed;left:0;top:0;bottom:0;background-color:#f6f6f2;-webkit-box-shadow:inset -2px 0 3px #d0d0d0;-moz-box-shadow:inset -2px 0 3px #d0d0d0;box-shadow:inset -2px 0 3px #d0d0d0;padding-top:3em;}
-nav a{font-size:14px;display:block;padding:1em 2em;margin:1em 3px 1em 0;color:#000000;}
+.meta{text-align:right;font-size:.8em;}
+header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
+nav{float:left;margin-left:-12em; width:9em;}
+nav a{font-size:14px;display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
 .post{padding:1em 0em;}
 h1{font-size:24px;color:#000;}
 h2{font-size:20px;color:#111;}
 h3{font-size:18px;color:#222;}
 h4{font-size:16px;color:#333;}
-.inlineheader{margin:10px 0;}
-.inlineheader a{color:#000;}
-.inlineheader a:hover{color:#666;}
-.tags a{margin-right:5px;}
-#disqus_thread{margin-top:80px;}
-#dsq-global-toolbar,.dsq-options,.dsq-like,.dsq-brlink{display:none !important;}
