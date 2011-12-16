@@ -22,7 +22,7 @@ blockquote{margin:1em 0em;padding:.5em .2em;}
 blockquote p{margin:0;padding:0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
 .content{font-size:16px;line-height:24px;}
-.content img{max-width:600px;display:block;margin:0 auto;}
+.content img{max-width:600px;display:block;margin:1em auto;}
 .listing{padding:0;margin:0;}
 .listing li{list-style-type:none;padding:.5em 0;}
 .listing li:hover{background-color:#333;}
