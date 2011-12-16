@@ -4,7 +4,6 @@ layout: page
 ---
 
 [Beautifully Imperfect](http://becky.im)  
-[Candyli](http://blog.163.com/candyli_shum)  
 [D&amp;V](http://www.dimlau.com/blog)  
 [fairystreet](http://fairystreet.com)  
 [Hicro Kee is blogging](http://blog.keekun.com)  
@@ -15,7 +14,6 @@ layout: page
 [冰古](http://bingu.net)  
 [双霍记](http://imhuo.com)  
 [唯音乐](http://vinmusic.com)  
-[大白物语](http://www.koojiafeng.name)  
 [崇智的BLOG](http://blog.sina.com.cn/chongzhi)  
 [旋转木马の阶梯](http://boke.name/citizen)  
 [杀手爱喝牛奶](http://arsun.me)  
