@@ -3,8 +3,6 @@ title: tags
 layout: page
 ---
 
-{% tag_cloud font-size:0.8 - 1.8em %}
-
 <ul id='tag_list'>
 {% for tag in site.tags %}
   <li class='tag_item' id='{{ tag[0] }}'>
