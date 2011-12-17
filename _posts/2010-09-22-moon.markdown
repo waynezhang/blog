@@ -3,7 +3,6 @@ title: '月'
 layout: post
 guid: urn:uuid:c239f897-24b9-4faa-b032-2efd209bbb9c
 tags:
-    - moon
     - misc
 ---
 

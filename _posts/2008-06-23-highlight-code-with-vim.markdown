@@ -4,7 +4,6 @@ layout: post
 guid: urn:uuid:ef60e8f1-78cb-484d-9731-34f0d2c449fb
 tags:
     - vim
-    - syntaxhighlight
     - tips
 ---
 

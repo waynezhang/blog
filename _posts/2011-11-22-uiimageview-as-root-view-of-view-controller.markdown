@@ -3,7 +3,7 @@ title: UIImageView as Root View of View Controller
 layout: post
 guid: urn:uuid:7af13863-a8e9-40e6-918c-ed7a59f571ca
 tags:
-    - iOSDevelop
+    - ios
     - UIImageView
     - programming
 ---

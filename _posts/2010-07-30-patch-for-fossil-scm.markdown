@@ -4,7 +4,6 @@ layout: post
 guid: urn:uuid:e14a2804-f4f2-4037-b1b2-72129894167d
 tags:
     - fossil
-    - wiki
 ---
 
 最近用fossil搭了个wiki，不过原版尽管支持https schema的url生成，却漏掉了https header的判断，小小patch了一下

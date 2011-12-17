@@ -3,8 +3,7 @@ title: '团mobileme'
 layout: post
 guid: urn:uuid:d787fafb-efa0-4a2c-aa6d-bd653c0e03c4
 tags:
-    - mobileme
-    - ads
+    - misc
 ---
 
 六月中，凑齐5人立刻开通，还差两个

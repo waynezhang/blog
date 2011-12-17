@@ -3,8 +3,6 @@ title: '雨'
 layout: post
 guid: urn:uuid:2befc398-5215-49b2-a505-89730d507cba
 tags:
-    - rain
-    - photo
     - misc
 ---
 

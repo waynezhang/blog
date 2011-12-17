@@ -2,7 +2,7 @@
 title: 五月病
 layout: post
 guid: urn:uuid:a83fc204-45b6-44d0-b8ca-46ec67080261
-tag:
+tags:
     - misc
 ---
 

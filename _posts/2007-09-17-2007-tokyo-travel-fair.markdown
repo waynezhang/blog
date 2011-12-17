@@ -4,7 +4,6 @@ layout: post
 guid: urn:uuid:0ccb922f-1ea4-4916-ae5e-0c283f24ddfc
 tags:
     - japan
-    - travel
 ---
 
 15-16号，世界150多个国家参展，还是很热闹滴，趁着三连休，正好也出去散散心                                                                                                                                 

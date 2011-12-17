@@ -5,7 +5,6 @@ guid: urn:uuid:c6675166-6afd-4741-8ccd-d40517ff5231
 tags:
     - linux
     - kaffeine
-    - subtitle
 ---
 
 Ubuntu 6.06已经的Kaffeine已经支持字幕的显示了，但是其默认安装还不能显示中文字幕。

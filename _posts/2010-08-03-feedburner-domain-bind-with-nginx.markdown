@@ -3,7 +3,6 @@ title: 'nginx proxy实现feedburner域名绑定'
 layout: post
 guid: urn:uuid:3fe3d657-91cb-4269-904d-4a81839167c5
 tags:
-    - feedsky
     - feedburner
     - nginx
 ---

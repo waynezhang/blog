@@ -5,7 +5,6 @@ guid: urn:uuid:4196d338-bc71-451a-aa87-6d16372720ea
 tags:
     - japan
     - disney
-    - travel
 ---
 
 完全在计划之外的，不过反正早晚都是要去的吧，呵呵                                                                                                                                                         

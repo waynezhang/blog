@@ -5,7 +5,6 @@ guid: urn:uuid:0c997fad-353d-48a6-946f-d683d41f56f6
 tags:
     - linux
     - amule
-    - edonkey
 ---
 
 DonkeyServer No1 (62.241.53.2:4242)已经存在，要添加的只有：

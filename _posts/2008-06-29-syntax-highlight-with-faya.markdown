@@ -3,7 +3,6 @@ title: '代码高亮 - 续'
 layout: post
 guid: urn:uuid:da441d0d-6d68-4413-bed7-da0e5c4dd30b
 tags:
-    - syntaxhighlight
     - tips
 ---
 

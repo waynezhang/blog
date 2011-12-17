@@ -4,7 +4,6 @@ layout: post
 guid: urn:uuid:60dee92f-c2ab-4840-862f-cef38bf2da48
 tags:
     - windowsmobile
-    - d900
 ---
 
 定制 d900 rom 启动画面，适用 WM5

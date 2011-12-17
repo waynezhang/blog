@@ -3,7 +3,6 @@ title: '谁说我不写blog了'
 layout: post
 guid: urn:uuid:843a5630-3792-4805-9760-0bf9d892bd74
 tags:
-    - blog
     - misc
 ---
 

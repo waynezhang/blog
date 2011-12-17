@@ -5,7 +5,6 @@ guid: urn:uuid:6d524f38-a3de-4cc2-8c3a-c19d0db71121
 tags:
     - movabletype
     - lighttpd
-    - ssi
 ---
 
 SSI (Server Side Includes), 简单讲就是可以在一个文件里包含另一个文件, 而这个过程是在客户端进行请求是由服务器来自动完成.

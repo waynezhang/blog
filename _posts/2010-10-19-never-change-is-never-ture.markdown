@@ -4,7 +4,6 @@ layout: post
 guid: urn:uuid:df768b2c-35e3-4806-b4e0-486ce4612871
 tags:
     - misc
-    - photo
 ---
 
 ![](/media/images/2010/10/19/track.jpg)

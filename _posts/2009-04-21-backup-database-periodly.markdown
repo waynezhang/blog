@@ -3,8 +3,7 @@ title: '定期自动备份数据库'
 layout: post
 guid: urn:uuid:f53912a2-f604-4949-8289-5ca38fe3e9cc
 tags:
-    - database
-    - backup
+    - wordpress
     - tips
 ---
 

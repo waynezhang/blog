@@ -5,7 +5,6 @@ guid: urn:uuid:b98a6663-6f30-40d3-993c-9df5f0d6ef69
 tags:
     - gtk
     - ubuntu
-    - deb
 ---
 
 ubuntu提供的deb包有时并不能完全满足我们的需要，这时就需要自己来加入一些patch或者修改它的编译选项，例如实现mac menu applet时对gtkmenubar控件的patch就需要我们重新编译安装gtk

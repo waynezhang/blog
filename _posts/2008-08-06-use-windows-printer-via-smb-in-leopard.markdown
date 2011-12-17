@@ -3,8 +3,7 @@ title: '在Leopard里连接Windows共享打印机'
 layout: post
 guid: urn:uuid:bbd723c7-ec35-40ed-96e1-c63eb5b25a9a
 tags:
-    - leopard
-    - windows
+    - mac
     - printer
     - tips
 ---

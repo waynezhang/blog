@@ -3,7 +3,6 @@ title: 'itsy v1.2.3 mod with RT'
 layout: post
 guid: urn:uuid:e3b796ef-4c49-475e-9769-15c6eca4a0ea
 tags:
-    - itsy
     - twitter
 ---
 

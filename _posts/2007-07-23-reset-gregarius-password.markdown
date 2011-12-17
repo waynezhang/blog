@@ -4,6 +4,7 @@ layout: post
 guid: urn:uuid:9b223fa1-d1b6-4bf1-be8c-87b150269e04
 tags:
     - gregarius
+    - rss
 ---
 
 打算加[海豚](http://www.kdolphin.com)兄到好友更新里的，才突然发现不但忘记了Gregarius的密码，就连用户名也不记得了。。。最近记忆力减退？
