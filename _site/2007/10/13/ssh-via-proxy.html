@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>通过http代理服务器连接ssh</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>通过http代理服务器连接ssh</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="tags" class="" href="/tags.html">tags</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://www.flickr.com/photos/lhzhang">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>今天着实让我很惊讶，ssh居然不能直接设置代理服务器，而必须通过tunnel（或者就是我太挫，没找到其他办法）</p>
+
+<ol>
+<li><p>找个Tunnel，比如<a href="http://www.agroman.net/corkscrew/corkscrew-2.0.tar.gz">corkscrew</a>，然后解开tar包，编译安装</p>
+
+<pre><code> ./configure
+ make &amp; make install
+</code></pre></li>
+<li><p>设置ssh，编辑ssh配置文件，/etc/ssh/ssh_config</p>
+
+<pre><code> vi /etc/ssh/ssh_config
+</code></pre>
+
+<p> 然后加入</p>
+
+<pre><code> Host *
+     ProxyCommand corkscrew proxy_server proxy_port %h %p
+</code></pre>
+
+<p> 如果需要验证文件的话，还要在后面加入验证文件，如下</p></li>
+</ol>
+
+
+<p>        ProxyCommand corkscrew proxy_server proxy_port %h %p authfile</p>
+
+<pre><code>ok，现在可以直接ssh了
+
+    ssh username@server
+</code></pre>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  <a href="/tags.html#ssh" title="ssh">ssh</a>&nbsp;
+  
+  <a href="/tags.html#proxy" title="proxy">proxy</a>&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2007-10-13">2007-10-13</time>
+</span>
+</section>
+
+<section class="comment">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gopherwood'; // required: replace example with your forum shortname
+	var disqus_identifier = 'urn:uuid:b0a80dce-0a14-4957-94b4-639fcae2815a';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

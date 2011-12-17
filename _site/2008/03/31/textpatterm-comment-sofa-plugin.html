@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>Textpattern Comment SOFA (TXP沙发党)</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>Textpattern Comment SOFA (TXP沙发党)</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="tags" class="" href="/tags.html">tags</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://www.flickr.com/photos/lhzhang">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>嗯, 昨天晚上无聊, 花了三个小时实现了一个雏形, 实现了对留言者统计并输出, 支持生成列表或者cloud</p>
+
+<p>今天又修修补补加了用来识别用户的keyword属性, 并支持skip列表, 称之为0.2版本</p>
+
+<p>后来觉得没有准确的统计沙发, 有点和名字不符, 于是又新增了restricted模式, 用来精确计算沙发党, 当然还是同时支持cloud输出和list输出. 并同时修改到0.3版本</p>
+
+<p>cloud的效果如下, 喜欢的就拿去用好了</p>
+
+<p><img src="/media/images/2008/03/31/txp_sofa_screenshot.jpg" alt="" /></p>
+
+<p>点<a href="http://code.google.com/p/wyn-txp-plugins/downloads/list">这里</a>下载</p>
+
+<hr />
+
+<h3>Comment Sofa plugin for Textpattern</h3>
+
+<p>It can generate a cloud or a list for commenters who commented the most. OR generate them for users who got the sofa (first comment to a post) most :D</p>
+
+<h4>History</h4>
+
+<ul>
+<li>0.3 : Add Restrict <span class="caps">SOFA</span> mode, which generator a cloud or a list for the users who got sofa (the first one who comment to a post) most.</li>
+<li>0.2 : Add keyword attribute to identify user by name or email and get skip value accepted a list with &#8216;;&#8217; delimited.</li>
+<li>0.1 : Initialize Release</li>
+</ul>
+
+
+<h4>Usage</h4>
+
+<ul>
+<li><p>wyn_comment_sofa_cloud</p>
+
+<ul>
+<li>wraptag: wrap your cloud with a tag</li>
+<li>keyword: The keyword to identify user, available values are name and email, default is name</li>
+<li>skip: skip the user by indicated thing, default is nothing (lots of blogs just have one admin user to do everything :D) You can set values more than one, just use a &#8216;;&#8217; to separate.</li>
+<li>label: the label</li>
+<li>labeltag: tag of the label</li>
+<li>limit: the limit of commenters, default is 10</li>
+<li>class: the class of wrap</li>
+<li>maxsize / minsize: the max / min font size of the most / least commenter&#8217;s link. (Percent, default is 200 and 50)</li>
+<li>break: the break between links, default is a space</li>
+<li>showcount: whether to show the count of comments by each commenter, default is 1</li>
+<li>restricted: whether to get <span class="caps">RESTRICTED</span> <span class="caps">SOFA</span> <span class="caps">MODE</span> (Generate cloud by rank of first commented to posts), default is 0</li>
+</ul>
+</li>
+<li><p>wyn_comment_sofa_list</p>
+
+<ul>
+<li>wraptag: wrap your list with a tag</li>
+<li>keyword: The keyword to identify user, available values are name and email and default is name</li>
+<li>skip: skip the user by indicated thing, default is nothing (lots of blogs just have one admin user to do everything :D)</li>
+<li>label: the label</li>
+<li>labeltag: tag of the label</li>
+<li>limit: the limit of commenters, default is 10</li>
+<li>class: the class of wrap</li>
+<li>break: the break between links, default is a space</li>
+<li>showcount: whether to show the count of comments by each commenter, default is 1</li>
+<li>restricted: whether to get <span class="caps">RESTRICTED</span> <span class="caps">SOFA</span> <span class="caps">MODE</span> (Generate list by rank of first commented to posts), default is 0</li>
+</ul>
+</li>
+</ul>
+
+
+<p>Download from <a href="http://code.google.com/p/wyn-txp-plugins/downloads/list">here</a></p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  <a href="/tags.html#textpattern" title="textpattern">textpattern</a>&nbsp;
+  
+  <a href="/tags.html#plugin" title="plugin">plugin</a>&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2008-03-31">2008-03-31</time>
+</span>
+</section>
+
+<section class="comment">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gopherwood'; // required: replace example with your forum shortname
+	var disqus_identifier = 'urn:uuid:b3a95c9d-0cba-4b1a-b951-1a10c58ea493';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

@@ -1,0 +1,51 @@
+---
+title: 'RoR Tips （1）'
+layout: post
+guid: urn:uuid:f9daf437-4d5e-4b20-ba31-ebcbcfd71130
+tags:
+    - ruby
+    - programming
+---
+
+1. 设置数据库表前缀
+
+    编辑 app/environment.rb，加入
+
+        config.active_record.table_name_prefix = &#x2018;prefix&#x2019;
+
+    同样，设置后缀
+
+        config.active_record.table_name_suffix = &#x2018;suffix&#x2019;
+
+2. 解决数据库乱码
+
+    无非是set names utf-8：
+
+    编辑app/controllers/application.rb，加入before_filter，对数据库执行set names查询，例如：
+
+        class ApplicationController < ActionController::Base
+        before_filter :set_default_charset
+          def set_default_charset
+            ActiveRecord::Base.connection.execute ‘SET NAMES utf8’;
+          end
+        end
+
+3. rails 2已经不支持传统的scaffold写法，不过不是不能用scaffold，而是更简单：
+
+        scripts/generate scaffold book
+
+    一句？真的只有一句
+
+4. rails自动管理的数据库表字段
+
+        created_on, updated_on : date格式更新
+        created_at, updated_at : time格式更新
+        lock_version : 版本锁定
+        id : 主键
+        xxxx_id : 外键
+        xxxx_count : 子表xxxx的计数器
+        parent_id : act_as_tree的parent id
+        position ： act_as_list时的position
+
+    还有些不常用的： type，lft，rgt，quote_value，template
+

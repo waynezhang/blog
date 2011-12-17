@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>用iChat / Goolge Talk上MSN</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>用iChat / Goolge Talk上MSN</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="tags" class="" href="/tags.html">tags</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://www.flickr.com/photos/lhzhang">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p>用Jabber上MSN也不是什么新鲜东西了, 不过鉴于今天头一次实验, 暂记一篇</p>
+
+<p>原理很简单, 通过一些支持MSN Transport服务的Jabber服务器在MSN与Jabber消息之间做个转换, 所以我们需要一个能够支持MSN Transport服务的Jabber服务器. 服务器不同对msn的支持程度貌似也不同, 比如Personal message等等. 我用的是 jaim.at, 当然还有其他很多选择, google一下就ok</p>
+
+<ul>
+<li>找一个Jabber客户端, adiumx (Mac), psi (Win, Mac...) 都可以, 但是iChat不行. 我这里用adiumx.</li>
+<li>希望把msn联系人导入到google talk帐户的, 准备好一个google talk帐户, 在adiumx里添加google talk帐户并跳转至第4步</li>
+<li>打开Adiumx, 选择菜单 File -&gt; Add Account -&gt; Jabber
+在新对话框中选择 Register New Account, 紧接着会弹出一个对话框来选择服务器, 在Server里输入 jaim.at, 选择 Request New Account. 新对话框中输入喜欢的用户名以及密码, 点击Register</li>
+<li>用Google Talk / Jabber帐户登录, 打开Adiumx的Preferences, 在Account列表中右键点击Google Talk / Jabber帐户, 选择Discovery Browser</li>
+<li>用Google Talk的需要在新对话框中的Service里填入jabber服务器地址, jaim.at, 然后回车</li>
+<li>紧接着会列出很多该服务器支持的服务列表, 找到MSN Transport并双击</li>
+<li>输入msn帐户的用户名和密码, 选择Register</li>
+<li>之后马上会收到来自服务器的消息以及所有msn好友的验证请求, 全部都选Authorize之后便OK</li>
+</ul>
+
+
+<p>注:</p>
+
+<ul>
+<li>原本名为 xxx@hotmail.com 的好友会变成 xxx%hotmail.com@msn.jaim.at</li>
+<li>不仅限于msn, 通过jabber服务器还连yahoo messenger, qq等等等等</li>
+</ul>
+
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  <a href="/tags.html#ichat" title="ichat">ichat</a>&nbsp;
+  
+  <a href="/tags.html#gtalk" title="gtalk">gtalk</a>&nbsp;
+  
+  <a href="/tags.html#msn" title="msn">msn</a>&nbsp;
+  
+  <a href="/tags.html#tips" title="tips">tips</a>&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2008-05-23">2008-05-23</time>
+</span>
+</section>
+
+<section class="comment">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gopherwood'; // required: replace example with your forum shortname
+	var disqus_identifier = 'urn:uuid:a7123ac9-54c0-4efa-9e4f-c0edabe0229f';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

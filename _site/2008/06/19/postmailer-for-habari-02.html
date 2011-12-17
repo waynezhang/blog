@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>Postmailer for Habari 0.2</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>Postmailer for Habari 0.2</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="tags" class="" href="/tags.html">tags</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://www.flickr.com/photos/lhzhang">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<p><a href="http://habariproject.org/">habari</a>的trunk最近改动挺多, FormUI变的我之前的插件配置界面也出不来了, 而且插件option存储方式貌似也有所修改, 之前的pluginname:property的pattern已经无效, 全部改成了pluginname__property的样子.</p>
+
+<p>加之最近换到VPS, 又发现发出来的mail是乱码, 并且header也有问题, 检查了半天发现是header的换行我用了 rn, 众所周知这个是windows的换回, 而linux系统只要 r 就足够...真不晓得dreamhost上是怎么配的, 居然一直能跑. 把换行的地方用PHP_EOL代替, 加了点header信息, 再顺手把邮件body的部分也用base64编码了.</p>
+
+<p>很简单的小修正, 下载请至[原文](http://gopherwood.info/2008/05/19/habari-plugin-post-mailer</p>
+
+<p>-------------------- 华丽的分割线 --------------------</p>
+
+<p>Changes in 0.2:</p>
+
+<ul>
+<li>Compatible with SVN r2802</li>
+<li>Add a little of information in mail header</li>
+<li>Fix End-Of-Line in Linux environment</li>
+<li>Encode message body with Base64</li>
+</ul>
+
+
+<p>Please download it in <a href="http://gopherwood.info/2008/05/19/habari-plugin-post-mailer">original post</a></p>
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  <a href="/tags.html#habari" title="habari">habari</a>&nbsp;
+  
+  <a href="/tags.html#plugin" title="plugin">plugin</a>&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2008-06-19">2008-06-19</time>
+</span>
+</section>
+
+<section class="comment">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gopherwood'; // required: replace example with your forum shortname
+	var disqus_identifier = 'urn:uuid:ad731a67-5f91-4777-a105-e3a256ea134e';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>

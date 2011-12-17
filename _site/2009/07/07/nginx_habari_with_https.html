@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Linghua Zhang" />
+    <title>nginx + habari with https</title>
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link rel="stylesheet" href="/media/css/style.css">
+    <link rel="stylesheet" href="/media/css/github.css">
+    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
+    <script type="text/javascript">
+      hljs.initHighlightingOnLoad();
+      </script>
+    </head>
+    <body>
+      <div id="container">
+        <div id="main" role="main">
+          <header>
+          <h1>nginx + habari with https</h1>
+          </header>
+          <nav>
+          <span><a title="home page" class="" href="/">home</a></span>
+          <span><a title="tags" class="" href="/tags.html">tags</a></span>
+          <span><a title="about" class="" href="/about.html">about me</a></span>
+          <span><a title="my photos" class="" href="http://www.flickr.com/photos/lhzhang">gallery</a></span>
+          <span><a title="blogroll" class="" href="/links.html">links</a></span>
+          <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <article class="content">
+          <section class="post">
+<blockquote><p>tell vistors to add your site into exception, or go to buy a cerficate :D</p></blockquote>
+
+<p>细心的童鞋已经注意到我这里最近开了https, 起因很简单, 公司这两天搞情报安全强化, 监视一切网络活动. 不想把整个后台就这么赤果果的展示给他们看 (虽然我认为他们铁定看不懂), 所以不得已启用了https</p>
+
+<ol>
+<li><p>编译nginx</p>
+
+<pre><code> # ./configure --with-sha1=/usr/lib 
+               --with-md5=/usr/lib 
+               ...
+               --with-http_ssl_module
+</code></pre></li>
+<li><p>生成dummy证书</p>
+
+<pre><code> # openssl genrsa -des3 -out cert.key 1024
+ # openssl req -new -key cert.key -out cert.csr
+ # openssl rsa -in cert.key -out cert.key
+ # openssl x509 -req -days 365 -in cert.csr -signkey cert.key -out cert.pem
+</code></pre>
+
+<ul>
+<li>注: 如果没有做openssl rsa -in cert.key -out cert.key这一步, nginx会在启动时提示输入密码, 导致server无法自动启动</li>
+</ul>
+</li>
+<li><p>配置nginx</p>
+
+<p> 最简单的, 把现有配置文件的server部分复制一份, 然后做以下修改</p>
+
+<pre><code> server {
+   listen       443;
+   ssl           on;
+   ssl_certificate  /usr/local/nginx/conf/cert.pem;
+   ssl_certificate_key  /usr/local/nginx/conf/cert.key;
+   ...
+ }
+</code></pre>
+
+<p> habari会在$_REQUEST中检查HTTPS的值, 所以在HTTPS没有设置或者是设置为off的情况下, 即使以https://的scheme访问, 代码中生成的链接仍然是http而不是https, 所以我们需要在cgi参数中加入https项, 如下:</p>
+
+<pre><code> location ~ .php$ {
+   fastcgi_pass   127.0.0.1:9001;
+   fastcgi_index  index.php;
+   fastcgi_param  SCRIPT_FILENAME  /var/www/habari$fastcgi_script_name;
+   fastcgi_param  HTTPS on;
+   include        fastcgi_params;
+ }
+</code></pre>
+
+<p> 至此, 重启nginx.</p></li>
+</ol>
+
+
+</section>
+<section class="meta">
+
+<span class="tags">
+  tagged by 
+  
+  <a href="/tags.html#nginx" title="nginx">nginx</a>&nbsp;
+  
+  <a href="/tags.html#habari" title="habari">habari</a>&nbsp;
+  
+</span>
+
+<span class="time">
+  <time datetime="2009-07-07">2009-07-07</time>
+</span>
+</section>
+
+<section class="comment">
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'gopherwood'; // required: replace example with your forum shortname
+	var disqus_identifier = 'urn:uuid:c197e3b8-a782-496f-ab46-b12c0eeb5d18';
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</section>
+
+
+          </article>
+        </div>
+      </div> <!--! end of #container -->
+    </body>
+  </html>
