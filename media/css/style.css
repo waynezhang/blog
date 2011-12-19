@@ -29,7 +29,7 @@ blockquote p{margin:0;padding:0;}
 .listing-item:hover{background-color:#333333;}
 .listing-item:hover a{color:#f9f9f9;-webkit-transition:color .2s linear;}
 .listing-item a{text-decoration:none;}
-.listing-item time,.meta{padding-right:1em;color:#999999;}
+.listing-item time,.meta{padding:0 1em;color:#999999;}
 .listing-seperator{font-weight:bold;}
 .meta{text-align:right;font-size:12px;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
