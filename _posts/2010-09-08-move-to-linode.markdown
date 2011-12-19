@@ -3,6 +3,7 @@ title: '同居'
 layout: post
 guid: urn:uuid:37b07c26-069b-4ca7-9995-eaf8c4b8a260
 tags:
+    - blog
     - misc
 ---
 

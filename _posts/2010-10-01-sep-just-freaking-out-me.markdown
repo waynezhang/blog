@@ -3,6 +3,7 @@ title: '把这里变成微博'
 layout: post
 guid: urn:uuid:43e490e5-14cd-410a-8638-39233a9f4b9b
 tags:
+    - blog
     - misc
 ---
 

@@ -3,6 +3,7 @@ title: '久违的点名游戏'
 layout: post
 guid: urn:uuid:89e905e1-ca17-4eff-91bd-dfe22d64d335
 tags:
+    - blog
     - misc
 ---
 
