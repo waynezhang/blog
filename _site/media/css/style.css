@@ -44,3 +44,4 @@ h4{font-size:16px;color:#333;}
 #dsq-global-toolbar,#dsq-like-tooltip,#dsq-sort-by,.dsq-comment-moderate{display:none;}
 .dsq-comment-header{border: none !important;background:none !important;}
 li[id*='dsq-like-']{display: none;} 
+.gist{font-size: 12px;line-height:1.6;}

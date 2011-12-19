@@ -4,13 +4,40 @@
  <title>setImpl</title>
  <link href="http://lhzhang.com/atom.xml" rel="self"/>
  <link href="http://lhzhang.com/"/>
- <updated>2011-12-17T23:45:18+09:00</updated>
+ <updated>2011-12-19T15:06:44+09:00</updated>
  <id>http://lhzhang.com/</id>
  <author>
    <name>Linghua Zhang</name>
    <email>linghua.zhang@me.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Jekyll with Tags on Github Pages</title>
+   <link href="http://lhzhang.com/2011/12/19/migrated-to-github-pages.html"/>
+   <updated>2011-12-19T00:00:00+09:00</updated>
+   <id>urn:uuid:821c03fb-f6c7-4fe5-8a68-57427be70883</id>
+   <content type="html">&lt;p&gt;最近又折腾了一回，从 hyde 换到了 jekyll，顺便迁移到了 Github Pages，省了一笔服务器的费用，也不用再手痒去折腾 vps。&lt;/p&gt;
+
+&lt;p&gt;hyde 到 jekyll 的迁移很简单，大都是模板的修正和简单的配置，唯有 tags 的地方出了点小插曲。&lt;/p&gt;
+
+&lt;p&gt;jekyll 本身是支持 tags 的，所有的 tag 数据都可以从 site.tags 取到，但是却没有一个现成的 tag 页面生成方案。之前用 hyde 是给每个 tag 都生成单独的 index 页面，有些繁琐也过于繁杂，于是这次把所有 tag 都集合到一个页面，然后做 html 的 anchor。同时找了个 &lt;a href=&quot;http://yeban.in/jekyll-tag-cloud.html&quot; title=&quot;Jekyll Tag Cloud&quot;&gt;tag cloud 的 plugin&lt;/a&gt;，传上去才发现原来 github pages 出于安全原因禁止了用户的 plugin。之后考虑了把源数据的东西和生成的 _site 分开两个 repo，然后把 blog 指向 _site。好处是从此可以随意添加 plugin，坏处是 publish 变得无比麻烦（虽然之前 hyde 我也是这么做的）。另一个想法是 deploy 到 heroku 上去，可是 heroku 实在是太慢了，还没设置完就彻底放弃了。&lt;/p&gt;
+
+&lt;p&gt;于是，最终的解决方案是 javascript（出于洁癖越来越不喜欢在页面里嵌入 js 所以这个一直最后才会考虑的手段）。&lt;/p&gt;
+
+&lt;p&gt;搜了一下发现已经有现成的东西 － &lt;a href=&quot;https://github.com/addywaddy/jquery.tagcloud.js/&quot; title=&quot;jquery.tagcloud.js&quot;&gt;jquery.tagcloud.js&lt;/a&gt;。连带着 jquery 一起下下来，然后是 tag 页面：&lt;/p&gt;
+
+&lt;script src=&quot;https://gist.github.com/1495626.js&quot;&gt;&lt;/script&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;虽然嵌代码时 iA Writer 很麻烦，不过总的来说还是不错的。Textmate 2 虽然承诺了完整的 CJK 支持，但也还是停留在显示阶段而已，输入时还是有很多问题，无论中日文，说完美真是对不起“完美”这个词。话说 Textmate 2 居然真的存在w&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;jekyll 比 hyde 处理的速度快多了&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;jekyll 嵌 liquid 的 code 真麻烦，索性以后都用 gist 了，也省了高亮的 js 和 css&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</content>
+ </entry>
  
  <entry>
    <title>Welcome to X3 world</title>
@@ -219,33 +246,6 @@ version=`expr $version + 1`
 &lt;hr /&gt;
 
 &lt;p&gt;算来自从02年开始就没有在家过过生日了&lt;/p&gt;
-</content>
- </entry>
- 
- <entry>
-   <title>難民@大阪</title>
-   <link href="http://lhzhang.com/2011/03/19/take-refuge-at-osaka.html"/>
-   <updated>2011-03-19T00:00:00+09:00</updated>
-   <id>urn:uuid:76552c5a-3e32-437a-9e49-ad545aa470b0</id>
-   <content type="html">&lt;p&gt;拗不过老妈又不想回国也买不到机票于是沦落到大阪避难，一直想来大阪不过从来没有想过是在这种场合下来。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/images/2011/03/19/nanba.jpg&quot; alt=&quot;&amp;quot;難波&amp;quot;&quot; /&gt;
-難波&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/images/2011/03/19/lucky-god.jpg&quot; alt=&quot;&amp;quot;幸運の神様&amp;quot;&quot; /&gt;
-幸運の神様&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/images/2011/03/19/skewer.jpg&quot; alt=&quot;&amp;quot;大阪名物ー串揚げ&amp;quot;&quot; /&gt;
-大阪名物ー串揚げ&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/media/images/2011/03/19/skewer-icecream.jpg&quot; alt=&quot;&amp;quot;アイスクリーム串揚げ&amp;quot;&quot; /&gt;
-アイスクリーム串揚げ 油炸冰淇淋&lt;/p&gt;
-
-&lt;p&gt;不知道还要待几天，hotel有网就暂时在hotel工作吧。不要瞎说，我是难民&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;越来越不想带相机，iPhone已经足矣，再加上有instagram这样的神器&lt;/p&gt;
 </content>
  </entry>
  
