@@ -4,12 +4,15 @@ layout: page
 ---
 
 <ul class="listing">
-{% for post in site.posts limit:10 %}
+{% for post in site.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <li class="listing-seperator"><h2 class="archive-year">{{ y }}</h2></li>
+  {% endif %}
   <li>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
-
-more articles [here](/tags.html)
