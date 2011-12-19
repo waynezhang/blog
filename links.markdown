@@ -4,7 +4,7 @@ layout: page
 ---
 
 [Beautifully Imperfect](http://becky.im)  
-[D&amp;V](http://www.dimlau.com/blog)  
+[D&amp;V](http://kaix.in/daddy)  
 [fairystreet](http://fairystreet.com)  
 [Hicro Kee is blogging](http://blog.keekun.com)  
 [ifireyy](http://fireyy.com)  
