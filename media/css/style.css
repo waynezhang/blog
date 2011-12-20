@@ -14,8 +14,8 @@
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
 body{font-size:14px;font-family:"Galdeano","Hiragino Sans GB", "Microsoft YaHei", sans-serif;color:#000000;background-color:#ffffff;}
 *{padding:0;margin: 0;border:none;outline:none;}
-a{text-decoration:none;color:#dd0000;}
-a:hover{text-decoration:underline;}
+a{color:#dd0000;text-decoration:none;}
+a:hover{color:#333333;text-decoration:underline;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.7em 0;}
 li{padding:.2em 0;}
@@ -29,11 +29,9 @@ blockquote p{margin:0;padding:0;}
 .content img{max-width:600px;display:block;margin:4px auto;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
-.listing-item,.listing-seperator{list-style-type:none;padding:.2em 0;}
-.listing-item:hover{background-color:#333333;}
-.listing-item:hover a{color:#f9f9f9;-webkit-transition:color .2s linear;}
-.listing-item a{text-decoration:none;}
-.listing-item time,.meta{padding:0 1em;color:#999999;}
+.listing-item,.listing-seperator{list-style-type:none;}
+.listing-item a{padding:.2em 1em;}
+.listing-item time{color:#999999;}
 .listing-seperator{font-weight:bold;}
 .meta{text-align:right;font-size:12px;}
 header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
