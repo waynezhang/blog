@@ -10,12 +10,12 @@ tags:
 
     task :default => :generate
 
-    desc 'Create new post'
+    desc 'Create new post with rake "post[post-name]"'
     task :post, [:title] do |t, args|
       if args.title then
         new_post(args.title)
       else
-        puts "rake create post-name"
+        puts 'rake "post[post-name]"'
       end
     end
 
@@ -29,7 +29,7 @@ tags:
       `jekyll --server`
     end
 
-    desc 'Deploy'
+    desc 'Deploy with rake "depoly[comment]"'
     task :deploy, [:comment] => :generate do |t, args|
       if args.comment then
         `git commit . -m '#{args.comment}' && git push`
@@ -63,6 +63,7 @@ tags:
 
 
     EOS
+      %x[echo "#{filename}" | pbcopy]
       end
       puts "created #{filename}"
       `git add #{filename}`
