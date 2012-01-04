@@ -13,7 +13,7 @@ who involved in
 
 mail 
 
-> `echo srvpqxfbyqfvpdtkbjwt | tr yxwvtsrqpkjfdb zuonmlihgeca@.`
+> echo srvpqxfbyqfvpdtkbjwt | tr yxwvtsrqpkjfdb zuonmlihgeca@.
 
 or follow 
 
