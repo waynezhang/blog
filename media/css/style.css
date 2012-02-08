@@ -20,7 +20,7 @@ hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;
 p{padding:.7em 0;}
 li{padding:.2em 0;}
 ol,ul{list-style-position:inside;}
-pre code{margin:1em 0;font-size:13px;font-family:Monaco,monospace;line-height:1.6;display:block;overflow:auto;}
+pre code{margin:1em 0;font-size:13px;font-family:Menlo,monospace;line-height:1.6;display:block;overflow:auto;}
 blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:0;}
