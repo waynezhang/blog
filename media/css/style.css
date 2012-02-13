@@ -1,9 +1,9 @@
 /*------------------------------------
-* sext
+* sext-ii
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2011-12-20
+* @update 2012-02-13
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -38,6 +38,8 @@ header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
 nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em; width:9em;}
 nav a{display:block;padding:.7em 1em;color:#000000;}
 nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
+#copy {display:block; font-family:"Galdeano"; font-size: .9em; text-align: center;margin-top: 2em; color: #eeeeee;}
+#copy a {color: #eeeeee; text-decoration: underline;}
 .post{padding:1em 0em;}
 h1{font-family:"Cuprum",sans-serif;font-size:2em;color:#000;}
 h2{font-family:"Cuprum",sans-serif;font-size:1.6em;color:#111;}
