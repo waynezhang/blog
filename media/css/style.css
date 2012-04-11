@@ -14,6 +14,11 @@
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
 body{font-size:14px;font-family:"Galdeano","Hiragino Sans GB", "Microsoft YaHei", sans-serif;color:#000000;background-color:#ffffff;}
 *{padding:0;margin: 0;border:none;outline:none;}
+h1{font-family:"Cuprum",sans-serif;font-size:2.2em;color:#000;}
+h2{font-family:"Cuprum",sans-serif;font-size:1.3em;color:#111;}
+h3{font-family:"Cuprum",sans-serif;font-size:1.2em;color:#222;}
+h4{font-family:"Cuprum",sans-serif;font-size:1em;color:#333;}
+.center{text-align:center;}
 a{color:#dd0000;text-decoration:none;}
 a:hover{color:#333333;text-decoration:underline;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
@@ -25,7 +30,7 @@ blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:0;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
-.content{font-size:16px;line-height:24px;}
+.content{font-size:16px;line-height:24px;margin-bottom: 2em;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
@@ -33,18 +38,16 @@ blockquote p{margin:0;padding:0;}
 .listing-item a{padding:.2em 1em;}
 .listing-item time{color:#999999;}
 .listing-seperator{font-weight:bold;}
-.meta{text-align:right;font-size:14px;}
-header{padding:.5em 0;border-bottom: 1px solid #cccccc;}
-nav{font-family:"Electrolize",sans-serif;font-size:1.1em;text-transform:uppercase;float:left;margin-left:-12em; width:9em;}
-nav a{display:block;padding:.7em 1em;color:#000000;}
-nav a:hover{background-color:#ff0000;text-decoration:none;color:#f9f9f9;-webkit-transition:color .2s linear;}
+header h1{padding:.5em 0;text-align:center;color:#666;}
+nav{font-family:"Electrolize",sans-serif;font-size:1em;text-transform:uppercase;padding: .3em 0;text-align:center;border-bottom:1px solid #ccc;}
+nav a{margin:0 1em; color:#999;}
+nav a:hover{-webkit-transition:color .2s linear;}
+.title{text-align:center;margin-top:3em;}
+.meta{text-align:center;font-size:14px;color:#d0d0d0;}
+.meta a{color: #a9a9a9;}
+.post{padding:1em 0em;}
 #copy {display:block; font-family:"Galdeano"; font-size: .9em; text-align: center;margin-top: 2em; color: #eeeeee;}
 #copy a {color: #eeeeee; text-decoration: underline;}
-.post{padding:1em 0em;}
-h1{font-family:"Cuprum",sans-serif;font-size:2em;color:#000;}
-h2{font-family:"Cuprum",sans-serif;font-size:1.6em;color:#111;}
-h3{font-family:"Cuprum",sans-serif;font-size:1.2em;color:#222;}
-h4{font-family:"Cuprum",sans-serif;font-size:1em;color:#333;}
 #dsq-global-toolbar,#dsq-like-tooltip,#dsq-sort-by,.dsq-comment-moderate{display:none;}
 .dsq-comment-header{border: none !important;background:none !important;}
 #disqus_thread h3 {font-size: 1em; font-weight:normal;}
