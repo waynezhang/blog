@@ -1,9 +1,9 @@
 /*------------------------------------
-* sext-ii
+* sext-iii
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-02-13
+* @update 2012-04-12
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -18,9 +18,8 @@ h1{font-family:"Cuprum",sans-serif;font-size:2.2em;color:#000;}
 h2{font-family:"Cuprum",sans-serif;font-size:1.3em;color:#111;}
 h3{font-family:"Cuprum",sans-serif;font-size:1.2em;color:#222;}
 h4{font-family:"Cuprum",sans-serif;font-size:1em;color:#333;}
-.center{text-align:center;}
-a{color:#dd0000;text-decoration:none;}
-a:hover{color:#333333;text-decoration:underline;}
+a{color:#a9a9a9;text-decoration:none;}
+a:hover{color:#333333;-webkit-transition:color .2s linear;}
 hr{margin:.7em 0;border-top:1px dashed #d0d0d0;border-bottom:1px dashed #f9f9f9;}
 p{padding:.7em 0;}
 li{padding:.2em 0;}
@@ -29,9 +28,12 @@ pre code{margin:1em 0;font-size:13px;font-family:Menlo,monospace;line-height:1.6
 blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:0;}
+.center{text-align:center;}
 #container{width:600px;margin:2em auto;display:block;padding:0 2em;}
 .content{font-size:16px;line-height:24px;margin-bottom: 2em;}
 .content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
+.post a{color:#dd0000;text-decoration:none;}
+.title a{color:#dd0000;text-decoration:none;}
 #tag_cloud{margin-bottom: 1em;}
 #tag_cloud a:hover{color:#333333 !important;text-decoration:none;}
 .listing-item,.listing-seperator{list-style-type:none;}
@@ -41,12 +43,10 @@ blockquote p{margin:0;padding:0;}
 header h1{padding:.5em 0;text-align:center;color:#666;}
 nav{font-family:"Electrolize",sans-serif;font-size:1em;text-transform:uppercase;padding: .3em 0;text-align:center;border-bottom:1px solid #ccc;}
 nav a{margin:0 1em; color:#999;}
-nav a:hover{-webkit-transition:color .2s linear;}
 .title{text-align:center;margin-top:3em;}
 .meta{text-align:center;font-size:14px;color:#d0d0d0;}
-.meta a{color: #a9a9a9;}
 .post{padding:1em 0em;}
-#copy {display:block; font-family:"Galdeano"; font-size: .9em; text-align: center;margin-top: 2em; color: #eeeeee;}
+#copy {display:block; font-family:"Galdeano"; font-size: .9em; text-align: center;margin-top: 2em; color: #e0e0e0;}
 #copy a {color: #eeeeee; text-decoration: underline;}
 #dsq-global-toolbar,#dsq-like-tooltip,#dsq-sort-by,.dsq-comment-moderate{display:none;}
 .dsq-comment-header{border: none !important;background:none !important;}
