@@ -1,5 +1,5 @@
 ---
-title: Archive
+title: archive
 layout: page
 ---
 
