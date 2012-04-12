@@ -46,6 +46,7 @@ nav a{margin:0 1em; color:#999;}
 .title{text-align:center;margin-top:3em;}
 .meta{text-align:center;font-size:14px;color:#d0d0d0;}
 .meta span{margin: 0 1em;}
+.meta span a{margin: 0 .5em;}
 .post{padding:1em 0em;}
 #copy {display:block; font-family:"Galdeano"; font-size: .9em; text-align: center;margin-top: 2em; color: #e0e0e0;}
 #copy a {color: #eeeeee; text-decoration: underline;}
