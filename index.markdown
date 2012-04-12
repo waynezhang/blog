@@ -10,6 +10,9 @@ layout: default
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
     </section>
     <section class="meta">
+    <span class="time">
+      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    </span>
     {% if post.tags %}
     <span class="tags">
       tagged by 
@@ -18,9 +21,6 @@ layout: default
       {% endfor %}
     </span>
     {% endif %}
-    <span class="time">
-      <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    </span>
     </section>
     <section class="post">
     {{ post.content }}

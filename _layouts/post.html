@@ -7,6 +7,9 @@ layout: default
     <h2>{{ page.title }} </h2>
   </section>
   <section class="meta">
+  <span class="time">
+    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+  </span>
   {% if page.tags %}
   <span class="tags">
     tagged by 
@@ -15,9 +18,6 @@ layout: default
     {% endfor %}
   </span>
   {% endif %}
-  <span class="time">
-    <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-  </span>
   </section>
   <section class="post">
   {{ content }}
