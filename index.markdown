@@ -15,10 +15,11 @@ layout: default
     </span>
     {% if post.tags %}
     <span class="tags">
-      tagged by 
+      {
       {% for tag in post.tags %}
       <a href="/tags.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>&nbsp;
       {% endfor %}
+      }
     </span>
     {% endif %}
     </section>
