@@ -3,7 +3,7 @@
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-04-12
+* @update 2012-05-04
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -44,12 +44,11 @@ header h1{padding:.5em 0;text-align:center;color:#666;}
 nav{font-family:"Electrolize",sans-serif;font-size:1em;text-transform:uppercase;padding: .3em 0;text-align:center;border-bottom:1px solid #ccc;}
 nav a{margin:0 1em; color:#999;}
 .title{text-align:center;margin-top:3em;}
-.meta{text-align:center;font-size:14px;color:#d0d0d0;}
-.meta span{margin: 0 1em;}
-.meta span a{margin: 0 .5em;}
+.meta{text-align:center;font-size:14px;color:#c0c0c0;}
+.meta span a{margin: 0 .25em;}
 .post{padding:1em 0em;}
-#copy {display:block; font-family:"Galdeano"; font-size: .9em; text-align: center;margin-top: 2em; color: #e0e0e0;}
-#copy a {color: #eeeeee; text-decoration: underline;}
+#copy {display:block; font-family:"Cuprum"; font-size: .9em; text-align: center;margin-top: 2em; color: #909090;}
+#copy a {color: #999999; text-decoration: underline;}
 #dsq-global-toolbar,#dsq-like-tooltip,#dsq-sort-by,.dsq-comment-moderate{display:none;}
 .dsq-comment-header{border: none !important;background:none !important;}
 #disqus_thread h3 {font-size: 1em; font-weight:normal;}
