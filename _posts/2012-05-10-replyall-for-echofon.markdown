@@ -3,8 +3,8 @@ title: ReplyAll Plugin for Echofon for Mac
 layout: post
 guid: urn:uuid:bf1c8ffa-ba3c-4916-b56f-a618b20b8924
 tags:
-  - SIMBL
-  - Mac
+  - simbl
+  - mac
 ---
 
 一直很喜欢 Echofon，可惜没有 TweetMarker 的支持，而且最常用的 Reply All 也没有相应的快捷键，所以一直停在 Twitterrific 上。
