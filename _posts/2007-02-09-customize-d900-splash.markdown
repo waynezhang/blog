@@ -44,5 +44,5 @@ unisplash w nk.fat xxxx.rsb &#8212;&#8212; 用于将 rsbbmp 转换出来的rsb�
 
 注意：刷机以及更改rom有一定风险，所有损失自负
 
-下载地址: <del><a href="/media/downloads/splash_d900.zip">splash_d900</a></del>
+<del>下载地址</del>
 

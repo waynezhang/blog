@@ -27,7 +27,7 @@ Wordpress有个一样功能的插件dj-email-publish, 不过自从换到Textpatt
 
 3. 激活插件
 
-下载 [wyn_email_publish.txt](/media/downloads/wyn_email_publish.txt)
+<del>下载</del>
 
 ---------------
 
@@ -41,5 +41,4 @@ Usage:
 
 3. Active plugin
 
-Download [wyn_email_publish.txt](/media/downloads/wyn_email_publish.txt)
-
+<del>Download </del>

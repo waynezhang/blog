@@ -7,7 +7,7 @@ tags:
     - tips
 ---
 
-起因还是这几天折腾[vps](http://gopherwood.info/2008/06/18/second-vps-empire), 为了最大限度节约资源, 决定停用之前的[syntaxhighligher](http://gopherwood.info/2008/05/21/syntaxhighlighter-for-habari)插件, 而采用静态的高亮代码. 好处嘛:
+起因还是这几天折腾 vps, 为了最大限度节约资源, 决定停用之前的 syntaxhighligher 插件, 而采用静态的高亮代码. 好处嘛:
 
 一来省掉server端每次输出content的过滤过程
 二来可以减少浏览器载入并执行js的压力
