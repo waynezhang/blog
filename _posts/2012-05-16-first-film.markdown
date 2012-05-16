@@ -17,4 +17,4 @@ tags:
 
 - 话说 11 区洗照片真贵
 - Minolta Scan Dual III 这玩意儿的噪声真不是一般的大啊
-- Fujifilm TX-1 / Hasselbald XPan 持续长草中
+- Fujifilm TX-1 / Hasselblad XPan 持续长草中
