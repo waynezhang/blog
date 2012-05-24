@@ -16,6 +16,7 @@ layout: page
 [双霍记](http://imhuo.com)  
 [唯音乐](http://vinmusic.com)  
 [崇智的BLOG](http://blog.sina.com.cn/chongzhi)  
+[很平靜](http://a4114.net)  
 [旋转木马の阶梯](http://boke.name/citizen)  
 [杀手爱喝牛奶](http://arsun.me)  
 [浮黑说话](http://surdark.net)  
