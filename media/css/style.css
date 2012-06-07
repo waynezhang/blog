@@ -29,9 +29,9 @@ blockquote{display:block;text-align:justify;border-left:4px solid #eeeeee;}
 blockquote{margin:1em 0em;padding-left:1.5em;}
 blockquote p{margin:0;padding:0;}
 .center{text-align:center;}
-#container{width:600px;margin:2em auto;display:block;padding:0 2em;}
+#container{width:900px;margin:2em auto;display:block;padding:0 2em;}
 .content{font-size:16px;line-height:24px;margin-bottom: 2em;}
-.content img{max-width:600px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
+.content img{max-width:900px;display:block;margin:4px auto;-webkit-box-shadow:#999 1px 1px 4px;-moz-box-shadow:#999 1px 1px 4px;box-shadow:#999 1px 1px 4px;}
 .post a{color:#dd0000;text-decoration:none;}
 .title a{color:#dd0000;text-decoration:none;}
 #tag_cloud{margin-bottom: 1em;}
