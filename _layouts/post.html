@@ -11,13 +11,10 @@ layout: default
     <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
   </span>
   {% if page.tags %}
-  <br />
   <span class="tags">
-    {
     {% for tag in page.tags %}
-    <a href="/tags.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+    <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
     {% endfor %}
-    }
   </span>
   {% endif %}
   </section>

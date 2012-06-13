@@ -14,13 +14,10 @@ layout: default
       <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
     </span>
     {% if post.tags %}
-    <br />
     <span class="tags">
-      {
       {% for tag in post.tags %}
-      <a href="/tags.html#{{ tag }}" title="{{ tag }}">{{ tag }}</a>
+      <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
       {% endfor %}
-      }
     </span>
     {% endif %}
     </section>
@@ -31,6 +28,10 @@ layout: default
   {% endfor %}
   </ul>
   <div class="center">
-  <h2><a href="/archive.html">MORE</a></h2>
+  <a href="/archive.html" class="circle-wrapper">
+  <div class="circle">&nbsp;</div>
+  <div class="circle">&nbsp;</div>
+  <div class="circle">&nbsp;</div>
+  </a></h2>
   </div>
 </div>
