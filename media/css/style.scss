@@ -1,0 +1,266 @@
+/*------------------------------------
+* sext-iv
+*
+* @author linghua.zhang@me.com
+* @link http://lhzhang.com/
+* @update 2012-06-13
+* 
+* |/ | (~ (~
+* |\.|._)._)
+* --------------------------------- */
+
+@import url(http://fonts.googleapis.com/css?family=Galdeano);
+@import url(http://fonts.googleapis.com/css?family=Electrolize);
+@import url(http://fonts.googleapis.com/css?family=Cuprum);
+
+$page-width: 800px;
+
+@mixin page {
+    width: $page-width;
+    margin: 0 auto;
+}
+
+    a {
+        color: #d9d9d9;
+
+        &:hover {
+            color: #eeeeee;
+        };
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: "Galdeano","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Cuprum", sans-serif;
+    color: #333333;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        -webkit-transition: color .2s linear;
+    }
+}
+
+li {
+    padding: .2em 0;
+}
+
+ol, ul {
+    list-style-position: inside;
+}
+
+header {
+    background-color: #000000;
+    -webkit-box-shadow: #999 0px 1px 4px;
+    -moz-box-shadow: #999 0px 1px 4px;
+    box-shadow: #999 1px 0px 4px;
+}
+
+#header {
+    @include page;
+
+    a {
+        color: #d9d9d9;
+
+        &:hover {
+            color: #eeeeee;
+        };
+    }
+
+    h1 {
+        display: inline-block;
+        margin-right: 1em;
+    }
+
+    nav {
+        display: inline-block;
+        a {
+            margin: 0 .5em;
+            display: inline-block;
+            font-family: "Electrolize", sans-serif;
+            text-transform: uppercase;
+        }
+    }
+}
+
+.content {
+    @include page;
+
+    font-size: 1.1em;
+    line-height: 1.7em;
+    margin-bottom: 2em;
+
+    a {
+        color: #cc0000;
+
+        &:hover {
+            color: #dd0000;
+        }
+    }
+
+    img {
+        max-width: $page-width;
+        display: block;
+        margin: .5em auto;
+        -webkit-box-shadow: #999 1px 1px 4px;
+        -moz-box-shadow: #999 1px 1px 4px;
+        box-shadow: #999 1px 1px 4px;
+    }
+
+    p {
+        padding: .7em 0;
+    }
+
+    pre code {
+        margin: 1em 0;
+        font-size: 13px;
+        font-family: Menlo, monospace;
+        line-height: 1.6;
+        display: block;
+        overflow: auto;
+    };
+
+    blockquote {
+        display: block;
+        text-align: justify;
+        border-left: 4px solid #eeeeee;
+        margin: 1em 0em;
+        padding-left: 1.5em;
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+    }
+    
+    li.listing-item, li.listing-seperator {
+        list-style-type:none;
+        padding: 0;
+
+        a {
+            padding: .2em 1em;
+        }
+
+        time {
+            color: #999999;
+        }
+    }
+
+    li.listing-seperator {
+        font-weight: bold;
+    }
+
+    .title {
+        margin-top: 3em;
+    }
+
+    .meta {
+        color: #c0c0c0;
+
+        .tags a {
+            color: #c0c0c0;
+            padding: .25em;
+            &:hover {
+                color: #999999;;
+            }
+        }
+    }
+
+    .post {
+        margin-bottom: 2em;
+    }
+
+}
+
+.circle-wrapper {
+    &:hover {
+        .circle {
+            background-color: #333333;
+            -webkit-transition: background-color .2s linear;
+        }
+    };
+}
+
+.circle {
+    display:inline-block;
+    $radius: .4em;
+    width: $radius * 2;
+    height: $radius * 2;
+    background-color: #cccccc;
+    -moz-border-radius: $radius;
+    -webkit-border-radius: $radius;
+}
+
+.center {
+    text-align: center;
+}
+
+hr {
+    margin: .7em 0;
+    border-top: 1px dashed #d0d0d0;
+    border-bottom: 1px dashed #f9f9f9;
+}
+
+footer {
+    @include page;
+
+    display: block;
+    font-family: "Cuprum";
+    font-size: .9em;
+    text-align: center;
+    padding: 2em 0;
+    color: #909090;
+
+    a {
+        color: #cccccc;
+
+        &:hover {
+            color: #999999;
+        };
+    }
+}
+
+#tag_cloud {
+    margin-bottom: 1em;
+    a:hover {
+        color: #ff0000 !important;
+        text-decoration:none;
+    }
+}
+
+li[id*='dsq-like-'] {
+    display: none;
+} 
+#dsq-global-toolbar, #dsq-like-tooltip, #dsq-sort-by, .dsq-comment-moderate {
+    display:none;
+}
+.dsq-comment-header {
+    border: none !important;
+    background: none !important;
+}
+#disqus_thread h3 {
+    font-size: 1em !important;
+    font-weight:normal !important;
+    margin: 0 !important;
+}
+#dsq-footer {
+    display:none;
+}
+
+.gist {
+    font-size: 13px;
+    line-height:1.6;
+}
+
