@@ -32,6 +32,6 @@ layout: default
   <div class="circle">&nbsp;</div>
   <div class="circle">&nbsp;</div>
   <div class="circle">&nbsp;</div>
-  </a></h2>
+  </a>
   </div>
 </div>
