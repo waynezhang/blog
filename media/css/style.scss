@@ -3,7 +3,7 @@
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-06-13
+* @update 2012-06-21
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -13,19 +13,20 @@
 @import url(http://fonts.googleapis.com/css?family=Electrolize);
 @import url(http://fonts.googleapis.com/css?family=Cuprum);
 
-$page-width: 800px;
+$page-width: 590;
+$page-width-round: 600;
 
 @mixin page {
-    width: $page-width;
+    width: #{$page-width}px;
     margin: 0 auto;
 }
 
-    a {
-        color: #d9d9d9;
+a {
+    color: #d9d9d9;
 
-        &:hover {
-            color: #eeeeee;
-        };
+    &:hover {
+        color: #eeeeee;
+    };
 }
 
 * {
@@ -37,7 +38,7 @@ body {
     font-size: 14px;
     font-family: "Galdeano","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     color: #000000;
-    background-color: #ffffff;
+    background-color: #efefef;
 }
 
 h1, h2, h3, h4 {
@@ -50,6 +51,7 @@ a {
 
     &:hover {
         -webkit-transition: color .2s linear;
+        -moz-transition: color .2s linear;
     }
 }
 
@@ -61,21 +63,18 @@ ol, ul {
     list-style-position: inside;
 }
 
-header {
-    background-color: #000000;
-    -webkit-box-shadow: #999 0px 1px 4px;
-    -moz-box-shadow: #999 0px 1px 4px;
-    box-shadow: #999 1px 0px 4px;
+#main {
+    margin: 1em 0;
 }
 
 #header {
     @include page;
 
     a {
-        color: #d9d9d9;
+        color: #999999;
 
         &:hover {
-            color: #eeeeee;
+            color: #333333;
         };
     }
 
@@ -95,12 +94,21 @@ header {
     }
 }
 
-.content {
+#content {
     @include page;
 
     font-size: 1.1em;
     line-height: 1.7em;
-    margin-bottom: 2em;
+
+    $border-width: 1;
+    $padding-side: 20;
+    article {
+        padding: #{$padding-side - $border-width}px;
+        background-color: #ffffff;
+        border-radius: .5em;
+        border: 1px solid #e0e0e0;
+        margin-bottom: 1em;
+    }
 
     a {
         color: #cc0000;
@@ -110,13 +118,20 @@ header {
         }
     }
 
-    img {
-        max-width: $page-width;
-        display: block;
-        margin: .5em auto;
-        -webkit-box-shadow: #999 1px 1px 4px;
-        -moz-box-shadow: #999 1px 1px 4px;
-        box-shadow: #999 1px 1px 4px;
+    $shadow-offset: 4;
+    .post {
+        img {
+            max-width: #{$page-width - $border-width * 2 + $shadow-offset * 2}px;
+            display: block;
+            box-shadow: #999 0px #{$shadow-offset * 2}px #{$shadow-offset}px -#{$shadow-offset}px;
+            margin: .5em auto;
+        }
+
+        $w: $page_width_round;
+        @while $w <= 1400 {
+            .image-#{$w} { margin-left: -#{$padding-side - $border-width + $shadow-offset}px; margin-right: -#{$padding-side - $border-width + $shadow-offset}px; display: block;}
+            $w: $w + 100;
+        }
     }
 
     p {
@@ -124,7 +139,10 @@ header {
     }
 
     pre code {
-        margin: 1em 0;
+        margin: 1em -#{$padding-side}px 1em -#{$padding-side}px;
+        padding-left: #{$padding-side}px;
+        padding-right: #{$padding-side}px;
+        border-color: #e0e0e0 !important;
         font-size: 13px;
         font-family: Menlo, monospace;
         line-height: 1.6;
@@ -162,10 +180,6 @@ header {
         font-weight: bold;
     }
 
-    .title {
-        margin-top: 3em;
-    }
-
     .meta {
         color: #c0c0c0;
 
@@ -177,11 +191,10 @@ header {
             }
         }
     }
+}
 
-    .post {
-        margin-bottom: 2em;
-    }
-
+.comment {
+    margin-top: 2em;
 }
 
 .circle-wrapper {
@@ -189,8 +202,12 @@ header {
         .circle {
             background-color: #333333;
             -webkit-transition: background-color .2s linear;
+            -moz-transition: background-color .2s linear;
         }
     };
+
+    margin: 1em 0;
+    display: block;
 }
 
 .circle {
@@ -198,6 +215,7 @@ header {
     $radius: .4em;
     width: $radius * 2;
     height: $radius * 2;
+    line-height: 1;
     background-color: #cccccc;
     -moz-border-radius: $radius;
     -webkit-border-radius: $radius;
@@ -220,7 +238,6 @@ footer {
     font-family: "Cuprum";
     font-size: .9em;
     text-align: center;
-    padding: 2em 0;
     color: #909090;
 
     a {

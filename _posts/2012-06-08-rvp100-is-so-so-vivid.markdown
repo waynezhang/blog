@@ -16,13 +16,10 @@ tags:
 
 [![](/media/files/2012/06/08/rose-2.jpg)](http://500px.com/photo/8359215){: .image-900}
 
-<a href="http://500px.com/photo/"><img src="/media/files/2012/06/08/rose-3.jpg" alt=""></a>
 [![](/media/files/2012/06/08/rose-3.jpg)](http://500px.com/photo/8359312){: .image-900}
 
-<a href="http://500px.com/photo/"><img src="/media/files/2012/06/08/rose-4.jpg" alt=""></a>
 [![](/media/files/2012/06/08/rose-4.jpg)](http://500px.com/photo/8359391){: .image-900}
 
-<a href="http://500px.com/photo/"><img src="/media/files/2012/06/08/rose-5.jpg" alt=""></a>
 [![](/media/files/2012/06/08/rose-5.jpg)](http://500px.com/photo/8359439){: .image-900}
 
 ![](/media/files/2012/06/08/rose-6.jpg){: .image-300}
