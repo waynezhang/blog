@@ -15,13 +15,13 @@ SSI (Server Side Includes), 简单讲就是可以在一个文件里包含另一�
 
   * 首先启用MT的SSI发布功能, 进入Publish属性设置, 找到Module Options下的Service Side Includes, 设置为Apache Sever-Side Includes, lighttpd? 没关系, 也是这个
 
-    ![Publish Preference](/media/images/2008/06/29/mt-pub-ssi.png)
+    ![Publish Preference](/media/files/2008/06/29/mt-pub-ssi.png){: .image-300}
 
     愿意的话也可以把File Extension从html改成shtml, 便于http server区分, 不过并不是必要的
 
   * 然后在Design里编辑想要分离出来的Template或者Widget, 在Template Options里选中Process as SHTML include
 
-    ![Template Options](/media/images/2008/06/29/mt-tmpl-opt.png)
+    ![Template Options](/media/files/2008/06/29/mt-tmpl-opt.png){: .image-300}
 
 接着是lighttpd端的设置, 编辑lighttpd.conf (/etc/lighttpd/), 在server.modules里加入mod_ssi, 如 :
 

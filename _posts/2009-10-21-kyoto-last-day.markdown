@@ -12,52 +12,52 @@ tags:
 
 到京都金阁寺是必经之地，所以最后一天无论如何要去下金阁寺的
 
-![](/media/images/2009/10/22/miti-1.jpeg)
-![](/media/images/2009/10/22/momiji-1.jpeg)
-![](/media/images/2009/10/22/momiji-2.jpeg)
+![](/media/files/2009/10/22/miti-1.jpeg){: .image-600}
+![](/media/files/2009/10/22/momiji-1.jpeg){: .image-600}
+![](/media/files/2009/10/22/momiji-2.jpeg){: .image-600}
 
 尽管还不到10月，但是已经有不安分的叶子先红了
 
-![](/media/images/2009/10/22/ginkakuji-1.jpeg)
-![](/media/images/2009/10/22/ginkakuji-2.jpeg)
-![](/media/images/2009/10/22/ginkakuji-3.jpeg)
-![](/media/images/2009/10/22/ginkakuji-4.jpeg)
+![](/media/files/2009/10/22/ginkakuji-1.jpeg){: .image-600}
+![](/media/files/2009/10/22/ginkakuji-2.jpeg){: .image-600}
+![](/media/files/2009/10/22/ginkakuji-3.jpeg){: .image-300}
+![](/media/files/2009/10/22/ginkakuji-4.jpeg){: .image-600}
 
 这就是传说中的金阁寺了
 
 金阁寺出来自然要去前两天参观未遂的银阁寺，不过很可惜银阁寺还在装修中，实在没啥拍的，随便抓点吧
 
-![](/media/images/2009/10/22/miti-2.jpeg)
-![](/media/images/2009/10/22/miti-3.jpeg)
-![](/media/images/2009/10/22/hilltop.jpeg)
-![](/media/images/2009/10/22/washer.jpeg)
-![](/media/images/2009/10/22/miti-4.jpeg)
-![](/media/images/2009/10/22/sansu.jpeg)
+![](/media/files/2009/10/22/miti-2.jpeg){: .image-300}
+![](/media/files/2009/10/22/miti-3.jpeg){: .image-600}
+![](/media/files/2009/10/22/hilltop.jpeg){: .image-600}
+![](/media/files/2009/10/22/washer.jpeg){: .image-600}
+![](/media/files/2009/10/22/miti-4.jpeg){: .image-300}
+![](/media/files/2009/10/22/sansu.jpeg){: .image-600}
 
 银阁寺边上有条小路，也是著名的旅游景点，叫做哲学の道，路上风景不错，也很安静，就是俺走下来也还是没悟出啥道理
 
-![](/media/images/2009/10/22/tetsugakunomiti-1.jpeg)
-![](/media/images/2009/10/22/tetsugakunomiti-2.jpeg)
-![](/media/images/2009/10/22/momiji-3.jpeg)
-![](/media/images/2009/10/22/tetsugakunomiti-3.jpeg)
+![](/media/files/2009/10/22/tetsugakunomiti-1.jpeg){: .image-300}
+![](/media/files/2009/10/22/tetsugakunomiti-2.jpeg){: .image-600}
+![](/media/files/2009/10/22/momiji-3.jpeg){: .image-300}
+![](/media/files/2009/10/22/tetsugakunomiti-3.jpeg){: .image-600}
 
 沿着哲学道可以走到南禅寺，不过迫于下午要赶新干线而且交通工具是公交车这种完全无法掌握时间的东西，只好匆匆忙忙赶回京都站
 
-|[](/media/images/2009/10/22/kouen-1.jpeg)
-|[](/media/images/2009/10/22/kouen-2.jpeg)
+|[](/media/files/2009/10/22/kouen-1.jpeg){: .image-600}
+|[](/media/files/2009/10/22/kouen-2.jpeg){: .image-300}
 
 半路一个记得名字的公园和小河
 
-![](/media/images/2009/10/22/consato.jpeg)
+![](/media/files/2009/10/22/consato.jpeg){: .image-600}
 
 恰逢某学校文艺学院在京都站内举行音乐会，很是热闹
 
 最后随便来几张京都站里拍的
 
-![](/media/images/2009/10/22/kyotoeki-1.jpeg)
-![](/media/images/2009/10/22/kyotoeki-2.jpeg)
-![](/media/images/2009/10/22/bird.jpeg)
-![](/media/images/2009/10/22/kyotoeki-3.jpeg)
+![](/media/files/2009/10/22/kyotoeki-1.jpeg){: .image-600}
+![](/media/files/2009/10/22/kyotoeki-2.jpeg){: .image-600}
+![](/media/files/2009/10/22/bird.jpeg){: .image-300}
+![](/media/files/2009/10/22/kyotoeki-3.jpeg){: .image-600}
 
 -- 完 --
 

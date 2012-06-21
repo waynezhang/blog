@@ -6,7 +6,7 @@ tags:
     - misc
 ---
 
-![](/media/images/2010/10/29/rain.jpg)
+![](/media/files/2010/10/29/rain.jpg){: .image-400}
 
 拍这张照片时我脑子里幻想的场景有两个：
 

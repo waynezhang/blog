@@ -8,7 +8,7 @@ tags:
     - fujisan
 ---
 
-![Sunrise](/media/images/2010/08/17/sunrise.jpg)
+![Sunrise](/media/files/2010/08/17/sunrise.jpg){: .image-800}
 
 富士山归来，每次看到的日出都不一样，每次的感动都不一样
 

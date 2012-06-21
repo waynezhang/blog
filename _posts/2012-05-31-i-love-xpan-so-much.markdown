@@ -10,7 +10,7 @@ tags:
   - tx-1
 ---
 
-<a href="http://500px.com/photo/8091709"><img src="/media/files/2012/05/31/river.jpg" alt="Small River"></a>
+[![](/media/files/2012/05/31/river.jpg)](http://500px.com/photo/8091709){: .image-900}
 
 草长了总是要拔的，谁让我看到了不该看的东西。
 

@@ -18,12 +18,12 @@ tags:
 
 天很阴, 下着小雨, 雨中的威尼斯有点让人失望的说, 除了到处都是河以外感觉和普通的欧洲小镇没什么区别.
 
-![](/media/images/2008/12/14/venezia-stop-in-rain.jpg)
-![](/media/images/2008/12/14/venezia-river.jpg)
+![](/media/files/2008/12/16/venezia-stop-in-rain.jpg){: .image-600}
+![](/media/files/2008/12/16/venezia-river.jpg){: .image-300}
 
 在Rialto下来吃了顿饭. 坐在河边用餐的确是很享受, 不过听不懂意大利语看不懂菜单实在是很成问题, 于是我的一盘通心粉就变成了下面这顿大餐:
 
-![](/media/images/2008/12/14/venezia-lunch.jpg)
+![](/media/files/2008/12/16/venezia-lunch.jpg){: .image-600}
 
 之所以要特意纪念一下这顿饭, 是因为打我出生起就没吃过这么贵的, 一个人60欧元, 还不小心多付了10欧元作小费, 现在想起来还心疼...
 
@@ -32,58 +32,58 @@ tags:
 
 吃完午饭已经4点多, 天也慢慢黑了下来. 夜晚的威尼斯河上和我想象的完全不同, 没有什么船只, 也没有什么灯光. 一路来到San Marco, 据说这里是威尼斯最热闹的地方. 岸边的小商贩已经在收拾摊子回家了, 广场上显得更加>冷清. 正巧碰到几对在雨中拍结婚照的夫妻, 在威尼斯举行婚礼大概是超浪漫的吧, 祝福一下
 
-![](/media/images/2008/12/14/venezia-wedding.jpg)
+![](/media/files/2008/12/16/venezia-wedding.jpg){: .image-600}
 
 城市里面还是很热闹的, 街道里拥挤着人群, 两旁布满了各种小店. 威尼斯最多的就是玻璃工艺品店, 服装店, 皮包店, 以及威尼斯的面具:
 
-![](/media/images/2008/12/14/venezia-mask.jpg)
+![](/media/files/2008/12/16/venezia-mask.jpg){: .image-600}
 
 路边上有很多黑人兄弟摆地摊卖lv包包啥的, 旁边不远就是LV专卖, 不知道真的卖得掉么...
 威尼斯意外的小, 徒步可以毫不费力的从San Marco走到Ferroviaria车站, 横跨3分之2或者4分之3的威尼斯
 
 看大家都围着下面这个东西照相, 虽然不明白咋回事儿, 不过既然大家都争着照那咱也顺手来一张
 
-![](/media/images/2008/12/14/tanxiqiao.jpg)
+![](/media/files/2008/12/16/tanxiqiao.jpg){: .image-300}
 
 过后才知道这就是传说中超有名的叹息桥, 虽然我不知道还有这么个东西...
 
 雨一直就没停, 拖着湿透的皮鞋回到宾馆. 威尼斯的宾馆很贵, 120欧元应该已经是便宜的了, 3颗星, 典型的欧洲风格, 不过条件很一般. 意大利的旅馆貌似都不提供牙膏牙刷和拖鞋, 所以各位打算来玩的要自带牙刷牙膏, 再顺>便从飞机上顺双拖鞋啥的
 
-![](/media/images/2008/12/14/venezia-hotel.jpg)
+![](/media/files/2008/12/16/venezia-hotel.jpg){: .image-600}
 
 ---------------------------- 清晨 ----------------------------
 
 周日天儿不错, 起了个大早去San Marco.
 
-![](/media/images/2008/12/14/venezia-stop-in-morning.jpg)
+![](/media/files/2008/12/16/venezia-stop-in-morning.jpg){: .image-600}
 
 清晨的Ferroviaria车站
 
-![](/media/images/2008/12/14/venezia-morning.jpg)
+![](/media/files/2008/12/16/venezia-morning.jpg){: .image-600}
 
 清晨大概是威尼斯最美丽的时候. 虽然船上风很大也很厉, 不过由于实在讨厌透过玻璃看风景, 所以一直坐在船头坚持到了最后
 
 岸边基本上没有河堤, 任由河水涌上岸来, 搞得路边和广场上基本都是湿的, 虽然担心碰到涨潮或者大水啥的很危险, 不过人家都这这么些年了咱也就不操那份儿闲心了
 
-![](/media/images/2008/12/14/venezia-beach.jpg)
-![](/media/images/2008/12/14/venezia-in-water.jpg)
+![](/media/files/2008/12/16/venezia-beach.jpg){: .image-600}
+![](/media/files/2008/12/16/venezia-in-water.jpg){: .image-600}
 
 从总督宫 (Musei Civici Veneziani) 出来才让我真正见识了威尼斯的魅力, 才终于明白了为什么威尼斯会被叫做水上之都. 整个陆地几乎都已经被30-40公分深的水淹没, 以至于我在总督宫把出口误认为河边, 绕了好大一个圈, 
 经Ticket Office的人指点才出来
 
-![](/media/images/2008/12/14/venezia-in-water-02.jpg)
-![](/media/images/2008/12/14/venezia-in-water-03.jpg)
-![](/media/images/2008/12/14/venezia-in-water-04.jpg)
+![](/media/files/2008/12/16/venezia-in-water-02.jpg){: .image-600}
+![](/media/files/2008/12/16/venezia-in-water-03.jpg){: .image-300}
+![](/media/files/2008/12/16/venezia-in-water-04.jpg){: .image-600}
 
 之前我特不解为什么下着小雨大家却穿着雨鞋, 现在终于明白了. 在威尼斯早上没有雨鞋基本上就是寸步难行.
 
 想要一览威尼斯的全景那就一定要上钟楼
 
-![](/media/images/2008/12/14/venezia-tower.jpg)
+![](/media/files/2008/12/16/venezia-tower.jpg){: .image-600}
 
 再来张塔上的全景
 
-![](/media/images/2008/12/14/venezia.jpg)
+![](/media/files/2008/12/16/venezia.jpg){: .image-600}
 
 早上San Marco的街道因为只能走木板桥所以显得更加拥挤. 街道两旁的商店也基本都淹在水里, 也不怎么开门做生意, 大都是穿着雨鞋在店里瞎转悠
 
@@ -92,6 +92,3 @@ tags:
 威尼斯的天气很多变, 刚才还是大晴天, 瞬间就是大雨, 又或者明明顶着太阳却又不得不找地方避雨.
 
 下午离开的时候有点不舍, 如果有的选择可以移民的话我第一个选这里, 估计起码能多活个10年8年的
-
-更多照片请猛击[这里](http://gallery.me.com/linghua.zhang#100031&bgcolor=black&view=grid)
-

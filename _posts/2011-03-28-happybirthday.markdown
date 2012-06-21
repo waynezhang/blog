@@ -6,7 +6,7 @@ tags:
     - misc
 ---
 
-![""](/media/images/2011/03/28/compass.jpg) 
+![""](/media/files/2011/03/28/compass.jpg){: .image-600}
 
 又老一岁，继续迷惘
 

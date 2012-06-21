@@ -12,17 +12,20 @@ tags:
 
 第一卷正片，本来想买 RDP III 的，一不小心买成了 RVP 100，这东西的确不愧于“超极彩”，颜色简直艳的不像话
 
-<a href="/media/files/2012/06/08/rose-1.jpg" target="_blank"><img src="/media/files/2012/06/08/rose-1.jpg" alt=""></a>
+![](/media/files/2012/06/08/rose-1.jpg){: .image-900}
 
-<a href="http://500px.com/photo/8359215"><img src="/media/files/2012/06/08/rose-2.jpg" alt=""></a>
+[![](/media/files/2012/06/08/rose-2.jpg)](http://500px.com/photo/8359215){: .image-900}
 
-<a href="http://500px.com/photo/8359312"><img src="/media/files/2012/06/08/rose-3.jpg" alt=""></a>
+<a href="http://500px.com/photo/"><img src="/media/files/2012/06/08/rose-3.jpg" alt=""></a>
+[![](/media/files/2012/06/08/rose-3.jpg)](http://500px.com/photo/8359312){: .image-900}
 
-<a href="http://500px.com/photo/8359391"><img src="/media/files/2012/06/08/rose-4.jpg" alt=""></a>
+<a href="http://500px.com/photo/"><img src="/media/files/2012/06/08/rose-4.jpg" alt=""></a>
+[![](/media/files/2012/06/08/rose-4.jpg)](http://500px.com/photo/8359391){: .image-900}
 
-<a href="http://500px.com/photo/8359439"><img src="/media/files/2012/06/08/rose-5.jpg" alt=""></a>
+<a href="http://500px.com/photo/"><img src="/media/files/2012/06/08/rose-5.jpg" alt=""></a>
+[![](/media/files/2012/06/08/rose-5.jpg)](http://500px.com/photo/8359439){: .image-900}
 
-<a href="/media/files/2012/06/08/rose-6.jpg" target="_blank"><img src="/media/files/2012/06/08/rose-6.jpg" alt=""></a>
+![](/media/files/2012/06/08/rose-6.jpg){: .image-300}
 
 ---
 

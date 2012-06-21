@@ -15,7 +15,7 @@ tags:
 
 cloud的效果如下, 喜欢的就拿去用好了
 
-![](/media/images/2008/03/31/txp_sofa_screenshot.jpg)
+![](/media/files/2008/03/31/txp_sofa_screenshot.jpg){: .image-300 }
 
 点[这里](http://code.google.com/p/wyn-txp-plugins/downloads/list)下载
 

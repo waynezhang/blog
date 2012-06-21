@@ -6,7 +6,7 @@ tags:
     - misc
 ---
 
-![](/media/images/2010/10/19/track.jpg)
+![](/media/files/2010/10/19/track.jpg){: .image-800}
 
 看似笔直的铁轨也有拐弯的时候，不要说拉钩上吊，一百年不变那都是骗人的
 

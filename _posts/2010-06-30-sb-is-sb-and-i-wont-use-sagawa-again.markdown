@@ -6,7 +6,7 @@ tags:
     - iphone
 ---
 
-![banner](/media/images/2010/07/01/box.jpg)
+![banner](/media/files/2010/07/01/box.jpg){: .image-500}
 
 预定的iphone 4终于有了消息，预定上周日到，于是一大早就在家待机。直到下午3点发现网上佐川急便的荷物状态变成了“请联系客服”，于是开始了漫长的扯皮过程
 

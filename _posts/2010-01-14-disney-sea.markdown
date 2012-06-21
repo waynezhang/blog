@@ -10,33 +10,33 @@ tags:
 
 12月31号去的，人不多，能玩的项目基本都玩过了。如此disney的land和sea我就都算圆满了
 
-![disney sea](/media/images/2010/01/15/disney-sea-01.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-01.jpg){: .image-300}
 
-![disney sea](/media/images/2010/01/15/disney-sea-02.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-02.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-03.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-03.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-04.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-04.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-05.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-05.jpg){: .image-300}
 
-![disney sea](/media/images/2010/01/15/disney-sea-06.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-06.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-07.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-07.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-08.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-08.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-09.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-09.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-10.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-10.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-11.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-11.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-12.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-12.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-13.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-13.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-14.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-14.jpg){: .image-600}
 
-![disney sea](/media/images/2010/01/15/disney-sea-15.jpg)
+![disney sea](/media/files/2010/01/15/disney-sea-15.jpg){: .image-300}
 

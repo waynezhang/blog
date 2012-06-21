@@ -16,7 +16,7 @@ tags:
 
 2. 如果time capsule上已有time machine的备份，推出备份卷，连接到time capsule的data文件夹，找到扩展名为sparsebundle的文件，记下文件名后删除该文件或改名。如果还没有time machine备份，可以用计算机名和硬件UUID后12位（一般为第一块网卡的MAC地址）的组合来得到文件名。如下图，从苹果菜单上打开About This Mac，选择More Info，最左上角是计算机名，加上下划线 _  和hardware uuid后12位就是time machine的备份文件名。
 
-  ![](/media/images/2009/08/30/time-capsule-size.jpg)
+![](/media/files/2009/08/30/time-capsule-size.jpg){: .image-500}
 
 3. 打开Disk Utility，选择New Image来创建一个新的备份文件。位置当然是在time capsule的Data文件夹下，输入刚才的文件名，指定自己喜欢的大小，其它各选项如下：
 

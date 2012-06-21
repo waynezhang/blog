@@ -6,12 +6,12 @@ tags:
     - kindle
 ---
 
-![""](/media/images/2011/03/07/kindle.jpg)
+![""](/media/files/2011/03/07/kindle.jpg){: .image-600}
 之前为了看书买了iPad，但是拿着iPad我一直都静不下心来去读一本书，Kindle不同，因为它就是为书而生。
 
 #### 更新 2011/03/08
 
-多谢 [zu](http://gopherwood.info/2011/03/07/kindle.html#comment-161751394) 童鞋的推荐，找到了 [Klip.me](http://www.klip.me/) 这样的服务，加一个bookmarklet，随时发送页面到kindle，不用打pdf了，效果也蛮不错
+多谢 [zu](/2011/03/07/kindle.html#comment-161751394) 童鞋的推荐，找到了 [Klip.me](http://www.klip.me/) 这样的服务，加一个bookmarklet，随时发送页面到kindle，不用打pdf了，效果也蛮不错
 
 #### 中文显示
 

@@ -10,7 +10,7 @@ tags:
 
 这是一个很诡异的 bug，表现为在收到 memory warning 后，回到上一个 View Controller 后界面无响应，如下
 
-![bug](/media/files/2011/11/22/bug.png)
+![bug](/media/files/2011/11/22/bug.png){: .image-600}
 
 在 View Controller 3 收到低内存警告返回 View Controller 2 后界面失去响应。
 
@@ -22,11 +22,11 @@ tags:
 
 继续比较区别，注意到从 View Controller 1 迁移到 View Controller 2 时 animated 的参数是 NO 而 View Controller 3 做 dismiss 时是设定了 animation 的：
 
-![bug](/media/files/2011/11/22/with-description.png)
+![bug](/media/files/2011/11/22/with-description.png){: .image-600}
 
 猜测 UIWindowController 的 transition:fromViewController:toViewController:target:didEndSelector: 方法在 transition 时在没有动画效果的情况下会检查 root view 是否是 UIImageView 并且修改 userInteractionEnabled 的值，而在有动画时则不会。
 
-![bug](/media/files/2011/11/22/with-analytics.png)
+![bug](/media/files/2011/11/22/with-analytics.png){: .image-600}
 
 在 subclass 的 setUserInteractionEnabled: 方法里加 log 然后调整 present 和 dismiss 的动画参数后得到了确认。
 
