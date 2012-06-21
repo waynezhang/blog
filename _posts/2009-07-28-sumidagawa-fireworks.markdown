@@ -8,11 +8,11 @@ tags:
     - sumidagawa
 ---
 
-![Hanabi](/media/files/2009/07/28/01.jpg"){: .image-500}
+<span class="image-500">![Hanabi](/media/files/2009/07/28/01.jpg")</span>
 
-![Hanabi](/media/files/2009/07/28/02.jpg"){: .image-500}
+<span class="image-500">![Hanabi](/media/files/2009/07/28/02.jpg")</span>
 
-![Hanabi](/media/files/2009/07/28/03.jpg"){: .image-500}
+<span class="image-500">![Hanabi](/media/files/2009/07/28/03.jpg")</span>
 
 东京各地一年一度的烟火大会，据说隅田川是规模最大的，两个会场，1个半小时，2w5k发。
 

@@ -16,7 +16,7 @@ tags:
 
 2. 打开 Safari 的 Window 菜单, 选择 Activity, 或者, 直接在 Safari 里按下快捷键 Apple + Alt + A, 将会出现如下窗口:
 
-![](/media/files/2008/03/24/dvfy.jpg){: .image-400}
+<span class="image-400">![](/media/files/2008/03/24/dvfy.jpg)</span>
 
 这个窗口里列出了所有页面中下载的或正在下载的内容, 包括css, 图片, js脚本等等, 当然也包括了我们的视频
 

@@ -11,7 +11,7 @@ tags:
 
 前两卷终于洗出来了，拿到照片的时候真是有种莫名的感动和惊喜。
 
-[![](/media/files/2012/05/16/sakura.jpg)](http://500px.com/photo/7621221){: .image-900}
+<span class="image-900">[![](/media/files/2012/05/16/sakura.jpg)](http://500px.com/photo/7621221)</span>
 
 ---
 

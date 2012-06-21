@@ -2,4 +2,4 @@ markdown: rdiscount
 pygments: true
 permalink: /:year/:month/:day/:title.html
 name: setImpl
-markdown: maruku
+markdown: rdiscount

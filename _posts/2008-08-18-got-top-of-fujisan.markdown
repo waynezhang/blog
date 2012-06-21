@@ -49,24 +49,24 @@ tags:
 
 最最后:
 
-![sunrise 01](/media/files/2008/08/18/sunrise-01.jpg){: .image-500}
+<span class="image-500">![sunrise 01](/media/files/2008/08/18/sunrise-01.jpg)</span>
 
 破晓
 
-![sunrise 02](/media/files/2008/08/18/sunrise-02.jpg){: .image-500}
-![sunrise 03](/media/files/2008/08/18/sunrise-03.jpg){: .image-500}
+<span class="image-500">![sunrise 02](/media/files/2008/08/18/sunrise-02.jpg)</span>
+<span class="image-500">![sunrise 03](/media/files/2008/08/18/sunrise-03.jpg)</span>
 
 日出
 
-![me](/media/files/2008/08/18/me.jpg){: .image-500}
+<span class="image-500">![me](/media/files/2008/08/18/me.jpg)</span>
 
 来张火山口的
 
-![cloud](/media/files/2008/08/18/cloud.jpg){: .image-500}
+<span class="image-500">![cloud](/media/files/2008/08/18/cloud.jpg)</span>
 
 诡异的云
 
-![cloud](/media/files/2008/08/18/stick.jpg){: .image-500}
+<span class="image-500">![cloud](/media/files/2008/08/18/stick.jpg)</span>
 
 一直赶路, 也没烧几个, 遗憾阿
 

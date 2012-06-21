@@ -6,7 +6,7 @@ tags:
     - kindle
 ---
 
-![""](/media/files/2011/03/07/kindle.jpg){: .image-600}
+<span class="image-600">![""](/media/files/2011/03/07/kindle.jpg)</span>
 之前为了看书买了iPad，但是拿着iPad我一直都静不下心来去读一本书，Kindle不同，因为它就是为书而生。
 
 #### 更新 2011/03/08

@@ -10,16 +10,16 @@ tags:
 
 来了五年头一次去看樱花，八鶴湖的樱花能比茂原来的好看些
 
-![](/media/files/2012/04/16/sakura_01.jpg "桜その一"){: .image-900}
+<span class="image-900">![](/media/files/2012/04/16/sakura_01.jpg "桜その一")</span>
 
-![](/media/files/2012/04/16/sakura_02.jpg "桜その二"){: .image-900}
+<span class="image-900">![](/media/files/2012/04/16/sakura_02.jpg "桜その二")</span>
 
-![](/media/files/2012/04/16/leaf.jpg "葉"){: .image-400}
+<span class="image-400">![](/media/files/2012/04/16/leaf.jpg "葉")</span>
 
-![](/media/files/2012/04/16/night_01.jpg "夜桜その一"){: .image-900}
+<span class="image-900">![](/media/files/2012/04/16/night_01.jpg "夜桜その一")</span>
 
-![](/media/files/2012/04/16/night_02.jpg "夜桜その二"){: .image-900}
+<span class="image-900">![](/media/files/2012/04/16/night_02.jpg "夜桜その二")</span>
 
-![](/media/files/2012/04/16/night_03.jpg "夜桜その三"){: .image-300}
+<span class="image-300">![](/media/files/2012/04/16/night_03.jpg "夜桜その三")</span>
 
-![](/media/files/2012/04/16/night_04.jpg "夜桜その四"){: .image-300}
+<span class="image-300">![](/media/files/2012/04/16/night_04.jpg "夜桜その四")</span>

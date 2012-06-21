@@ -16,7 +16,7 @@ tags:
 
 突然想起音乐：
 
-![](/media/files/2007/07/26/travel-03.jpg){: .image-500}
+<span class="image-500">![](/media/files/2007/07/26/travel-03.jpg)</span>
 
 Guam？（后来终于弄清楚了，是关岛）
 
@@ -24,7 +24,7 @@ Guam？（后来终于弄清楚了，是关岛）
 
 抖空竹
 
-![](/media/files/2007/07/26/travel-08.jpg){: .image-300}
+<span class="image-300">![](/media/files/2007/07/26/travel-08.jpg)</span>
 
 全家福
 
@@ -48,7 +48,7 @@ USA，很有感觉
 
 于是……
 
-![](/media/files/2007/07/26/travel-19.jpg){: .image-300}
+<span class="image-300">![](/media/files/2007/07/26/travel-19.jpg)</span>
 
 这个是我扔的……
 

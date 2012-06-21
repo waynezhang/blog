@@ -12,17 +12,17 @@ tags:
 
 第一卷正片，本来想买 RDP III 的，一不小心买成了 RVP 100，这东西的确不愧于“超极彩”，颜色简直艳的不像话
 
-![](/media/files/2012/06/08/rose-1.jpg){: .image-900}
+<span class="image-900">![](/media/files/2012/06/08/rose-1.jpg)</span>
 
-[![](/media/files/2012/06/08/rose-2.jpg)](http://500px.com/photo/8359215){: .image-900}
+<span class="image-900">[![](/media/files/2012/06/08/rose-2.jpg)](http://500px.com/photo/8359215)</span>
 
-[![](/media/files/2012/06/08/rose-3.jpg)](http://500px.com/photo/8359312){: .image-900}
+<span class="image-900">[![](/media/files/2012/06/08/rose-3.jpg)](http://500px.com/photo/8359312)</span>
 
-[![](/media/files/2012/06/08/rose-4.jpg)](http://500px.com/photo/8359391){: .image-900}
+<span class="image-900">[![](/media/files/2012/06/08/rose-4.jpg)](http://500px.com/photo/8359391)</span>
 
-[![](/media/files/2012/06/08/rose-5.jpg)](http://500px.com/photo/8359439){: .image-900}
+<span class="image-900">[![](/media/files/2012/06/08/rose-5.jpg)](http://500px.com/photo/8359439)</span>
 
-![](/media/files/2012/06/08/rose-6.jpg){: .image-300}
+<span class="image-300">![](/media/files/2012/06/08/rose-6.jpg)</span>
 
 ---
 
