@@ -69,7 +69,7 @@ ol, ul {
   font-size: 1.1em;
   line-height: 1.7em; }
   #content article {
-    padding: 19px;
+    padding: 1em 24px;
     background-color: #ffffff;
     border-radius: .5em;
     border: 1px solid #e0e0e0;
@@ -84,47 +84,47 @@ ol, ul {
     box-shadow: #999999 0px 8px 4px -4px;
     margin: .5em auto; }
   #content .post .image-600 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content .post .image-700 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content .post .image-800 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content .post .image-900 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content .post .image-1000 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content .post .image-1100 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content .post .image-1200 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content .post .image-1300 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content .post .image-1400 {
-    margin-left: -23px;
-    margin-right: -23px;
+    margin-left: -28px;
+    margin-right: -28px;
     display: block; }
   #content p {
     padding: .7em 0; }
   #content pre code {
-    margin: 1em -20px 1em -20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 1em -25px 1em -25px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-color: #e0e0e0 !important;
     font-size: 13px;
     font-family: Menlo, monospace;

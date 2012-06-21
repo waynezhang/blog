@@ -101,9 +101,9 @@ ol, ul {
     line-height: 1.7em;
 
     $border-width: 1;
-    $padding-side: 20;
+    $padding-side: 25;
     article {
-        padding: #{$padding-side - $border-width}px;
+        padding: 1em #{$padding-side - $border-width}px;
         background-color: #ffffff;
         border-radius: .5em;
         border: 1px solid #e0e0e0;
