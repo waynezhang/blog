@@ -11,7 +11,7 @@ tags:
 
 加之最近换到VPS, 又发现发出来的mail是乱码, 并且header也有问题, 检查了半天发现是header的换行我用了 rn, 众所周知这个是windows的换回, 而linux系统只要 r 就足够...真不晓得dreamhost上是怎么配的, 居然一直能跑. 把换行的地方用PHP_EOL代替, 加了点header信息, 再顺手把邮件body的部分也用base64编码了.
 
-很简单的小修正, 下载请至[原文](http://gopherwood.info/2008/05/19/habari-plugin-post-mailer
+很简单的小修正, 下载请至<del>原文</del>
 
 -------------------- 华丽的分割线 --------------------
 
@@ -22,5 +22,5 @@ Changes in 0.2:
   * Fix End-Of-Line in Linux environment
   * Encode message body with Base64
 
-Please download it in [original post](http://gopherwood.info/2008/05/19/habari-plugin-post-mailer)
+Please download it in <del>original post</del>
 

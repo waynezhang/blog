@@ -21,7 +21,7 @@ __Description__
 
 When you publish a new post, this plugin will mail it to everywhere (email address of course :D) you want.
 
-That means, you can publish the post onto other <span class="caps">BSP*s, which support email publish feature (like live space, or blogger), just as the same time you publish on textpattern.
+That means, you can publish the post onto other BSPs, which support email publish feature (like live space, or blogger), just as the same time you publish on textpattern.
 
 __History__
 
@@ -30,7 +30,7 @@ __History__
 
 __Usage__
 
-  * Install and active it, and of course, set up your email publish function of your <span class="caps">BSP*s
+  * Install and active it, and of course, set up your email publish function of your BSPs
   * Go to extenstion -&gt; Email Publish
   * Now you can set the mail address, use &#8216;;&#8217; to separator if you have more than one address
   * Set the title and body of mail, you can use the tag *title*, *body*, *author* and *link* to replace the title, the content, the author name and the link of the article. 

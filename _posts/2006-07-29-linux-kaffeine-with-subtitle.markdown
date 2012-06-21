@@ -23,7 +23,7 @@ Kaffeine作为Xine的前端，采用Xine引擎，当然字幕的显示也是以�
 
     xine-fontconv /usr/share/fonts/truetype/arphic/uming.ttf ming gbk
 
-等吧，很久的，去喝杯咖菲（晕，新换的雅黑字体居然没有咖fei的fei字，只好拿这个代替了%^#$*&amp;$^&amp;@$%#$@^#@）好了，呵呵
+等吧，很久的，去喝杯咖菲（晕，新换的雅黑字体居然没有咖fei的fei字，只好拿这个代替了）好了
 
 之后我们会看到生成了ming-16-xinefont.gz这样的文件，就是新的字体了，16代表大小，一共会有16，20，24，32，48，64这几个，然后打开Kaffeine配置一下Xine：
 

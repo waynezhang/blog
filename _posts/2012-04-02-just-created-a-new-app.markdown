@@ -14,7 +14,7 @@ tags:
 
 ----
 
-iOS 5 发布后公开了 UIReferenceLibraryViewController 的 API，于是简单做了个调用内置辞典的 app 扔到了 App Store ( <del>[Define It](http://itunes.apple.com/us/app/define-it/id477665521?ls=1&mt=8)</del> )里，无奈到了 5.1 后 API 文档里加了这么句：
+iOS 5 发布后公开了 UIReferenceLibraryViewController 的 API，于是简单做了个调用内置辞典的 app 扔到了 App Store ( <del>[Define It](http://itunes.apple.com/us/app/define-it/id477665521?ls=1)</del> )里，无奈到了 5.1 后 API 文档里加了这么句：
 
 > A UIReferenceLibraryViewController object provides a dictionary service to look up the definition of a word or term from within an app. It should not be used to display wordlists, create a standalone dictionary app, or republish the content in any form.
 
@@ -22,7 +22,7 @@ iOS 5 发布后公开了 UIReferenceLibraryViewController 的 API，于是简单
 
 ----
 
-买了 Kindle 后今年的阅读量有所增加，于是紧接着做了这么个 app：[mReadin](http://itunes.apple.com/us/app/mreadin/id512179107?ls=1&mt=8)，发现我果然是个不善于添油加醋的人于是 comment 里很简单的列举了一些 feature 了事：
+买了 Kindle 后今年的阅读量有所增加，于是紧接着做了这么个 app：[mReadin](http://itunes.apple.com/us/app/mreadin/id512179107?ls=1)，发现我果然是个不善于添油加醋的人于是 comment 里很简单的列举了一些 feature 了事：
 
 - Inbox for books planning to read
 - Search book from Google Books instead input the information yourself

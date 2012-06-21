@@ -22,7 +22,7 @@ tags:
 
     sudo apt-get install linux-headers-`uname -r`
 
-注意：` 符号是 tab 键上面数字 1 键左边那个，不是单引号
+注意：\` 符号是 tab 键上面数字 1 键左边那个，不是单引号
 
 然后是 curl
 

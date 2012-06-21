@@ -95,7 +95,7 @@ ikiwiki的meta插件有parse guid的tag模版里却怎么也拿不到meta的值�
                         $template->param(title => HTML::Entities::encode_numeric($pagestate{$page}{meta}{title}));
                         $template->param(title_overridden => 1);
 
-然后模版里就可以用 <TMPL_VAR GUID> 获取guid的值了，把这个值放在disqus的code里就大功告成
+然后模版里就可以用 `<TMPL_VAR GUID>` 获取guid的值了，把这个值放在disqus的code里就大功告成
 
 顺手用html5重写了一下模版
 
