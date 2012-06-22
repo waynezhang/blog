@@ -15,11 +15,3 @@ tags:
 <span class="image-900">![](/media/files/2012/04/16/sakura_02.jpg "桜その二")</span>
 
 <span class="image-400">![](/media/files/2012/04/16/leaf.jpg "葉")</span>
-
-<span class="image-900">![](/media/files/2012/04/16/night_01.jpg "夜桜その一")</span>
-
-<span class="image-900">![](/media/files/2012/04/16/night_02.jpg "夜桜その二")</span>
-
-<span class="image-300">![](/media/files/2012/04/16/night_03.jpg "夜桜その三")</span>
-
-<span class="image-300">![](/media/files/2012/04/16/night_04.jpg "夜桜その四")</span>
