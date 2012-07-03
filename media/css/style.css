@@ -1,12 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Galdeano);
-@import url(http://fonts.googleapis.com/css?family=Electrolize);
-@import url(http://fonts.googleapis.com/css?family=Cuprum);
+@import url(http://fonts.googleapis.com/css?family=Overlock);
 /*------------------------------------
 * sext-iv
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-06-21
+* @update 2012-07-03
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -22,13 +20,9 @@ a {
 
 body {
   font-size: 14px;
-  font-family: "Galdeano","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #000000;
+  font-family: "Overlock","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  color: #555555;
   background-color: #efefef; }
-
-h1, h2, h3, h4 {
-  font-family: "Cuprum", sans-serif;
-  color: #333333; }
 
 a {
   text-decoration: none; }
@@ -46,7 +40,7 @@ ol, ul {
   margin: 2em 0 1em 0; }
 
 #header {
-  width: 590px;
+  width: 640px;
   margin: 0 auto; }
   #header a {
     color: #999999; }
@@ -60,33 +54,28 @@ ol, ul {
     #header nav a {
       margin: 0 .5em;
       display: inline-block;
-      font-family: "Electrolize", sans-serif;
+      font-family: "Overlock", sans-serif;
       text-transform: uppercase; }
 
 #content {
-  width: 590px;
+  width: 640px;
   margin: 0 auto;
   font-size: 1.1em;
   line-height: 1.7em; }
   #content article {
-    padding: 1em 24px;
+    padding: 1.25em 24px;
     background-color: #ffffff;
-    border-radius: .5em;
     border: 1px solid #e0e0e0;
-    margin-bottom: 1em; }
+    margin: 2em 0; }
   #content a {
     color: #cc0000; }
     #content a:hover {
       color: #dd0000; }
   #content .post img {
-    max-width: 596px;
+    max-width: 646px;
     display: block;
     box-shadow: #999999 0px 8px 4px -4px;
     margin: .5em auto; }
-  #content .post .image-600 {
-    margin-left: -28px;
-    margin-right: -28px;
-    display: block; }
   #content .post .image-700 {
     margin-left: -28px;
     margin-right: -28px;
@@ -150,7 +139,8 @@ ol, ul {
   #content li.listing-seperator {
     font-weight: bold; }
   #content .meta {
-    color: #c0c0c0; }
+    color: #c0c0c0;
+    margin: .25em 0 1em; }
     #content .meta .tags a {
       color: #c0c0c0;
       padding: .25em; }
@@ -161,7 +151,7 @@ ol, ul {
   margin-top: 2em; }
 
 .circle-wrapper {
-  margin: 1em 0;
+  margin: 2em 0;
   display: block; }
   .circle-wrapper:hover .circle {
     background-color: #333333;
@@ -186,10 +176,10 @@ hr {
   border-bottom: 1px dashed #f9f9f9; }
 
 footer {
-  width: 590px;
+  width: 640px;
   margin: 0 auto;
   display: block;
-  font-family: "Cuprum";
+  font-family: "Balthazar";
   font-size: .9em;
   text-align: center;
   color: #909090; }

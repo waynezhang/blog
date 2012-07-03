@@ -3,18 +3,16 @@
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-06-21
+* @update 2012-07-03
 * 
 * |/ | (~ (~
 * |\.|._)._)
 * --------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Galdeano);
-@import url(http://fonts.googleapis.com/css?family=Electrolize);
-@import url(http://fonts.googleapis.com/css?family=Cuprum);
+@import url(http://fonts.googleapis.com/css?family=Overlock);
 
-$page-width: 590;
-$page-width-round: 600;
+$page-width: 640;
+$page-width-round: 700;
 
 @mixin page {
     width: #{$page-width}px;
@@ -36,14 +34,9 @@ a {
 
 body {
     font-size: 14px;
-    font-family: "Galdeano","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    color: #000000;
+    font-family: "Overlock","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    color: #555555;
     background-color: #efefef;
-}
-
-h1, h2, h3, h4 {
-    font-family: "Cuprum", sans-serif;
-    color: #333333;
 }
 
 a {
@@ -88,7 +81,7 @@ ol, ul {
         a {
             margin: 0 .5em;
             display: inline-block;
-            font-family: "Electrolize", sans-serif;
+            font-family: "Overlock", sans-serif;
             text-transform: uppercase;
         }
     }
@@ -103,11 +96,10 @@ ol, ul {
     $border-width: 1;
     $padding-side: 25;
     article {
-        padding: 1em #{$padding-side - $border-width}px;
+        padding: 1.25em #{$padding-side - $border-width}px;
         background-color: #ffffff;
-        border-radius: .5em;
         border: 1px solid #e0e0e0;
-        margin-bottom: 1em;
+        margin: 2em 0;
     }
 
     a {
@@ -182,6 +174,7 @@ ol, ul {
 
     .meta {
         color: #c0c0c0;
+        margin: .25em 0 1em;
 
         .tags a {
             color: #c0c0c0;
@@ -206,7 +199,7 @@ ol, ul {
         }
     };
 
-    margin: 1em 0;
+    margin: 2em 0;
     display: block;
 }
 
@@ -235,7 +228,7 @@ footer {
     @include page;
 
     display: block;
-    font-family: "Cuprum";
+    font-family: "Balthazar";
     font-size: .9em;
     text-align: center;
     color: #909090;
