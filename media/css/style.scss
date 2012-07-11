@@ -11,7 +11,7 @@
 
 @import url(http://fonts.googleapis.com/css?family=Overlock);
 
-$page-width: 640;
+$page-width: 680;
 $page-width-round: 700;
 
 @mixin page {
@@ -36,7 +36,7 @@ body {
     font-size: 14px;
     font-family: "Overlock","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     color: #555555;
-    background-color: #efefef;
+    background-image: url("/media/css/bg.png");
 }
 
 a {
