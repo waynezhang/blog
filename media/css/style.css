@@ -4,7 +4,7 @@
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-07-11
+* @update 2012-07-12
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -43,7 +43,8 @@ ol, ul {
   width: 680px;
   margin: 0 auto; }
   #header a {
-    color: #999999; }
+    color: #999999;
+    text-shadow: #e9e9e9 2px 2px 2px; }
     #header a:hover {
       color: #333333; }
   #header h1 {
