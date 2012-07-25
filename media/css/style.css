@@ -10,9 +10,9 @@
 * |\.|._)._)
 * --------------------------------- */
 a {
-  color: #d9d9d9; }
+  color: #3399cc; }
   a:hover {
-    color: #eeeeee; }
+    color: #55bbee; }
 
 * {
   margin: 0;
@@ -69,9 +69,9 @@ ol, ul {
     border: 1px solid #e0e0e0;
     margin: 2em 0; }
   #content a {
-    color: #cc0000; }
+    color: #3399cc; }
     #content a:hover {
-      color: #dd0000; }
+      color: #55bbee; }
   #content .post img {
     max-width: 686px;
     display: block;
