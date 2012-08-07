@@ -13,7 +13,7 @@ tags:
 
 <span class="image-900">[![](/media/files/2012/08/07/farmers.jpg)](http://500px.com/photo/11179735)</span>
 
-<span class="image-300">[![](/media/files/2012/08/07/waterfall-in-house.jpg)](http://500px.com/photo/11178871)</span>
+<span class="image-300">[![](/media/files/2012/08/07/waterfall-in-house.jpg)](http://500px.com/photo/11242673)</span>
 
 TX-1 在手里的最后几卷，因为种种原因还是出掉了，其实很舍不得，不过作为一个有选择恐惧症的人同时有两台机器是会让人发疯的。
 
