@@ -3,13 +3,14 @@
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-07-12
+* @update 2012-09-24
 * 
 * |/ | (~ (~
 * |\.|._)._)
 * --------------------------------- */
 
 @import url(http://fonts.googleapis.com/css?family=Overlock);
+@import url(http://fonts.googleapis.com/css?family=Coda);
 
 $page-width: 680;
 $page-width-round: 700;
@@ -75,6 +76,7 @@ ol, ul {
     h1 {
         display: inline-block;
         margin-right: 1em;
+        font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
     }
 
     nav {
@@ -82,7 +84,7 @@ ol, ul {
         a {
             margin: 0 .5em;
             display: inline-block;
-            font-family: "Overlock", sans-serif;
+            font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
             text-transform: uppercase;
         }
     }

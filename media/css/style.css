@@ -1,10 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Overlock);
+@import url(http://fonts.googleapis.com/css?family=Coda);
 /*------------------------------------
 * sext-iv
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-07-12
+* @update 2012-09-24
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -49,13 +50,14 @@ ol, ul {
       color: #333333; }
   #header h1 {
     display: inline-block;
-    margin-right: 1em; }
+    margin-right: 1em;
+    font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
   #header nav {
     display: inline-block; }
     #header nav a {
       margin: 0 .5em;
       display: inline-block;
-      font-family: "Overlock", sans-serif;
+      font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       text-transform: uppercase; }
 
 #content {
