@@ -39,4 +39,26 @@ layout: default
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </section>
   {% endif %}
+
+  <script src="/media/js/jquery-1.7.1.min.js" type="text/javascript" charset="utf-8"></script> 
+  <script>
+    $(function(){
+      $(document).keydown(function(e) {
+        var url = false;
+        if (e.which == 37 || e.which == 74) {  // Left arrow key code
+          {% if page.previous %}
+          url = '{{page.previous.url}}';
+          {% endif %}
+        }
+        else if (e.which == 39 || e.which == 75) {  // Right arrow key code
+          {% if page.next %}
+          url = '{{page.next.url}}';
+          {% endif %}
+        }
+        if (url) {
+          window.location = url;
+        }
+      });
+    })
+  </script>
 </article>
