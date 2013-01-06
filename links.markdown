@@ -3,7 +3,7 @@ title: links
 layout: page
 ---
 
-**[喵镇](http://www.heysuei.com)**  
+**[喵镇](http://heysuei.me)**  
 
 ---
  
