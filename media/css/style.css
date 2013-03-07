@@ -1,11 +1,11 @@
 @import url(http://fonts.googleapis.com/css?family=Overlock);
 @import url(http://fonts.googleapis.com/css?family=Coda);
 /*------------------------------------
-* sext-iv
+* sext-v
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2012-09-24
+* @update 2013-03-07
 * 
 * |/ | (~ (~
 * |\.|._)._)
@@ -21,18 +21,17 @@ a {
 
 body {
   font-size: 14px;
-  font-family: "Overlock","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "Overlock", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #555555;
   background-image: url("/media/css/bg.png"); }
 
 a {
-  text-decoration: none; }
-  a:hover {
-    -webkit-transition: color .2s linear;
-    -moz-transition: color .2s linear; }
+  text-decoration: none;
+  -webkit-transition: color 0.2s linear;
+  -moz-transition: color 0.2s linear; }
 
 li {
-  padding: .2em 0; }
+  padding: 0.2em 0; }
 
 ol, ul {
   list-style-position: inside; }
@@ -42,23 +41,17 @@ ol, ul {
 
 #header {
   width: 680px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin: 4em auto;
+  text-align: center; }
   #header a {
     color: #999999;
     text-shadow: #e9e9e9 2px 2px 2px; }
     #header a:hover {
       color: #333333; }
   #header h1 {
-    display: inline-block;
-    margin-right: 1em;
-    font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
-  #header nav {
-    display: inline-block; }
-    #header nav a {
-      margin: 0 .5em;
-      display: inline-block;
-      font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      text-transform: uppercase; }
+    display: block;
+    font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
 
 #content {
   width: 680px;
@@ -78,7 +71,7 @@ ol, ul {
     max-width: 686px;
     display: block;
     box-shadow: #999999 0px 8px 4px -4px;
-    margin: .5em auto; }
+    margin: 0.5em auto; }
   #content .post .image-700 {
     margin-left: -28px;
     margin-right: -28px;
@@ -112,7 +105,7 @@ ol, ul {
     margin-right: -28px;
     display: block; }
   #content p {
-    padding: .7em 0; }
+    padding: 0.7em 0; }
   #content pre code {
     margin: 1em -25px 1em -25px;
     padding-left: 25px;
@@ -136,14 +129,14 @@ ol, ul {
     list-style-type: none;
     padding: 0; }
     #content li.listing-item a, #content li.listing-seperator a {
-      padding: .2em 1em; }
+      padding: 0.2em 1em; }
     #content li.listing-item time, #content li.listing-seperator time {
       color: #999999; }
   #content li.listing-seperator {
     font-weight: bold; }
   #content .meta {
     color: #c0c0c0;
-    margin: .25em 0 1em; }
+    margin: 0.25em 0 1em; }
     #content .meta .tags a {
       color: #c0c0c0;
       padding: .25em; }
@@ -157,9 +150,7 @@ ol, ul {
   margin: 2em 0;
   display: block; }
   .circle-wrapper:hover .circle {
-    background-color: #333333;
-    -webkit-transition: background-color .2s linear;
-    -moz-transition: background-color .2s linear; }
+    background-color: #333333; }
 
 .circle {
   display: inline-block;
@@ -168,13 +159,15 @@ ol, ul {
   line-height: 1;
   background-color: #cccccc;
   -moz-border-radius: 0.4em;
-  -webkit-border-radius: 0.4em; }
+  -webkit-border-radius: 0.4em;
+  -webkit-transition: background-color 0.2s linear;
+  -moz-transition: background-color 0.2s linear; }
 
 .center {
   text-align: center; }
 
 hr {
-  margin: .7em 0;
+  margin: 0.7em 0;
   border-top: 1px dashed #d0d0d0;
   border-bottom: 1px dashed #f9f9f9; }
 
@@ -190,11 +183,20 @@ footer {
     color: #cccccc; }
     footer a:hover {
       color: #999999; }
+  footer nav {
+    margin: 1.2em auto 0.6em auto; }
+    footer nav a {
+      margin: 0 0.5em;
+      display: inline-block;
+      font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: #afafaf; }
 
 #tag_cloud {
   margin-bottom: 1em; }
   #tag_cloud a:hover {
-    color: #ff0000 !important;
+    color: red !important;
     text-decoration: none; }
 
 li[id*='dsq-like-'] {

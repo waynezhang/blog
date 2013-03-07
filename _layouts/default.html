@@ -9,7 +9,7 @@
     <title>{{ site.name }}</title>
     {% endif %}
     <link rel="shortcut icon" href="/favicon.ico">
-    <link href="/atom.xml" rel="alternate" title="setImpl" type="application/atom+xml" />
+    <link href="/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
     <link rel="stylesheet" href="/media/css/style.css">
     <link rel="stylesheet" href="/media/css/github.css">
     <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
@@ -22,21 +22,24 @@
         <header>
           <div id="header">
             <h1><a title="{{ site.name }}" class="" href="/">{{ site.name }}</a></h1>
-            <nav>
-              <span><a title="archive" class="" href="/archive.html">archive</a></span>
-              <span><a title="tags" class="" href="/tags.html">tags</a></span>
-              <span><a title="about" class="" href="/about.html">about me</a></span>
-              <span><a title="500px" class="" href="http://foto.lhzhang.com">gallery</a></span>
-              <span><a title="blogroll" class="" href="/links.html">links</a></span>
-              <span><a title="resources" class="" href="/os-libraries.html">Resources</a></span>
-              <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
-            </nav>
           </div>
         </header>
         <div id="content">
         {{ content }}
         </div>
-        <footer>&copy; 2006 ~ 2012 wayne | powered by jekyll | themed by <a href="http://lhzhang.com" title="sext iv">sext iv</a> | fork <a href="https://github.com/waynezhang/blog" title="fork me">me</a></footer>
+        <footer>
+          <nav>
+            <span><a title="archive" class="" href="/archive.html">archive</a></span>
+            <span><a title="tags" class="" href="/tags.html">tags</a></span>
+            <span><a title="about" class="" href="/about.html">about me</a></span>
+            <span><a title="500px" class="" href="http://foto.lhzhang.com">gallery</a></span>
+            <span><a title="blogroll" class="" href="/links.html">links</a></span>
+            <span><a title="subscribe me" class="" href="/atom.xml">feed</a></span>
+          </nav>
+          <div>
+            &copy; 2006 ~ 2012 wayne | powered by jekyll | themed by <a href="http://lhzhang.com" title="sext iv">sext iv</a> | fork <a href="https://github.com/waynezhang/blog" title="fork me">me</a>
+          </div>
+        </footer>
       </div> <!-- main -->
   </body>
 </html>
