@@ -5,8 +5,8 @@
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2013-03-07
-* 
+* @update 2013-03-18
+*
 * |/ | (~ (~
 * |\.|._)._)
 * --------------------------------- */
@@ -142,6 +142,19 @@ ol, ul {
       padding: .25em; }
       #content .meta .tags a:hover {
         color: #999999; }
+  #content #page_nav {
+    text-align: center;
+    margin: 2em 0; }
+    #content #page_nav a {
+      font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: .8em;
+      padding: 0.25em 1em;
+      color: #a0a0a0;
+      background-color: #e0e0e0;
+      margin: 0 1em;
+      text-transform: uppercase; }
+    #content #page_nav a:hover {
+      background-color: #e6e6e6; }
 
 .comment {
   margin-top: 2em; }
@@ -184,14 +197,18 @@ footer {
     footer a:hover {
       color: #999999; }
   footer nav {
-    margin: 1.2em auto 0.6em auto; }
+    margin: 1.2em auto 0.6em auto;
+    background-color: #333333;
+    padding: 1px 0; }
     footer nav a {
       margin: 0 0.5em;
       display: inline-block;
       font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 1em;
       text-transform: uppercase;
-      color: #afafaf; }
+      color: #d0d0d0; }
+    footer nav a:hover {
+      color: #ffffff; }
 
 #tag_cloud {
   margin-bottom: 1em; }
