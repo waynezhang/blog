@@ -62,7 +62,8 @@ ol, ul {
     padding: 1.25em 24px;
     background-color: #ffffff;
     border: 1px solid #e0e0e0;
-    margin: 2em 0; }
+    margin: 2em 0;
+    border-radius: 5px; }
   #content a {
     color: #3399cc; }
     #content a:hover {
@@ -197,8 +198,7 @@ footer {
     footer a:hover {
       color: #999999; }
   footer nav {
-    margin: 1.2em auto 0.6em auto;
-    background-color: #333333;
+    margin: 1.5em auto 0.6em auto;
     padding: 1px 0; }
     footer nav a {
       margin: 0 0.5em;
@@ -206,8 +206,15 @@ footer {
       font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       font-size: 1em;
       text-transform: uppercase;
-      color: #d0d0d0; }
+      color: #afafaf; }
     footer nav a:hover {
+      color: #333333; }
+    footer nav a.rss {
+      padding: 0 4px;
+      color: #dddddd;
+      background-color: #ff6600; }
+    footer nav a.rss:hover {
+      background-color: #ff7700;
       color: #ffffff; }
 
 #tag_cloud {
