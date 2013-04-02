@@ -5,7 +5,7 @@
 *
 * @author linghua.zhang@me.com
 * @link http://lhzhang.com/
-* @update 2013-03-18
+* @update 2013-04-02
 *
 * |/ | (~ (~
 * |\.|._)._)
@@ -42,7 +42,7 @@ ol, ul {
 #header {
   width: 680px;
   margin: 0 auto;
-  margin: 4em auto;
+  margin: 5em auto 4em auto;
   text-align: center; }
   #header a {
     color: #999999;
@@ -52,6 +52,25 @@ ol, ul {
   #header h1 {
     display: block;
     font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+
+nav {
+  width: 680px;
+  margin: 0 auto;
+  padding: 1px 0;
+  text-align: right;
+  position: absolute;
+  top: 1em;
+  right: 2em; }
+  nav span {
+    display: block;
+    margin: 1em 0; }
+  nav a {
+    font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    color: #afafaf; }
+  nav a:hover {
+    color: #333333; }
 
 #content {
   width: 680px;
@@ -197,25 +216,6 @@ footer {
     color: #cccccc; }
     footer a:hover {
       color: #999999; }
-  footer nav {
-    margin: 1.5em auto 0.6em auto;
-    padding: 1px 0; }
-    footer nav a {
-      margin: 0 0.5em;
-      display: inline-block;
-      font-family: "Coda", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      font-size: 1em;
-      text-transform: uppercase;
-      color: #afafaf; }
-    footer nav a:hover {
-      color: #333333; }
-    footer nav a.rss {
-      padding: 0 4px;
-      color: #dddddd;
-      background-color: #ff6600; }
-    footer nav a.rss:hover {
-      background-color: #ff7700;
-      color: #ffffff; }
 
 #tag_cloud {
   margin-bottom: 1em; }
