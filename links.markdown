@@ -5,7 +5,6 @@ layout: page
 
 [Beautifully Imperfect](http://becky.im)  
 [D&amp;V](http://kaix.in/daddy)  
-[Luke](http://geeklu.com)  
 [Mirageyard.com](http://www.mirageyard.com)  
 [Scor Gryu](http://gryu.net)  
 [Shellexy](http://shellexy.info)  
