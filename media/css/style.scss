@@ -14,9 +14,10 @@
 
 $page-width: 680;
 $page-width-round: 700;
+$nav-width: 100;
 
-@mixin page {
-    width: #{$page-width}px;
+@mixin page($width: $page-width) {
+    width: #{$width}px;
     margin: 0 auto;
 }
 
@@ -80,7 +81,7 @@ ol, ul {
 }
 
 nav {
-    @include page;
+    @include page($nav-width);
 
     padding: 1px 0;
     text-align: right;
