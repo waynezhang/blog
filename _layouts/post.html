@@ -22,6 +22,7 @@ layout: default
   {{ content }}
   </section>
   {% if page.guid %}
+  <div class="divider"></div>
   <section class="comment">
   <div id="disqus_thread"></div>
   <script type="text/javascript">
@@ -40,14 +41,3 @@ layout: default
   </section>
   {% endif %}
 </article>
-
-{% if page.previous or page.next %}
-<section id="page_nav">
-  {% if page.previous %}
-  <a href='{{page.previous.url}}'>← Previous</a>
-  {% endif %}
-  {% if page.next %}
-  <a href='{{page.next.url}}'>Next →</a>
-  {% endif %}
-</section>
-{% endif %}

@@ -1,315 +1,114 @@
 /*------------------------------------
-* sext-v
-*
-* @author linghua.zhang@me.com
-* @link http://lhzhang.com/
-* @update 2013-04-02
-*
-* |/ | (~ (~
-* |\.|._)._)
-* --------------------------------- */
+ * sext-vi
+ *
+ * @author linghua.zhang@me.com
+ * @link http://lhzhang.com/
+ * @update 2013-08-07
+ *
+ * |/ | (~ (~
+ * |\.|._)._)
+ * --------------------------------- */
 
-@import url(http://fonts.googleapis.com/css?family=Overlock);
-@import url(http://fonts.googleapis.com/css?family=Coda);
+@import url(http://fonts.googleapis.com/css?family=Lekton);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
 
 $page-width: 680;
-$page-width-round: 700;
-$nav-width: 100;
+$font: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+$monospace: "Lekton", monospace;
+$label-font: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 
-@mixin page($width: $page-width) {
-    width: #{$width}px;
-    margin: 0 auto;
-}
+@mixin page($width: $page-width) { width: #{$width}px; margin: 0 auto; }
 
-a {
-    color: #3399cc;
+* { margin: 0; padding: 0; }
+body { font-size: 14px; font-family: #{$font}; color: #555; }
+ol, ul { list-style-position: inside; }
+li { padding: .2em 0; }
+hr { width: 4em; border: none; border-top: 1px dashed #d0d0d0; border-bottom: 1px dashed #f9f9f9; }
+.center { text-align: center; }
+::selection { color: #fff; background-color: #333; }
+.divider { margin: 2em 0; color: #999; &:after { display:block; content: '--- ✄ ---'; text-align: center; } }
+a { text-decoration: none; color: #bb2222; &:hover { color: #dd1144; }; }
+blockquote { background-color: #f8f8f8; padding: 0 1em; border: 1px dashed #eee !important; border-color: #e0e0e0 !important; font-size: 13px; font-family: #{$monospace}; line-height: 1.6; display: block; overflow: auto; }
+pre code { @extend blockquote; }
 
-    &:hover {
-        color: #55bbee;
-    };
-}
+header {
+  @include page;
+  text-align: justify;
+  margin: 2em auto 4em auto;
+  border-bottom: 1px dashed #999;
+  &:after { content: ''; width: 100%; display: inline-block; }
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-size: 14px;
-    font-family: "Overlock","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    color: #555555;
-    background-image: url("/media/css/bg.png");
-}
-
-a {
-    text-decoration: none;
-    -webkit-transition: color .2s linear;
-    -moz-transition: color .2s linear;
-}
-
-li {
-    padding: .2em 0;
-}
-
-ol, ul {
-    list-style-position: inside;
-}
-
-#main {
-    margin: 2em 0 1em 0;
-}
-
-#header {
-    @include page;
-
-    margin: 5em auto 4em auto;
-    text-align: center;
-
-    a {
-        color: #999999;
-        text-shadow: #e9e9e9 2px 2px 2px;
-
-        &:hover {
-            color: #333333;
-        };
-    }
-
-    h1 {
-        display: block;
-        font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    }
-}
-
-nav {
-    @include page($nav-width);
-
-    padding: 1px 0;
-    text-align: right;
-    position: absolute;
+  #header {
+    display: inline-block;
+    position: relative;
     top: 1em;
-    right: 2em;
+    h1 {
+      font-family: #{$label-font};
+      a { @extend a; color: #777; }
+    }
+  }
 
-    span {
-        display: block;
-        margin: 1em 0;
-    }
-
-    a {
-        font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-        font-size: 1.25em;
-        text-transform: uppercase;
-        color: #afafaf;
-    }
-    a:hover {
-        color: #333333;
-    }
+  nav {
+    display: inline-block;
+    position: relative;
+    top: 1em;
+    span { margin: .5em; }
+    a { font-family: #{$label-font}; color: #999; }
+  }
 }
 
 #content {
-    @include page;
-
-    font-size: 1.1em;
-    line-height: 1.7em;
-
-    $border-width: 1;
-    $padding-side: 25;
-    article {
-        padding: 1.25em #{$padding-side - $border-width}px;
-        background-color: #ffffff;
-        border: 1px solid #e0e0e0;
-        margin: 2em 0;
-        border-radius: 5px;
-    }
-
-    a {
-        color: #3399cc;
-
-        &:hover {
-            color: #55bbee;
-        }
-    }
-
-    $shadow-offset: 4;
-    .post {
-        img {
-            max-width: #{$page-width - $border-width * 2 + $shadow-offset * 2}px;
-            display: block;
-            box-shadow: #999 0px #{$shadow-offset * 2}px #{$shadow-offset}px -#{$shadow-offset}px;
-            margin: .5em auto;
-        }
-
-        $w: $page-width-round;
-        @while $w <= 1400 {
-            .image-#{$w} { margin-left: -#{$padding-side - $border-width + $shadow-offset}px; margin-right: -#{$padding-side - $border-width + $shadow-offset}px; display: block;}
-            $w: $w + 100;
-        }
-    }
-
-    p {
-        padding: .7em 0;
-    }
-
-    pre code {
-        margin: 1em -#{$padding-side}px 1em -#{$padding-side}px;
-        padding-left: #{$padding-side}px;
-        padding-right: #{$padding-side}px;
-        border-color: #e0e0e0 !important;
-        font-size: 13px;
-        font-family: Menlo, monospace;
-        line-height: 1.6;
-        display: block;
-        overflow: auto;
-    };
-
-    blockquote {
-        display: block;
-        text-align: justify;
-        border-left: 4px solid #eeeeee;
-        margin: 1em 0em;
-        padding-left: 1.5em;
-
-        p {
-            margin: 0;
-            padding: 0;
-        }
-    }
-    
-    li.listing-item, li.listing-seperator {
-        list-style-type:none;
-        padding: 0;
-
-        a {
-            padding: .2em 1em;
-        }
-
-        time {
-            color: #999999;
-        }
-    }
-
-    li.listing-seperator {
-        font-weight: bold;
-    }
-
-    .meta {
-        color: #c0c0c0;
-        margin: .25em 0 1em;
-
-        .tags a {
-            color: #c0c0c0;
-            padding: .25em;
-            &:hover {
-                color: #999999;;
-            }
-        }
-    }
-
-    #page_nav {
-        text-align: center;
-        margin: 2em 0;
-
-        a {
-            font-family: "Coda","Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-            font-size: .8em;
-            padding: .25em 1em;
-            color: #a0a0a0;
-            background-color: #e0e0e0;
-            margin: 0 1em;
-            text-transform: uppercase;
-        }
-
-        a:hover {
-            background-color: #e6e6e6;
-        }
-    }
+  @include page;
+  line-height: 2em;
+  .main-listing { margin-bottom: 2em; }
 }
 
-.comment {
-    margin-top: 2em;
+ul.listing {
+  margin-top: 1em;
+  li {
+    list-style-type:none;
+    padding: 0;
+    &.listing-item { a { padding: .2em 0 .2em 2em; } time { color: #999; } &:hover { background-color: #f9f9f9; } }
+    &.listing-seperator { font-family: #{$label-font}; &:before { content: "⭠ "; color: #ccc; } }
+  }
 }
 
-.circle-wrapper {
-    &:hover {
-        .circle {
-            background-color: #333333;
-        }
-    };
+article {
+  margin: 2em 0;
+  p { padding: .7em 0; }
+  .title {
+    font-family: #{$label-font};
+    a { @extend a; color: #777; }
+  }
 
-    margin: 2em 0;
+  .meta {
     display: block;
-}
+    overflow: auto;
+    margin-top: -.5em;
+    font-size: .9em;
+    .tags a { @extend a; color: #999999; padding: .25em; }
+  }
 
-.circle {
-    display:inline-block;
-    $radius: .4em;
-    width: $radius * 2;
-    height: $radius * 2;
-    line-height: 1;
-    background-color: #cccccc;
-    -moz-border-radius: $radius;
-    -webkit-border-radius: $radius;
-    -webkit-transition: background-color .2s linear;
-    -moz-transition: background-color .2s linear;
-}
-
-.center {
-    text-align: center;
-}
-
-hr {
-    margin: .7em 0;
-    border-top: 1px dashed #d0d0d0;
-    border-bottom: 1px dashed #f9f9f9;
+  .post { img { max-width: #{$page-width}px; display: block; margin: .5em auto; } }
+  .comment { margin: 3em 0; }
 }
 
 footer {
-    @include page;
+  @include page;
+  display: block;
+  color: #909090;
+  font-family: #{$label-font};
+  font-size: .9em;
+  text-align: center;
+  margin: 1em auto;
+  a { color: #cccccc; &:hover { color: #999999; }; }
 
-    display: block;
-    font-family: "Balthazar";
-    font-size: .9em;
-    text-align: center;
-    color: #909090;
-
-    a {
-        color: #cccccc;
-
-        &:hover {
-            color: #999999;
-        };
-    }
-    
 }
 
-#tag_cloud {
-    margin-bottom: 1em;
-    a:hover {
-        color: #ff0000 !important;
-        text-decoration:none;
-    }
-}
+#tag_cloud { margin-bottom: 1em; }
 
-li[id*='dsq-like-'] {
-    display: none;
-} 
-#dsq-global-toolbar, #dsq-like-tooltip, #dsq-sort-by, .dsq-comment-moderate {
-    display:none;
-}
-.dsq-comment-header {
-    border: none !important;
-    background: none !important;
-}
-#disqus_thread h3 {
-    font-size: 1em !important;
-    font-weight:normal !important;
-    margin: 0 !important;
-}
-#dsq-footer {
-    display:none;
-}
+// disqus
+#disqus_thread { font-size: 9px; }
 
-.gist {
-    font-size: 13px;
-    line-height:1.6;
-}
-
+// gist
+.gist { font-size: 13px; line-height:1.6; }
