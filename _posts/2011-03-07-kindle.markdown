@@ -6,7 +6,7 @@ tags:
     - kindle
 ---
 
-<span class="image-600">![""](/media/files/2011/03/07/kindle.jpg)</span>
+![""](/media/files/2011/03/07/kindle.jpg)
 之前为了看书买了iPad，但是拿着iPad我一直都静不下心来去读一本书，Kindle不同，因为它就是为书而生。
 
 #### 更新 2011/03/08
@@ -79,4 +79,3 @@ Kindle 3原生支持pdf，Mac OS X也是原生支持pdf，所以就有了[这么
 
 ---
 相比iPad 2的发布，教主的出席显然更令人欣慰的多
-

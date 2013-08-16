@@ -21,15 +21,15 @@ tags:
 
 ok，现在去下载驱动
 
-> http://mlf.linux.rulez.org/mlf/ezaz/ntfs-3g-download.html
+> ~~http://mlf.linux.rulez.org/mlf/ezaz/ntfs-3g-download.html~~
 
 下载链接很明显，别告诉我你没看到哦，下载下来解包
 
-    tar zxvf <a href="http://mlf.linux.rulez.org/mlf/ezaz/ntfs-3g-20070910-BETA.tgz">ntfs-3g-20070910-<span class="caps"><span class="caps">BETA</span></span>.tgz</a>
+    tar zxvf ntfs-3g-20070910-BETA.tgz
 
 然后进入目录做configure
 
-    cd ntfs-3g-20070910-<span class="caps"><span class="caps">BETA</span></span>
+    cd ntfs-3g-20070910-BETA
     ./configure
 
 ok，现在可以编译安装了
@@ -62,4 +62,3 @@ ok，现在可以编译安装了
     /dev/hdc1 /media/hdc1 ntfs-3g silent,umask=0,locale=zh_CN.utf8 0 0
 
 重启下看看？
-

@@ -9,4 +9,4 @@ tags:
   - summicron-dr
 ---
 
-<span class="image-900">[![](/media/files/2012/09/29/stay-still.jpg)](http://500px.com/photo/14726379)</span>
+[![](/media/files/2012/09/29/stay-still.jpg)](http://500px.com/photo/14726379)

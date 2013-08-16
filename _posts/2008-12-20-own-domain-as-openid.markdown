@@ -33,4 +33,3 @@ Setp 2: 把下面这段代码中的openidserver换成你的openid server, 把acc
 Step 3: 没了
 
 下周回东京, 调时差, 延长签证, 然后再过来, 嗯, 生命在于折腾
-

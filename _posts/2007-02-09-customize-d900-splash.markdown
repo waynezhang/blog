@@ -26,11 +26,11 @@ tags:
 
 备份：
 
-用 16 进制编辑器打开这个文件，在 0&#215;3F00000 偏移处就是我们的rsb文件内容，一共614400个字节，复制出来然后加入前面的文件头就ok了。
+用 16 进制编辑器打开这个文件，在 0x3F00000 偏移处就是我们的rsb文件内容，一共614400个字节，复制出来然后加入前面的文件头就ok了。
 
 修改：
 
-新建一个480&#215;640的bmp图像，然后用RSBBMP将文件转换为 rsb文件，用16进制编辑器将第29个字节到最后的内容一起替换到nk.fat的0&#215;3f00000偏移处，打包rom
+新建一个480x640的bmp图像，然后用RSBBMP将文件转换为 rsb文件，用16进制编辑器将第29个字节到最后的内容一起替换到nk.fat的0x3f00000偏移处，打包rom
 
 如果比较懒的可以用我的工具：
 
@@ -38,11 +38,11 @@ tags:
 
 在命令行下执行
 
-unisplash r nk.fat xxx.rsb &#8212;&#8212; 用于将rom中的rsb内容保存到 xxx.rsb，文件头已经加好了，可以直接用 rsbbmp 转换成bmp
+unisplash r nk.fat xxx.rsb -- 用于将rom中的rsb内容保存到 xxx.rsb，文件头已经加好了，可以直接用 rsbbmp 转换成bmp
 
-unisplash w nk.fat xxxx.rsb &#8212;&#8212; 用于将 rsbbmp 转换出来的rsb文件的内容替换进 nk.fat，xxxx.rsb是rsbbmp生成的文件名，然后打包rom可以刷机了
+unisplash w nk.fat xxxx.rsb -- 用于将 rsbbmp 转换出来的rsb文件的内容替换进 nk.fat，xxxx.rsb是rsbbmp生成的文件名，然后打包rom可以刷机了
 
 注意：刷机以及更改rom有一定风险，所有损失自负
 
-<del>下载地址</del>
+~~下载地址~~
 

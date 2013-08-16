@@ -16,7 +16,7 @@ tags:
 
 2. 打开 Safari 的 Window 菜单, 选择 Activity, 或者, 直接在 Safari 里按下快捷键 Apple + Alt + A, 将会出现如下窗口:
 
-<span class="image-400">![](/media/files/2008/03/24/dvfy.jpg)</span>
+![](/media/files/2008/03/24/dvfy.jpg)
 
 这个窗口里列出了所有页面中下载的或正在下载的内容, 包括css, 图片, js脚本等等, 当然也包括了我们的视频
 
@@ -25,5 +25,4 @@ tags:
   * Tips 1: 窗口右侧列出了文件大小, 一般情况下, 应该是那个最大的吧
   * Tips 2: 很多站点的视频和主站不在一台服务器, 或者说, 不是一个ip, 比如youtube
   * Tips 3: 如果下载下来的文件不是.flv结尾的而你又很肯定就是它, 那就把它的扩展名改成.flv吧
-  * Tips 4: 找不到就挨个儿试吧&#8230;
-
+  * Tips 4: 找不到就挨个儿试吧...

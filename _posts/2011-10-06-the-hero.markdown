@@ -6,4 +6,4 @@ tags:
     - apple
 ---
 
-<span class="image-800">[![](/media/files/2011/10/06/RIPSteveJobs.png)](http://www.apple.com/stevejobs/)</span>
+[![](/media/files/2011/10/06/RIPSteveJobs.png)](http://www.apple.com/stevejobs/)

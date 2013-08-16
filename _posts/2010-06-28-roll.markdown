@@ -55,7 +55,7 @@ ex吧
 不会。。。
 
 16. 在你的博客里，有你真实世界里的人和你交流吗？
-blogroll里 [felix](http://boke.name/citizen/) 是俺同学，然后和 [@kurop](http://flyku.ro) 童鞋有过一面之缘，其他都没有见过了。不过 <del>S</del> IM是有的
+blogroll里 [felix](http://boke.name/citizen/) 是俺同学，然后和 [@kurop](http://flyku.ro) 童鞋有过一面之缘，其他都没有见过了。不过 ~~S~~ IM是有的
 *补充：blogroll里的 "chongzhi":http://blog.sina.com.cn/chongzhi 是我发小+死党，只是这哥们儿太久不更新以至于我都忘记他还写blog了。。。*
 
 17. 你现实圈子里的朋友有几个知道你有博客的？
@@ -72,4 +72,3 @@ blogroll里 [felix](http://boke.name/citizen/) 是俺同学，然后和 [@kurop]
 
 21. 你要把此活动转交给谁呢？
 nobody。but thank everybody
-

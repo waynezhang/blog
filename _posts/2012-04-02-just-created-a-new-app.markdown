@@ -14,7 +14,7 @@ tags:
 
 ----
 
-iOS 5 发布后公开了 UIReferenceLibraryViewController 的 API，于是简单做了个调用内置辞典的 app 扔到了 App Store ( <del>[Define It](http://itunes.apple.com/us/app/define-it/id477665521?ls=1)</del> )里，无奈到了 5.1 后 API 文档里加了这么句：
+iOS 5 发布后公开了 UIReferenceLibraryViewController 的 API，于是简单做了个调用内置辞典的 app 扔到了 App Store ( ~~[Define It](http://itunes.apple.com/us/app/define-it/id477665521?ls=1)~~ )里，无奈到了 5.1 后 API 文档里加了这么句：
 
 > A UIReferenceLibraryViewController object provides a dictionary service to look up the definition of a word or term from within an app. It should not be used to display wordlists, create a standalone dictionary app, or republish the content in any form.
 

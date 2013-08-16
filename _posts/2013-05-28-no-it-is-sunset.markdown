@@ -6,7 +6,7 @@ tags:
   - misc
 ---
 
-<span class="image-800">![sunset](/media/files/2013/05/28/sunset.jpg)</span>
+![sunset](/media/files/2013/05/28/sunset.jpg)
 
 日出日落本就没有什么分别
 

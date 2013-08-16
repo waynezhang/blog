@@ -6,7 +6,7 @@ tags:
   - pebble
 ---
 
-<span class="image-600">![pebble](/media/files/2013/02/17/pebble.jpg)</span>
+![pebble](/media/files/2013/02/17/pebble.jpg)
 
 不知道 twitter 上那些天天 yy pebble 的老外们是真的喜欢这只表，还是拿到实物后会和我一样失望，反正我先来泼冷水吧。
 

@@ -27,7 +27,7 @@ Wordpress有个一样功能的插件dj-email-publish, 不过自从换到Textpatt
 
 3. 激活插件
 
-<del>下载</del>
+~~下载~~
 
 ---------------
 
@@ -41,4 +41,4 @@ Usage:
 
 3. Active plugin
 
-<del>Download </del>
+~~Download~~

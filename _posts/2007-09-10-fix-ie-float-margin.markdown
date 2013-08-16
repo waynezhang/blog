@@ -11,7 +11,7 @@ tags:
 
 双倍margin，导致整个页面布局都乱掉了，nnd ms
 
-虽然我不用ie，不过为了避免被骂，还是修一下下吧，只要给float的元素加上display:inline就行了，不过似乎w3c并不赞成给float的元素加display属性（none除外），顺便再鄙视一下ie <del>_</del>!
+虽然我不用ie，不过为了避免被骂，还是修一下下吧，只要给float的元素加上display:inline就行了，不过似乎w3c并不赞成给float的元素加display属性（none除外），顺便再鄙视一下ie
 
     #access {
       display:inline; /* float的元素加上这句就行了 */

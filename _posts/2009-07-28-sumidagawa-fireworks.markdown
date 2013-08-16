@@ -8,11 +8,11 @@ tags:
     - sumidagawa
 ---
 
-<span class="image-500">![Hanabi](/media/files/2009/07/28/01.jpg")</span>
+![Hanabi](/media/files/2009/07/28/01.jpg")
 
-<span class="image-500">![Hanabi](/media/files/2009/07/28/02.jpg")</span>
+![Hanabi](/media/files/2009/07/28/02.jpg")
 
-<span class="image-500">![Hanabi](/media/files/2009/07/28/03.jpg")</span>
+![Hanabi](/media/files/2009/07/28/03.jpg")
 
 东京各地一年一度的烟火大会，据说隅田川是规模最大的，两个会场，1个半小时，2w5k发。
 
@@ -21,4 +21,3 @@ tags:
 PS1：宅了两年再逛浅草商店街的时候真是给人一种恍如隔世的感觉
 PS2：近来关于Apple的netbook的传言越来越多，所以打算暂时搁置MBP升级计划，等netbook + iMac
 PS3：最近老爸老妈在，没什么时间静下心来写日志，所以更新就更加零星了
-

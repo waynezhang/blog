@@ -13,7 +13,7 @@ Kaffeine作为Xine的前端，采用Xine引擎，当然字幕的显示也是以�
 
 首先我们需要准备的是制作字体的工具，叫做xine-fontconv。源里的xine是没有这个工具的，有兴趣的话大家可以去SourceForge上下xine的源码，自己编译一下就可以了，比较懒的话......这里有一个编译好的版本，下来放到/usr/bin下面，其实放哪里无所谓，执行的时候找的到就行然后要找一个中文字体，不用多说了吧，/usr/share/fonts/truetype下找一个顺眼的中文自己就行了，注意一下编码是gbk &amp; gb2312的还是big5的，这里以文鼎PL细上海宋Uni（AR PL ShanHeiSun Uni）为例，字体文件为/usr/share/fonts/truetype/arphic/uming.ttf
 
-<del>下载： xine-fontconv.bin</del>
+~~下载： xine-fontconv.bin~~
 
 进入xine的字体目录：
 

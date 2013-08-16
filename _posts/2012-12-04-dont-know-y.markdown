@@ -9,6 +9,6 @@ tags:
   - summicron-dr
 ---
 
-<span class="image-900">[![](/media/files/2012/12/04/girl-in-the-sun.jpg)](http://500px.com/photo/19804865)</span>
+[![](/media/files/2012/12/04/girl-in-the-sun.jpg)](http://500px.com/photo/19804865)
 
 最喜欢的往往是最不经意的那张

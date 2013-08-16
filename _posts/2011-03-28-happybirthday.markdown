@@ -6,11 +6,10 @@ tags:
     - misc
 ---
 
-<span class="image-600">![""](/media/files/2011/03/28/compass.jpg)</span>
+![""](/media/files/2011/03/28/compass.jpg)
 
 又老一岁，继续迷惘
 
 ---
 
 算来自从02年开始就没有在家过过生日了
-

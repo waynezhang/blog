@@ -27,7 +27,7 @@ It can generate a cloud or a list for commenters who commented the most. OR gene
 
 #### History
 
-  * 0.3 : Add Restrict <span class="caps">SOFA</span> mode, which generator a cloud or a list for the users who got sofa (the first one who comment to a post) most.
+  * 0.3 : Add Restrict SOFA mode, which generator a cloud or a list for the users who got sofa (the first one who comment to a post) most.
   * 0.2 : Add keyword attribute to identify user by name or email and get skip value accepted a list with &#8216;;&#8217; delimited.
   * 0.1 : Initialize Release
 
@@ -45,7 +45,7 @@ It can generate a cloud or a list for commenters who commented the most. OR gene
     * maxsize / minsize: the max / min font size of the most / least commenter&#8217;s link. (Percent, default is 200 and 50)
     * break: the break between links, default is a space
     * showcount: whether to show the count of comments by each commenter, default is 1
-    * restricted: whether to get <span class="caps">RESTRICTED</span> <span class="caps">SOFA</span> <span class="caps">MODE</span> (Generate cloud by rank of first commented to posts), default is 0
+    * restricted: whether to get RESTRICTED SOFA MODE (Generate cloud by rank of first commented to posts), default is 0
 
   * wyn_comment_sofa_list
 
@@ -58,7 +58,7 @@ It can generate a cloud or a list for commenters who commented the most. OR gene
     * class: the class of wrap
     * break: the break between links, default is a space
     * showcount: whether to show the count of comments by each commenter, default is 1
-    * restricted: whether to get <span class="caps">RESTRICTED</span> <span class="caps">SOFA</span> <span class="caps">MODE</span> (Generate list by rank of first commented to posts), default is 0
+    * restricted: whether to get RESTRICTED SOFA MODE (Generate list by rank of first commented to posts), default is 0
 
 Download from [here](http://code.google.com/p/wyn-txp-plugins/downloads/list)
 
