@@ -10,12 +10,17 @@ task :post, [:title] do |t, args|
 end
 
 desc 'Build site with Jekyll'
-task :generate => :clean do
+task :generate => [:clean, :scss] do
   `jekyll`
 end
 
+desc 'Generate css'
+task :scss do
+  `scss media/css/style.scss media/css/style.css`
+end
+
 desc 'Start server'
-task :server => :clean do
+task :server => [:clean, :scss] do
   `jekyll serve`
 end
 
