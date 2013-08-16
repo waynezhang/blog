@@ -3,7 +3,7 @@
  *
  * @author linghua.zhang@me.com
  * @link http://lhzhang.com/
- * @update 2013-08-07
+ * @update 2013-08-16
  *
  * |/ | (~ (~
  * |\.|._)._)
@@ -30,6 +30,7 @@ hr { width: 4em; border: none; border-top: 1px dashed #d0d0d0; border-bottom: 1p
 a { text-decoration: none; color: #bb2222; &:hover { color: #dd1144; }; }
 blockquote { background-color: #f8f8f8; padding: 0 1em; border: 1px dashed #eee !important; border-color: #e0e0e0 !important; font-size: 13px; font-family: #{$monospace}; line-height: 1.6; display: block; overflow: auto; }
 pre code { @extend blockquote; }
+code { background-color: #f8f8f8; padding: 2px 5px; border: 1px dashed #e0e0e0; }
 
 header {
   @include page;
