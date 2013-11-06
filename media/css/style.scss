@@ -3,7 +3,7 @@
  *
  * @author linghua.zhang@me.com
  * @link http://lhzhang.com/
- * @update 2013-08-16
+ * @update 2013-11-06
  *
  * |/ | (~ (~
  * |\.|._)._)
@@ -20,13 +20,13 @@ $label-font: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 @mixin page($width: $page-width) { width: #{$width}px; margin: 0 auto; }
 
 * { margin: 0; padding: 0; }
-body { font-size: 14px; font-family: #{$font}; color: #555; }
+body { font-size: 14px; font-family: #{$font}; color: #555; background-color: #f9f9f9; }
 ol, ul { list-style-position: inside; }
 li { padding: .2em 0; }
 hr { width: 4em; border: none; border-top: 1px dashed #d0d0d0; border-bottom: 1px dashed #f9f9f9; }
 .center { text-align: center; }
 ::selection { color: #fff; background-color: #333; }
-.divider { margin: 2em 0; color: #999; &:after { display:block; content: '--- ✄ ---'; text-align: center; } }
+.divider { margin: 2em 0; color: #999; text-shadow: 1px 1px #fff; &:after { display:block; content: '———— ✄  ————'; text-align: center; } }
 a { text-decoration: none; color: #bb2222; &:hover { color: #dd1144; }; }
 blockquote { background-color: #f8f8f8; padding: 0 1em; border: 1px dashed #eee !important; border-color: #e0e0e0 !important; font-size: 13px; font-family: #{$monospace}; line-height: 1.6; display: block; overflow: auto; }
 pre code { @extend blockquote; }

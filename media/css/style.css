@@ -18,7 +18,8 @@
 body {
   font-size: 14px;
   font-family: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-  color: #555; }
+  color: #555;
+  background-color: #fefefe; }
 
 ol, ul {
   list-style-position: inside; }
@@ -41,10 +42,11 @@ hr {
 
 .divider {
   margin: 2em 0;
-  color: #999; }
+  color: #999;
+  text-shadow: 1px 1px #fff; }
   .divider:after {
     display: block;
-    content: '--- ✄ ---';
+    content: '———— ✄  ————';
     text-align: center; }
 
 a, header #header h1 a, article .title a, article .meta .tags a {
