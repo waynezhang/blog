@@ -10,8 +10,6 @@ tags:
   - tx-1
 ---
 
-第一卷正片，本来想买 RDP III 的，一不小心买成了 RVP 100，这东西的确不愧于“超极彩”，颜色简直艳的不像话
-
 ![](/media/files/2012/06/08/rose-1.jpg)
 
 [![](/media/files/2012/06/08/rose-2.jpg)](http://500px.com/photo/8359215)
@@ -23,6 +21,8 @@ tags:
 [![](/media/files/2012/06/08/rose-5.jpg)](http://500px.com/photo/8359439)
 
 ![](/media/files/2012/06/08/rose-6.jpg)
+
+第一卷正片，本来想买 RDP III 的，一不小心买成了 RVP 100，这东西的确不愧于“超极彩”，颜色简直艳的不像话
 
 ---
 
