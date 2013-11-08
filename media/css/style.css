@@ -71,12 +71,14 @@ code {
   padding: 2px 5px;
   border: 1px dashed #e0e0e0; }
 
+h1, h2 {
+  font-size: 1.4em; }
+
 header {
   width: 680px;
   margin: 0 auto;
   text-align: justify;
-  margin: 2em auto 4em auto;
-  border-bottom: 1px dashed #999; }
+  margin: 3em auto; }
   header:after {
     content: '';
     width: 100%;
@@ -88,7 +90,14 @@ header {
     header #header h1 {
       font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
       header #header h1 a {
-        color: #777; }
+        color: #aaa;
+        background-color: #f0f0f0;
+        display: block;
+        padding: 0 .5em;
+        border-radius: 4px; }
+        header #header h1 a:hover {
+          color: #fff;
+          background-color: #dd2222; }
   header nav {
     display: inline-block;
     position: relative;
@@ -97,7 +106,7 @@ header {
       margin: .5em; }
     header nav a, header nav #header h1 a, header #header h1 nav a, header nav article .title a, article .title header nav a, header nav article .meta .tags a, article .meta .tags header nav a {
       font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-      color: #999; }
+      color: #ccc; }
 
 #content {
   width: 680px;
@@ -162,9 +171,6 @@ footer {
 
 #tag_cloud {
   margin-bottom: 1em; }
-
-#disqus_thread {
-  font-size: 9px; }
 
 .gist {
   font-size: 13px;

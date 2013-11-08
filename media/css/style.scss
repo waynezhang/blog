@@ -16,11 +16,12 @@ $page-width: 680;
 $font: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 $monospace: "Lekton", monospace;
 $label-font: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+$background-color: #f9f9f9;
 
 @mixin page($width: $page-width) { width: #{$width}px; margin: 0 auto; }
 
 * { margin: 0; padding: 0; }
-body { font-size: 14px; font-family: #{$font}; color: #555; background-color: #f9f9f9; }
+body { font-size: 14px; font-family: #{$font}; color: #555; background-color: $background-color; }
 ol, ul { list-style-position: inside; }
 li { padding: .2em 0; }
 hr { width: 4em; border: none; border-top: 1px dashed #d0d0d0; border-bottom: 1px dashed #f9f9f9; }
@@ -31,12 +32,12 @@ a { text-decoration: none; color: #bb2222; &:hover { color: #dd1144; }; }
 blockquote { background-color: #f8f8f8; padding: 0 1em; border: 1px dashed #eee !important; border-color: #e0e0e0 !important; font-size: 13px; font-family: #{$monospace}; line-height: 1.6; display: block; overflow: auto; }
 pre code { @extend blockquote; }
 code { background-color: #f8f8f8; padding: 2px 5px; border: 1px dashed #e0e0e0; }
+h1, h2 { font-size: 1.4em; }
 
 header {
   @include page;
   text-align: justify;
-  margin: 2em auto 4em auto;
-  border-bottom: 1px dashed #999;
+  margin: 3em auto;
   &:after { content: ''; width: 100%; display: inline-block; }
 
   #header {
@@ -45,7 +46,10 @@ header {
     top: 1em;
     h1 {
       font-family: #{$label-font};
-      a { @extend a; color: #777; }
+      a { @extend a;
+        color: #aaa; background-color: #f0f0f0; display: block; padding: 0 .5em; border-radius: 4px; 
+        &:hover { color: #fff; background-color: #dd2222; }
+      }
     }
   }
 
@@ -54,7 +58,7 @@ header {
     position: relative;
     top: 1em;
     span { margin: .5em; }
-    a { font-family: #{$label-font}; color: #999; }
+    a { font-family: #{$label-font}; color: #ccc; }
   }
 }
 
@@ -107,9 +111,6 @@ footer {
 }
 
 #tag_cloud { margin-bottom: 1em; }
-
-// disqus
-#disqus_thread { font-size: 9px; }
 
 // gist
 .gist { font-size: 13px; line-height:1.6; }
