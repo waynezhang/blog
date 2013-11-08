@@ -3,3 +3,28 @@ pygments: true
 permalink: /:year/:month/:day/:title.html
 name: "[shutter release]"
 markdown: rdiscount
+
+author: "wayne"
+atom-baseurl: "http://lhzhang.com"
+disqus: "gopherwood"
+
+navigations:
+  - title: Archive
+    class: icon-list-ul
+    href: /archive.html
+  - title: Tags
+    class: icon-tags
+    href: /tags.html
+  - title: About
+    class: icon-user
+    href: /about.html
+  - title: Gallery
+    class: icon-film
+    href: http://foto.lhzhang.com
+  - title: Blogroll
+    class: icon-link
+    href: /links.html
+  - title: Subscribe
+    class: icon-rss
+    href: /atom.xml
+

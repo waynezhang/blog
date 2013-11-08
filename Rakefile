@@ -21,7 +21,7 @@ end
 
 desc 'Start server'
 task :server => [:clean, :scss] do
-  `jekyll serve`
+  `jekyll serve -t`
 end
 
 desc 'Deploy with rake "depoly[comment]"'

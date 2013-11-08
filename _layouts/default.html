@@ -28,12 +28,9 @@
             <h1><a title="{{ site.name }}" class="" href="/">{{ site.name }}</a></h1>
           </div>
           <nav>
-            <span><a title="Archive" class="icon-list-ul" href="/archive.html"></a></span>
-            <span><a title="Tags" class="icon-tags" href="/tags.html"></a></span>
-            <span><a title="About" class="icon-user" href="/about.html"></a></span>
-            <span><a title="Gallery" class="icon-film" href="http://foto.lhzhang.com"></a></span>
-            <span><a title="Blogroll" class="icon-link" href="/links.html"></a></span>
-            <span><a title="Subscribe" class="icon-rss" href="/atom.xml"></a></span>
+            {% for nav in site.navigations %}
+            <span><a title="{{ nav.title }}" class="{{ nav.class }}" href="{{ nav.href }}"></a></span>
+            {% endfor %}
           </nav>
         </header>
         <div id="content">
@@ -41,7 +38,8 @@
         </div>
         <footer>
           <div>
-            &copy; 2006 ~ 2013 wayne | powered by jekyll | themed by <a href="http://lhzhang.com" title="sext vi">sext vi</a> | fork <a href="https://github.com/waynezhang/blog" title="fork me">me</a>
+            {% assign first_post = site.posts | last %}
+            &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} {{ site.author }} | powered by jekyll | themed by <a href="http://lhzhang.com" title="sext vi">sext vi</a> | fork <a href="https://github.com/waynezhang/blog" title="fork me">me</a>
           </div>
         </footer>
       </div> <!-- main -->
