@@ -6,7 +6,7 @@
  *
  * @author linghua.zhang@me.com
  * @link http://lhzhang.com/
- * @update 2013-11-06
+ * @update 2013-11-11
  *
  * |/ | (~ (~
  * |\.|._)._)
@@ -40,19 +40,10 @@ hr {
   color: #fff;
   background-color: #333; }
 
-.divider {
-  margin: 2em 0;
-  color: #999;
-  text-shadow: 1px 1px #fff; }
-  .divider:after {
-    display: block;
-    content: '———— ✄  ————';
-    text-align: center; }
-
-a, header #header h1 a, article .title a, article .meta .tags a {
+a, header #header h1 a, article .title a, article .meta .tags a, article .divider a {
   text-decoration: none;
   color: #bb2222; }
-  a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover {
+  a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover, article .divider a:hover {
     color: #dd1144; }
 
 blockquote, pre code {
@@ -90,8 +81,8 @@ header {
     header #header h1 {
       font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
       header #header h1 a {
-        color: #aaa;
-        background-color: #f0f0f0;
+        color: #a9a9a9;
+        background-color: #e9e9e9;
         display: block;
         padding: 0 .5em;
         border-radius: 4px; }
@@ -104,7 +95,7 @@ header {
     top: 1em; }
     header nav span {
       margin: .5em; }
-    header nav a, header nav #header h1 a, header #header h1 nav a, header nav article .title a, article .title header nav a, header nav article .meta .tags a, article .meta .tags header nav a {
+    header nav a, header nav #header h1 a, header #header h1 nav a, header nav article .title a, article .title header nav a, header nav article .meta .tags a, article .meta .tags header nav a, header nav article .divider a, article .divider header nav a {
       font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       color: #ccc; }
 
@@ -154,6 +145,31 @@ article {
     margin: .5em auto; }
   article .comment {
     margin: 3em 0; }
+  article .divider {
+    margin: 2em 0; }
+    article .divider header #header h1 a, header #header h1 article .divider a, article .divider .meta .tags a, article .meta .tags .divider a, article .divider a {
+      color: #999999;
+      margin: 0 1em;
+      text-transform: uppercase; }
+  article .divider {
+    position: relative;
+    font-size: 1em;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center; }
+  article .divider:before, article .divider:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 49%;
+    height: 2px;
+    content: '\a0';
+    background-color: #f0f0f0; }
+  article .divider:before {
+    margin-left: -50%;
+    text-align: right; }
+  article .divider:after {
+    margin-left: 1%; }
 
 footer {
   width: 680px;
@@ -164,7 +180,7 @@ footer {
   font-size: .9em;
   text-align: center;
   margin: 1em auto; }
-  footer a, footer header #header h1 a, header #header h1 footer a, footer article .title a, article .title footer a, footer article .meta .tags a, article .meta .tags footer a {
+  footer a, footer header #header h1 a, header #header h1 footer a, footer article .title a, article .title footer a, footer article .meta .tags a, article .meta .tags footer a, footer article .divider a, article .divider footer a {
     color: #cccccc; }
     footer a:hover, footer header #header h1 a:hover, header #header h1 footer a:hover, footer article .meta .tags a:hover, article .meta .tags footer a:hover {
       color: #999999; }
