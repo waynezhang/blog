@@ -99,7 +99,14 @@ article {
   .comment { margin: 3em 0; }
   .divider {
     margin: 2em 0;
-    a { @extend a; color: #999999; margin: 0 1em; text-transform: uppercase; }
+
+    i { margin: 0 2em; color: #e9e9e9; }
+
+    a { @extend a;
+      font-family: #{$label-font};
+      margin: 0 2em;
+      i { color: #999999; margin: 0; &:hover { color: #bb2222 !important; } }
+    }
   }
   .divider {
     position: relative;

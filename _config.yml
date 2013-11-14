@@ -10,21 +10,21 @@ disqus: "gopherwood"
 
 navigations:
   - title: Archive
-    class: icon-list-ul
+    class: fa fa-list-ul
     href: /archive.html
   - title: Tags
-    class: icon-tags
+    class: fa fa-tags
     href: /tags.html
   - title: About
-    class: icon-user
+    class: fa fa-user
     href: /about.html
   - title: Gallery
-    class: icon-film
+    class: fa fa-film
     href: http://foto.lhzhang.com
   - title: Blogroll
-    class: icon-link
+    class: fa fa-link
     href: /links.html
   - title: Subscribe
-    class: icon-rss
+    class: fa fa-rss
     href: /atom.xml
 

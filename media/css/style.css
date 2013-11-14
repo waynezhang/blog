@@ -147,10 +147,17 @@ article {
     margin: 3em 0; }
   article .divider {
     margin: 2em 0; }
+    article .divider i {
+      margin: 0 2em;
+      color: #e9e9e9; }
     article .divider header #header h1 a, header #header h1 article .divider a, article .divider .meta .tags a, article .meta .tags .divider a, article .divider a {
-      color: #999999;
-      margin: 0 1em;
-      text-transform: uppercase; }
+      font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      margin: 0 2em; }
+      article .divider header #header h1 a i, header #header h1 article .divider a i, article .divider .meta .tags a i, article .meta .tags .divider a i, article .divider a i {
+        color: #999999;
+        margin: 0; }
+        article .divider header #header h1 a i:hover, header #header h1 article .divider a i:hover, article .divider a i:hover {
+          color: #bb2222 !important; }
   article .divider {
     position: relative;
     font-size: 1em;
