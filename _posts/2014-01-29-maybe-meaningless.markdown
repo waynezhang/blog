@@ -10,7 +10,7 @@ tags:
   - month-favorite
 ---
 
-![Hiroshima Peace Memorial](/media/files/2014/01/29/HiroshimaPeaceMemorial.jpg)
+[![Hiroshima Peace Memorial](/media/files/2014/01/29/HiroshimaPeaceMemorial.jpg)](http://500px.com/photo/57457592)
 
 ---
 
