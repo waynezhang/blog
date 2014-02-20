@@ -4,7 +4,7 @@ layout: post
 guid: urn:uuid:7988953e-1136-4a5a-a45b-787e74c5979f
 tags:
     - c
-    - pragramming
+    - programming
 ---
 
 一台Sigma的板子，遥控器异常灵敏，拖了好久终于无法忍受，决定解决一下
