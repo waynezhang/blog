@@ -96,6 +96,7 @@ article {
   }
 
   .post { img { max-width: #{$page-width}px; display: block; margin: .5em auto; } }
+
   .comment { margin: 3em 0; }
   .divider {
     margin: 2em 0;
@@ -144,3 +145,8 @@ footer {
 
 // gist
 .gist { font-size: 13px; line-height:1.6; }
+
+// like
+.like-button { font-family: "FontAwesome"; padding-right: 5px; }
+.unlike-button { font-family: "FontAwesome"; padding-right: 5px; color: #999; }
+.like-button:hover { color: #dd1144; }

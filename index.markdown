@@ -20,6 +20,20 @@ layout: default
       {% endfor %}
     </span>
     {% endif %}
+    <!-- BEGIN this would not work on any other domain -->
+    <span id="like-wrapper"></span>
+    <script type="text/javascript">
+      var like_shortname      = '{{ site.disqus }}';
+      var like_identifier     = '{{ post.guid }}';
+      var like_like_btn       = '&#xf087;';
+      var like_unlike_btn     = '&#xf087;';
+      var like_disable_unlike = true;
+
+      var l = document.createElement('script'); l.type = 'text/javascript'; l.async = true;
+      l.src = 'https://like-waynezhang.rhcloud.com/javascript/widget.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(l);
+    </script>
+    <!-- END this would not work on any other domain -->
     </section>
     <section class="post">
     {{ post.content }}

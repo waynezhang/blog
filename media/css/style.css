@@ -198,3 +198,15 @@ footer {
 .gist {
   font-size: 13px;
   line-height: 1.6; }
+
+.like-button {
+  font-family: "FontAwesome";
+  padding-right: 5px; }
+
+.unlike-button {
+  font-family: "FontAwesome";
+  padding-right: 5px;
+  color: #999; }
+
+.like-button:hover {
+  color: #dd1144; }

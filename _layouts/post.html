@@ -16,12 +16,51 @@ layout: default
     <a href="/tags.html#{{ tag }}" title="{{ tag }}">#{{ tag }}</a>
     {% endfor %}
   </span>
+  <!-- BEGIN this would not work on any other domain -->
+  <span id="like-wrapper"></span>
+  <script type="text/javascript">
+    var like_shortname      = '{{ site.disqus }}';
+    var like_identifier     = '{{ page.guid }}';
+    var like_like_btn       = '&#xf087;';
+    var like_unlike_btn     = '&#xf087;';
+    var like_disable_unlike = true;
+
+    var l = document.createElement('script'); l.type = 'text/javascript'; l.async = true;
+    l.src = 'https://like-waynezhang.rhcloud.com/javascript/widget.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(l);
+  </script>
+  <!-- END this would not work on any other domain -->
   {% endif %}
   </section>
   <section class="post">
   {{ content }}
   </section>
   {% if page.guid %}
+  <div class="divider">
+    <span>
+    {% if page.previous %}
+    <a href="{{ page.previous.url }}"><i class="fa fa-chevron-left"></i></a>
+    {% else %}
+    <i class="fa fa-circle"></i>
+    {% endif %}
+    </span>
+    <!-- BEGIN comment icon
+    <span><a href="javascript:leave_comment();" id="leave_comment_link"><i class="fa fa-comment-o"></i></a></span>
+    <span><a href="javascript:collapse_comment();" id="collapse_comment_link" style="display:none;"><i class="fa fa-chevron-up"></i></a></span>
+      END comment icon -->
+
+    <span>
+    {% if page.next %}
+    <a href="{{ page.next.url }}"><i class="fa fa-chevron-right"></i></a>
+    {% else %}
+    <i class="fa fa-circle"></i>
+    {% endif %}
+    </span>
+  </div>
+
+  <!-- BEGIN comment
+  <section class="comment">
+  <div id="disqus_thread"></div>
   <script type="text/javascript">
       var disqus_shortname = '{{ site.disqus }}';
       var disqus_identifier = '{{ page.guid }}';
@@ -43,27 +82,8 @@ layout: default
           });
       };
   </script>
-  <div class="divider">
-    <span>
-    {% if page.previous %}
-    <a href="{{ page.previous.url }}"><i class="fa fa-chevron-left"></i></a>
-    {% else %}
-    <i class="fa fa-circle"></i>
-    {% endif %}
-    </span>
-    <span><a href="javascript:leave_comment();" id="leave_comment_link"><i class="fa fa-comment-o"></i></a></span>
-    <span><a href="javascript:collapse_comment();" id="collapse_comment_link" style="display:none;"><i class="fa fa-chevron-up"></i></a></span>
-    <span>
-    {% if page.next %}
-    <a href="{{ page.next.url }}"><i class="fa fa-chevron-right"></i></a>
-    {% else %}
-    <i class="fa fa-circle"></i>
-    {% endif %}
-    </span>
-  </div>
-  <section class="comment">
-  <div id="disqus_thread"></div>
   <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
   </section>
+  END comment -->
   {% endif %}
 </article>
