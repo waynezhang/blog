@@ -1,12 +1,12 @@
 @charset "UTF-8";
-@import url(http://fonts.googleapis.com/css?family=Lekton);
-@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+@import url(/media/fonts/telex-regular.css);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 /*------------------------------------
  * sext-vi
  *
  * @author linghua.zhang@me.com
  * @link http://lhzhang.com/
- * @update 2013-11-11
+ * @update 2014-03-17
  *
  * |/ | (~ (~
  * |\.|._)._)
@@ -17,7 +17,7 @@
 
 body {
   font-size: 14px;
-  font-family: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #555;
   background-color: #f9f9f9; }
 
@@ -52,7 +52,6 @@ blockquote, pre code {
   border: 1px dashed #eee !important;
   border-color: #e0e0e0 !important;
   font-size: 13px;
-  font-family: "Lekton", monospace;
   line-height: 1.6;
   display: block;
   overflow: auto; }
@@ -60,13 +59,17 @@ blockquote, pre code {
 code {
   background-color: #f8f8f8;
   padding: 2px 5px;
-  border: 1px dashed #e0e0e0; }
+  border: 1px dashed #e0e0e0;
+  font-family: "Ubuntu", monospace; }
 
 h1, h2 {
   font-size: 1.4em; }
 
+time {
+  font-family: "Ubuntu", monospace; }
+
 header {
-  width: 680px;
+  width: 720px;
   margin: 0 auto;
   text-align: justify;
   margin: 3em auto; }
@@ -79,16 +82,10 @@ header {
     position: relative;
     top: 1em; }
     header #header h1 {
-      font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+      font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
       header #header h1 a {
         color: #a9a9a9;
-        background-color: #e9e9e9;
-        display: block;
-        padding: 0 .5em;
-        border-radius: 4px; }
-        header #header h1 a:hover {
-          color: #fff;
-          background-color: #dd2222; }
+        display: block; }
   header nav {
     display: inline-block;
     position: relative;
@@ -96,11 +93,11 @@ header {
     header nav span {
       margin: .5em; }
     header nav a, header nav #header h1 a, header #header h1 nav a, header nav article .title a, article .title header nav a, header nav article .meta .tags a, article .meta .tags header nav a, header nav article .divider a, article .divider header nav a {
-      font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       color: #ccc; }
 
 #content {
-  width: 680px;
+  width: 720px;
   margin: 0 auto;
   line-height: 2em; }
   #content .main-listing {
@@ -118,7 +115,7 @@ ul.listing {
     ul.listing li.listing-item:hover {
       background-color: #f9f9f9; }
     ul.listing li.listing-seperator {
-      font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+      font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
       ul.listing li.listing-seperator:before {
         content: "⭠ ";
         color: #ccc; }
@@ -128,7 +125,7 @@ article {
   article p {
     padding: .7em 0; }
   article .title {
-    font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
+    font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif; }
     article .title header #header h1 a, header #header h1 article .title a, article .title a, article .title .meta .tags a, article .meta .tags .title a {
       color: #777; }
   article .meta {
@@ -140,7 +137,7 @@ article {
       color: #999999;
       padding: .25em; }
   article .post img {
-    max-width: 680px;
+    max-width: 720px;
     display: block;
     margin: .5em auto; }
   article .comment {
@@ -151,7 +148,7 @@ article {
       margin: 0 2em;
       color: #e9e9e9; }
     article .divider header #header h1 a, header #header h1 article .divider a, article .divider .meta .tags a, article .meta .tags .divider a, article .divider a {
-      font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       margin: 0 2em; }
       article .divider header #header h1 a i, header #header h1 article .divider a i, article .divider .meta .tags a i, article .meta .tags .divider a i, article .divider a i {
         color: #999999;
@@ -179,11 +176,11 @@ article {
     margin-left: 1%; }
 
 footer {
-  width: 680px;
+  width: 720px;
   margin: 0 auto;
   display: block;
   color: #909090;
-  font-family: "Titillium Web", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   font-size: .9em;
   text-align: center;
   margin: 1em auto; }
