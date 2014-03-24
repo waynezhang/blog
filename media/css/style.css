@@ -1,6 +1,4 @@
 @charset "UTF-8";
-@import url(/media/fonts/telex-regular.css);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 /*------------------------------------
  * sext-vi
  *
@@ -11,6 +9,8 @@
  * |/ | (~ (~
  * |\.|._)._)
  * --------------------------------- */
+@import url(/media/fonts/telex-regular.css);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
 * {
   margin: 0;
   padding: 0; }
