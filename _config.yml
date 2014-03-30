@@ -3,7 +3,7 @@ pygments: true
 permalink: /:year/:month/:day/:title.html
 name: "rusty shutter"
 markdown: rdiscount
-url: /
+url: /.
 
 author: "wayne"
 atom-baseurl: "http://lhzhang.com"
@@ -12,20 +12,20 @@ disqus: "gopherwood"
 navigations:
   - title: Archive
     class: fa fa-list-ul
-    href: archive.html
+    href: /archive.html
   - title: Tags
     class: fa fa-tags
-    href: tags.html
+    href: /tags.html
   - title: About
     class: fa fa-user
-    href: about.html
+    href: /about.html
   - title: Gallery
     class: fa fa-film
     href: http://foto.lhzhang.com
   - title: Blogroll
     class: fa fa-link
-    href: links.html
+    href: /links.html
   - title: Subscribe
     class: fa fa-rss
-    href: atom.xml
+    href: /atom.xml
 
