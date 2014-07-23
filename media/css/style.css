@@ -196,22 +196,12 @@ footer {
   font-size: 13px;
   line-height: 1.6; }
 
-.like-button {
-  font-family: "FontAwesome";
-  padding-right: 5px; }
-
-.unlike-button {
-  font-family: "FontAwesome";
-  padding-right: 5px;
+.like-wrapper {
   color: #999; }
-
-.like-button:hover {
-  color: #dd1144; }
-
-#like-wrapper {
-  color: #999; }
-  #like-wrapper .like-button, #like-wrapper .unlike-button {
+  .like-wrapper .like-button, .like-wrapper .unlike-button {
     font-family: "FontAwesome";
     padding-right: 5px; }
-  #like-wrapper .like-button:hover {
+  .like-wrapper .like-button:hover {
     color: #dd1144; }
+  .like-wrapper .like-button.liked:hover {
+    color: #999; }

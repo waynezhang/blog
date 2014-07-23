@@ -149,14 +149,9 @@ footer {
 .gist { font-size: 13px; line-height:1.6; }
 
 // like
-.like-button { font-family: "FontAwesome"; padding-right: 5px; }
-.unlike-button { font-family: "FontAwesome"; padding-right: 5px; color: #999; }
-.like-button:hover { color: #dd1144; }
-
-#like-wrapper {
+.like-wrapper {
   color: #999;
-
   .like-button, .unlike-button { font-family: "FontAwesome"; padding-right: 5px; }
   .like-button:hover { color: #dd1144; }
+  .like-button.liked:hover { color: #999; }
 }
-
