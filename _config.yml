@@ -1,12 +1,11 @@
 markdown: rdiscount
-pygments: true
+highlighter: pygments
 permalink: /:year/:month/:day/:title.html
-name: "rusty shutter"
+name: "Sleepless in Sydney"
 markdown: rdiscount
 
-author: "wayne"
-atom-baseurl: "http://lhzhang.com"
-disqus: "gopherwood"
+author: "Meredith"
+atom-baseurl: "http://sleeplessinsydney.com"
 
 navigations:
   - title: Archive
