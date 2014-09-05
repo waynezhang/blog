@@ -6,7 +6,7 @@ tags:
   - leica
   - m6
   - photography
-  - zm35
+  - biogon-35
 ---
 
 [![](/media/files/2013/04/02/sakura.jpg)](http://500px.com/photo/29307621)

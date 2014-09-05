@@ -6,7 +6,7 @@ tags:
   - leica
   - m6
   - photography
-  - zm35
+  - biogon-35
 ---
 
 [![](/media/files/2012/09/10/skytree.jpg)](http://500px.com/photo/11828813)
