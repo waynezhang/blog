@@ -17,7 +17,8 @@
 
 body {
   font-size: 14px;
-  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "telexregular", "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
+  -webkit-font-smoothing: antialiased;
   color: #555;
   background-color: #f9f9f9; }
 

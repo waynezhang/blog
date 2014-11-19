@@ -15,7 +15,7 @@
 $font-name: "telexregular";
 $mono-font-name: "Ubuntu";
 $page-width: 680;
-$font: $font-name, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+$font: $font-name, "Hiragino Sans GB", "Hiragino Sans GB W3", "Microsoft YaHei", sans-serif;
 $monospace: $mono-font-name, monospace;
 $label-font: $font-name, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 $background-color: #f9f9f9;
@@ -23,7 +23,7 @@ $background-color: #f9f9f9;
 @mixin page($width: $page-width) { width: #{$width}px; margin: 0 auto; }
 
 * { margin: 0; padding: 0; }
-body { font-size: 14px; font-family: #{$font}; color: #555; background-color: $background-color; }
+body { font-size: 14px; font-family: #{$font}; -webkit-font-smoothing:antialiased; color: #555; background-color: $background-color; }
 ol, ul { list-style-position: inside; }
 li { padding: .2em 0; }
 hr { width: 4em; border: none; border-top: 1px dashed #d0d0d0; border-bottom: 1px dashed #f9f9f9; }
