@@ -21,9 +21,6 @@ navigations:
   - title: Gallery
     class: fa fa-film
     href: http://foto.lhzhang.com
-  - title: Blogroll
-    class: fa fa-link
-    href: /links.html
   - title: Subscribe
     class: fa fa-rss
     href: /atom.xml
