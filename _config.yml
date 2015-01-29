@@ -1,5 +1,5 @@
 markdown: rdiscount
-highlighter: true
+highlighter: pygments
 permalink: /:year/:month/:day/:title.html
 name: "rusty shutter"
 markdown: rdiscount
