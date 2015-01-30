@@ -32,9 +32,11 @@ layout: page
 
 **Entertainment**
 
+[aMule](http://www.amule.org) : 大概是 Mac 上唯一支持乱序协议加密 (Protocol Obfuscation) 的电驴客户端了  
 [AirVideo HD](http://www.inmethod.com/airvideohd/index.html) : 配合 iOS 端，随时在手机上看电脑里的电影美剧，配合 Apple TV 还能直接在电视上看（啥时候普及 4K 啊。。。  
 [Pixelmator](http://www.pixelmator.com) : 为什么不用 PS？因为买不起。。。  
 [SPlayerX](https://itunes.apple.com/app/splayerx/id414675434) : 支持几乎所有的文件格式的媒体播放器，当然最重要的功能是自动下载字幕（不需要字幕？学霸不要闹你走错房间了  
+[Transmission](https://www.transmissionbt.com) : 开源的 BT / 磁力客户端  
 
 **Developer**
 
@@ -46,4 +48,4 @@ layout: page
 [Twitter](https://itunes.apple.com/us/app/twitter/id409789998?mt=12) : Twitter 这个 2B 公司对第三方客户端的限制越来越多，很多客户端也都弃掉了。。。  
 
 ---
-_Last Updated: 2015-01-29_
+_Last Updated: 2015-01-30_
