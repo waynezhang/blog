@@ -7,7 +7,7 @@
  <link href="{{ site.atom-baseurl }}/atom.xml" rel="self"/>
  <link href="{{ site.atom-baseurl }}"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.atom-baseurl }}</id>
+ <id>{{ site.atom-baseurl }}/</id>
  <author>
    <name>{{ site.author }}</name>
  </author>
