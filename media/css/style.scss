@@ -3,7 +3,7 @@
  *
  * @author linghua.zhang@me.com
  * @link http://lhzhang.com/
- * @update 2014-03-17
+ * @update 2015-07-24
  *
  * |/ | (~ (~
  * |\.|._)._)
@@ -11,19 +11,25 @@
 
 @import url(/media/fonts/telex-regular.css);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+@import "media-queries";
 
 $font-name: "telexregular";
 $mono-font-name: "Ubuntu";
-$page-width: 800;
 $font: $font-name, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 $monospace: $mono-font-name, monospace;
 $label-font: $font-name, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
 $background-color: #f9f9f9;
 
-@mixin page($width: $page-width) { width: #{$width}px; margin: 0 auto; }
+@mixin page {
+  margin: 0 auto;
+  @include min-screen(320px) { width: 300px; }
+  @include min-screen(375px) { width: 350px; }
+  @include min-screen(414px) { width: 400px; }
+  @include min-screen(800px) { width: 750px; }
+}
 
 * { margin: 0; padding: 0; }
-body { font-size: 14px; font-family: #{$font}; color: #555; background-color: $background-color; }
+body { font-size: 14px; font-family: #{$font}; color: #555; background-color: $background-color; -webkit-font-smoothing: antialiased; }
 ol, ul { list-style-position: inside; }
 li { padding: .2em 0; }
 hr { width: 4em; border: none; border-top: 1px dashed #d0d0d0; border-bottom: 1px dashed #f9f9f9; }
@@ -97,7 +103,7 @@ article {
     .tags a { @extend a; color: #999999; padding: .25em; }
   }
 
-  .post { img { max-width: #{$page-width}px; display: block; margin: .5em auto; } }
+  .post { img { max-width: 100%; display: block; margin: .5em auto; } }
 
   .comment { margin: 3em 0; }
   .divider {
