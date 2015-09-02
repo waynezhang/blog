@@ -11,13 +11,14 @@
 
 @import url(/media/fonts/telex-regular.css);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(//code.cdn.mozilla.net/fonts/fira.css);
 @import "media-queries";
 
 $font-name: "telexregular";
-$mono-font-name: "Ubuntu";
 $font: $font-name, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-$monospace: $mono-font-name, monospace;
+$monospace: "Fira Mono", monospace;
 $label-font: $font-name, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+$time-font: "Ubuntu", monospace;
 $background-color: #f9f9f9;
 
 @mixin page {
@@ -40,7 +41,7 @@ blockquote { background-color: #f8f8f8; padding: 0 1em; border: 1px dashed #eee 
 pre code { @extend blockquote; }
 code { background-color: #f8f8f8; padding: 2px 5px; border: 1px dashed #e0e0e0; font-family: #{$monospace}; }
 h1, h2 { font-size: 1.4em; }
-time { font-family: #{$monospace}; }
+time { font-family: #{$time-font} }
 
 header {
   @include page;

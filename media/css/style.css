@@ -11,6 +11,7 @@
  * --------------------------------- */
 @import url(/media/fonts/telex-regular.css);
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+@import url(//code.cdn.mozilla.net/fonts/fira.css);
 * {
   margin: 0;
   padding: 0; }
@@ -61,7 +62,7 @@ code {
   background-color: #f8f8f8;
   padding: 2px 5px;
   border: 1px dashed #e0e0e0;
-  font-family: Ubuntu, monospace; }
+  font-family: Fira Mono, monospace; }
 
 h1, h2 {
   font-size: 1.4em; }
