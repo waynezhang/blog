@@ -47,29 +47,18 @@ time { font-family: #{$time-font} }
 
 table
   {
+  border: 1px solid #eee !important;
   border-collapse: collapse;
   }
 
 table, th, td{
-    border: 1px solid #474747 !important;
-    background-color: grey;
+      max-width: 100px;
+      margin: 15px auto;
+      border-width: 4px;
+      border-color: white;
 }
 
 
-/*table th,
-table td {
-  border: 1px solid #474747 !important;
-}
-hr.small {
-  max-width: 100px;
-  margin: 15px auto;
-  border-width: 4px;
-  border-color: white;
-}
-pre,
-table-responsive {
-  -webkit-overflow-scrolling: touch;
-}*/
 
 header {
   @include page;
