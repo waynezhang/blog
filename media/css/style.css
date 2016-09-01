@@ -59,7 +59,18 @@ blockquote, pre code {
   overflow: auto; }
 
 /* add table css */
-table th,
+
+table
+  {
+  border-collapse: collapse;
+  }
+
+table, th, td{
+    border: 1px solid #474747 !important;
+    background-color: grey;
+}
+
+/*table th,
 table td {
   border: 1px solid #474747 !important;
 }
@@ -72,7 +83,7 @@ hr.small {
 pre,
 table-responsive {
   -webkit-overflow-scrolling: touch;
-}
+}*/
 
 code {
   background-color: #f8f8f8;
