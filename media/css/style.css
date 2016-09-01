@@ -58,6 +58,22 @@ blockquote, pre code {
   display: block;
   overflow: auto; }
 
+
+.table th,
+.table td {
+  border: 1px solid #eee !important;
+}
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: white;
+}
+pre,
+.table-responsive {
+  -webkit-overflow-scrolling: touch;
+}
+
 code {
   background-color: #f8f8f8;
   padding: 2px 5px;
