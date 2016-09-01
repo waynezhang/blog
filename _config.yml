@@ -21,7 +21,7 @@ navigations:
   - title: Tools
     class: fa fa-film
     href: /tool.html
-  - title: Subscribe
-    class: fa fa-rss
-    href: /atom.xml
+  # - title: Subscribe
+  #   class: fa fa-rss
+  #   href: /atom.xml
 
