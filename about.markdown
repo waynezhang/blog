@@ -5,18 +5,20 @@ layout: page
 
 a
 
-> Minimalist | Appleist | Unixer | Coder
+> Data Geek | XMU Master | Baidu Map | Coder
 
 who involved in 
 
-> [github](https://github.com/waynezhang)
+> [github](https://github.com/Norris-Niu)
 
 mail 
 
-> echo srvpqxfbyqfvpdtkbjwt | tr yxwvtsrqpkjfdb zuonmlihgeca@.
+> echo qxrqpsskjdwyfktbvpy | tr yxwvtsrqpkjfdb megclrwnoisa@.
+
+newnorris@gmail.com
 
 or follow 
 
-> [@o_lll](https://twitter.com/#!/o_lll)
+> [@Norris-new](https://www.zhihu.com/people/Norris-new)
 
 to reach me
