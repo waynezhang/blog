@@ -42,8 +42,9 @@ pre code { @extend blockquote; }
 code { background-color: #f8f8f8; padding: 2px 5px; border: 1px dashed #e0e0e0; font-family: #{$monospace}; }
 h1, h2 { font-size: 1.4em; }
 time { font-family: #{$time-font} }
-.table th,
-.table td {
+/* add table css */
+table th,
+table td {
   border: 1px solid #474747 !important;
 }
 hr.small {
@@ -53,7 +54,7 @@ hr.small {
   border-color: white;
 }
 pre,
-.table-responsive {
+table-responsive {
   -webkit-overflow-scrolling: touch;
 }
 

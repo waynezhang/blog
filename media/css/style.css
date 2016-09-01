@@ -58,9 +58,9 @@ blockquote, pre code {
   display: block;
   overflow: auto; }
 
-
-.table th,
-.table td {
+/* add table css */
+table th,
+table td {
   border: 1px solid #474747 !important;
 }
 hr.small {
@@ -70,7 +70,7 @@ hr.small {
   border-color: white;
 }
 pre,
-.table-responsive {
+table-responsive {
   -webkit-overflow-scrolling: touch;
 }
 
