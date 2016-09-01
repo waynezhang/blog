@@ -5,7 +5,7 @@ layout: page
 
 a
 
-> Data Geek \| XMU Master \| Baidu Map \| Coder
+> Data Geek \| XMU Master \| Baidu Map Intern\| Coder
 
 who involved in 
 
@@ -13,9 +13,7 @@ who involved in
 
 mail 
 
-> echo qxrqpsskjdwyfktbvpy | tr yxwvtsrqpkjfdb megclrwnoisa@.
-
-newnorris@gmail.com
+> echo qxrqpsskjdwyfktbvpy \| tr yxwvtsrqpkjfdb megclrwnoisa@.
 
 or follow 
 
