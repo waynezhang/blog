@@ -51,7 +51,7 @@ a, header #header h1 a, article .title a, article .meta .tags a, article .divide
 blockquote, pre code {
   background-color: #f8f8f8;
   padding: 0 1em;
-  border: 1px dashed #eee !important;
+  border: 1px dashed #474747 !important;
   border-color: #e0e0e0 !important;
   font-size: 13px;
   line-height: 1.6;
@@ -61,13 +61,13 @@ blockquote, pre code {
 
 .table th,
 .table td {
-  border: 1px solid #eee !important;
+  border: 1px solid #474747 !important;
 }
 hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
-  border-color: black;
+  border-color: white;
 }
 pre,
 .table-responsive {
