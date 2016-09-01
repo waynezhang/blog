@@ -67,7 +67,7 @@ table
   }
 
 td, th{
-      border-style: solid;
+      border-style: dashed;
       margin: 15px auto;
       border-color: #e0e0e0;
 }
