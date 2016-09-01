@@ -67,10 +67,9 @@ table
   }
 
 td, th{
-      max-width: auto;
+      border-style: solid;
       margin: 15px auto;
-      border-width: auto;
-      border-color: #eee;
+      border-color: #e0e0e0;
 }
 
 
