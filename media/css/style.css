@@ -66,10 +66,31 @@ table
   border-collapse: collapse;
   }
 
-td, th{
+/*td, th{
       border-style: dashed;
       margin: 15px auto;
       border-color: #e0e0e0;
+}*/
+
+.table th,
+.table td {
+  border: 1px solid #eee !important;
+}
+hr.small {
+  max-width: 100px;
+  margin: 15px auto;
+  border-width: 4px;
+  border-color: white;
+}
+pre,
+.table-responsive {
+  -webkit-overflow-scrolling: touch;
+}
+pre code {
+  display: block;
+  width: auto;
+  white-space: pre;
+  word-wrap: normal;
 }
 
 
