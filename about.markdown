@@ -5,7 +5,7 @@ layout: page
 
 a
 
-> Data Geek | XMU Master | Baidu Map | Coder
+> Data Geek || XMU Master || Baidu Map || Coder
 
 who involved in 
 
