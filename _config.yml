@@ -4,8 +4,8 @@ permalink: /:year/:month/:day/:title.html
 name: "Data Geek"
 markdown: kramdown
 
-author: "wayne"
-atom-baseurl: "http://lhzhang.com"
+author: "Norris"
+atom-baseurl: "http://norris-niu.top"
 disqus: "Norris New"
 
 navigations:
@@ -18,9 +18,9 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
-  - title: Gallery
+  - title: Tools
     class: fa fa-film
-    href: http://foto.lhzhang.com
+    href: /tool.html
   - title: Subscribe
     class: fa fa-rss
     href: /atom.xml
