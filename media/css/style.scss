@@ -43,7 +43,13 @@ code { background-color: #f8f8f8; padding: 2px 5px; border: 1px dashed #e0e0e0; 
 h1, h2 { font-size: 1.4em; }
 time { font-family: #{$time-font} }
 /* add table css */
-table th,
+
+table, th, td{
+    border: 1px solid #474747 !important;
+}
+
+
+/*table th,
 table td {
   border: 1px solid #474747 !important;
 }
@@ -56,7 +62,7 @@ hr.small {
 pre,
 table-responsive {
   -webkit-overflow-scrolling: touch;
-}
+}*/
 
 header {
   @include page;
