@@ -44,8 +44,15 @@ h1, h2 { font-size: 1.4em; }
 time { font-family: #{$time-font} }
 /* add table css */
 
+
+table
+  {
+  border-collapse:collapse;
+  }
+  
 table, th, td{
     border: 1px solid #474747 !important;
+    background-color:grey;
 }
 
 
