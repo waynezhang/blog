@@ -1,0 +1,13 @@
+---
+title: '在 linux 下驱动 Compaq 万通宝'
+layout: post
+guid: urn:uuid:b87da13a-a4dd-402f-b06a-cef7eeee2d80
+tags:
+    - linux
+---
+
+![just_smile from 500px](/images/2016/9/kindly_old.jpg)
+
+拥有了反而难以取舍，变得畏手畏脚，变得懦弱。
+
+Hey, just be happy.
