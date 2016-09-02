@@ -76,6 +76,7 @@ td, th{
       border-color: #e0e0e0;
       table-layout: fixed;
       word-wrap: break-word;
+      white-space: nowrap;
 }
 
 
