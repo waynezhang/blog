@@ -64,7 +64,7 @@ table
   {
   border: 1px solid #eee !important;
   border-collapse: collapse;
-  table-layout:fixed;
+  table-layout: fixed;
   width: 95%;
   }
 
@@ -74,7 +74,8 @@ td, th{
       padding: 15px;
       margin: 15px auto;
       border-color: #e0e0e0;
-      word-wrap:break-word;
+      table-layout: fixed;
+      word-wrap: break-word;
 }
 
 
