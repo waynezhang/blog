@@ -65,6 +65,7 @@ table
   border: 1px solid #eee !important;
   border-collapse: collapse;
   table-layout:fixed;
+  width: 90%;
   }
 
 td, th{
@@ -72,7 +73,6 @@ td, th{
       border-width: 1px;
       padding: 15px;
       margin: 15px auto;
-      width: 90%;
       border-color: #e0e0e0;
       word-wrap:break-word;
 }
