@@ -65,7 +65,8 @@ table
   border: 1px solid #eee !important;
   border-collapse: collapse;
   table-layout: fixed;
-  width: 95%;
+  word-break: break-all;
+  width: 100%;
   }
 
 td, th{
