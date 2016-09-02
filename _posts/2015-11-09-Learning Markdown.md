@@ -5,7 +5,7 @@ date: 2015-11-09
 subtitle: 高效格式！超迷你latex
 author:     "Norris"
 categories: blog
-tags: [tech]
+tags: [coding]
 description: 学习笔记
 ---
 # Markdown 使用学习
