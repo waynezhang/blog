@@ -2,7 +2,7 @@
 title: annoyance
 layout: post
 tags:
-    - 随笔
+    - notes
 ---
 
 ![just_smile from 500px](/images/2016/9/kindly_old.jpg)
