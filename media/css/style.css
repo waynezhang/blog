@@ -74,7 +74,6 @@ td, th{
       padding: 15px;
       margin: 15px auto;
       border-color: #e0e0e0;
-      table-layout: fixed;
       word-wrap: break-word;
       white-space: nowrap;
 }
