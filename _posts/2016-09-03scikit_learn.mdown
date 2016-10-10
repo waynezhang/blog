@@ -15,7 +15,3 @@ tags:
 - Kernels: poly rbf(Radial Basis Function)
 
 - vector quantization
-
-
-
-
