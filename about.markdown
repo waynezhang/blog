@@ -21,6 +21,6 @@ or follow
 
 to reach me.
 
-in addition, some interesting guys to recommend
+in addition, there are some interesting guys:
 
 > [fibears](http://fibears.github.io/) & [yaopeng](http://yphuang.github.io/)
