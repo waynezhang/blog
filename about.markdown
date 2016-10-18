@@ -24,5 +24,4 @@ to reach me.
 in addition, some interesting guys to recommend
 
 > [fibears](http://fibears.github.io/)
-
-> [yaopeng](http://yphuang.github.io/)
+[yaopeng](http://yphuang.github.io/)
