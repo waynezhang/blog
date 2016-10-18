@@ -19,4 +19,10 @@ or follow
 
 > [@Norris-new](https://www.zhihu.com/people/Norris-new)
 
-to reach me
+to reach me.
+
+in addition, some interesting guys to recommend
+
+> [fibears](http://fibears.github.io/)
+
+> [yaopeng](http://yphuang.github.io/)
