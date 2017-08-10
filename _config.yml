@@ -1,12 +1,12 @@
-markdown: rdiscount
-highlighter: pygments
+markdown: kramdown
+highlighter: rouge
 permalink: /:year/:month/:day/:title.html
-name: "rusty shutter"
-markdown: rdiscount
+name: "Data Geek"
+markdown: kramdown
 
-author: "wayne"
-atom-baseurl: "http://lhzhang.com"
-disqus: "gopherwood"
+author: "Norris"
+atom-baseurl: "http://norris-niu.top"
+disqus: "Norris New"
 
 navigations:
   - title: Archive
@@ -18,10 +18,10 @@ navigations:
   - title: About
     class: fa fa-user
     href: /about.html
-  - title: Gallery
-    class: fa fa-film
-    href: http://foto.lhzhang.com
-  - title: Subscribe
-    class: fa fa-rss
-    href: /atom.xml
+  - title: Tools
+    class: fa fa-wrench
+    href: /tool.html
+  # - title: Subscribe
+  #   class: fa fa-rss
+  #   href: /atom.xml
 

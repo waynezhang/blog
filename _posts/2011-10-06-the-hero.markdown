@@ -1,9 +1,0 @@
----
-title: R.I.P. Steve Jobs
-layout: post
-guid: urn:uuid:0e19b236-b196-4f99-b274-e41b17eb9b82
-tags:
-    - apple
----
-
-[![](/media/files/2011/10/06/RIPSteveJobs.png)](http://www.apple.com/stevejobs/)

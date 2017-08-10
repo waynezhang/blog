@@ -9,7 +9,7 @@
     {% else %}
     <title>{{ site.name }}</title>
     {% endif %}
-    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="shortcut icon" href="/media/favicon.ico">
     <link href="/atom.xml" rel="alternate" title="{{ site.name }}" type="application/atom+xml" />
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/media/css/style.css">
@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
     <script type="text/javascript"> hljs.initHighlightingOnLoad(); </script>
+    <script type="text/javascript"
+    src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
   </head>
   <body>
       <div id="main" role="main">
@@ -36,7 +39,7 @@
         <footer>
           <div>
             {% assign first_post = site.posts | last %}
-            &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} {{ site.author }} | powered by jekyll | themed by <a href="http://lhzhang.com" title="sext vi">sext vi</a> | fork <a href="https://github.com/waynezhang/blog" title="fork me">me</a>
+            &copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} {{ site.author }} | powered by jekyll | themed by sext vi<!-- a href="http://lhzhang.com" title="sext vi">sext vi</a -->  | fork <a href="https://github.com/Norris-Niu/My-Blog" title="fork me">me</a>
           </div>
         </footer>
       </div> <!-- main -->

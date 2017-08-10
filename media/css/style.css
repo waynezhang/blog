@@ -51,12 +51,34 @@ a, header #header h1 a, article .title a, article .meta .tags a, article .divide
 blockquote, pre code {
   background-color: #f8f8f8;
   padding: 0 1em;
-  border: 1px dashed #eee !important;
+  border: 1px dashed #474747 !important;
   border-color: #e0e0e0 !important;
   font-size: 13px;
   line-height: 1.6;
   display: block;
   overflow: auto; }
+
+/* add table css */
+
+table
+  {
+  border: 1px solid #eee !important;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-break: break-all;
+  width: 100%;
+  }
+
+td, th{
+      border-style: solid;
+      border-width: 1px;
+      padding: 15px;
+      margin: 15px auto;
+      border-color: #e0e0e0;
+      word-wrap: break-word;
+}
+
+
 
 code {
   background-color: #f8f8f8;
