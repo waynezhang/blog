@@ -1,6 +1,5 @@
-highlighter: pygments
-permalink: /:year/:month/:day/:title.html
 name: "rusty shutter"
+permalink: /:year/:month/:day/:title.html
 
 author: "wayne"
 atom-baseurl: "http://lhzhang.com"
