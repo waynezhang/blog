@@ -2,11 +2,11 @@ markdown: rdiscount
 highlighter: pygments
 permalink: /:year/:month/:day/:title.html
 name: "rusty shutter"
-markdown: rdiscount
 
 author: "wayne"
 atom-baseurl: "http://lhzhang.com"
 disqus: "gopherwood"
+markdown: kramdown
 
 navigations:
   - title: Archive
