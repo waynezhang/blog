@@ -1,5 +1,5 @@
 ---
-title: 羊卓雍错
+title: 羊卓雍措
 layout: post
 guid: urn:uuid:af62c8d3-84d7-4c48-bb29-4fef13220ff1
 tags:
