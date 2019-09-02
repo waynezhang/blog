@@ -5,7 +5,7 @@ layout: page
 
 a
 
-> Minimalist | Appleist | Unixer | Coder
+> Minimalist \| Appleist \| Unixer \| Coder
 
 who involved in 
 
@@ -13,7 +13,7 @@ who involved in
 
 mail 
 
-> echo srvpqxfbyqfvpdtkbjwt | tr yxwvtsrqpkjfdb zuonmlihgeca@.
+> echo srvpqxfbyqfvpdtkbjwt \| tr yxwvtsrqpkjfdb zuonmlihgeca@.
 
 or follow 
 
