@@ -7,18 +7,20 @@ disqus: "gopherwood"
 
 navigations:
   - title: Archive
-    class: fa fa-list-ul
+    class: fas fa-list-ul
     href: /archive.html
   - title: Tags
-    class: fa fa-tags
+    class: fas fa-tags
     href: /tags.html
   - title: About
-    class: fa fa-user
+    class: fas fa-user
     href: /about.html
+  - title: Osara
+    class: far fa-dot-circle
+    href: https://osara.lhzhang.com
   - title: Gallery
-    class: fa fa-film
+    class: fas fa-film
     href: http://foto.lhzhang.com
   - title: Subscribe
-    class: fa fa-rss
+    class: fas fa-rss
     href: /atom.xml
-
