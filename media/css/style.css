@@ -234,7 +234,7 @@ footer {
 .like-wrapper {
   color: #999; }
   .like-wrapper .like-button, .like-wrapper .unlike-button {
-    font-family: "FontAwesome";
+    font-family: "Font Awesome 5 Free";
     padding-right: 5px; }
   .like-wrapper .like-button:hover {
     color: #dd1144; }
